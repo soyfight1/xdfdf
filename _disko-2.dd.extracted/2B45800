@@ -1,0 +1,32 @@
+
+Start-Date: 2025-01-02  01:17:28
+Commandline: apt install ghidra
+Requested-By: student (1000)
+Install: xtrans-dev:amd64 (1.4.0-1, automatic), libxcb1-dev:amd64 (1.17.0-2+b1, automatic), libice-dev:amd64 (2:1.1.1-1, automatic), openjdk-17-jdk:amd64 (17.0.13+11-2, automatic), openjdk-17-jre:amd64 (17.0.13+11-2, automatic), openjdk-17-jdk-headless:amd64 (17.0.13+11-2, automatic), libsm-dev:amd64 (2:1.2.4-1, automatic), libxau-dev:amd64 (1:1.0.11-1, automatic), xorg-sgml-doctools:amd64 (1:1.11-1.1, automatic), ghidra-data:amd64 (10.5-0kali1, automatic), uuid-dev:amd64 (2.40.2-12, automatic), ghidra:amd64 (11.0+ds-0kali1), login.defs:amd64 (1:4.16.0-7, automatic), libx11-dev:amd64 (2:1.8.10-2, automatic), libxt-dev:amd64 (1:1.2.1-1.2+b1, automatic), libxdmcp-dev:amd64 (1:1.1.5-1, automatic), x11proto-dev:amd64 (2024.1-1, automatic), openjdk-17-jre-headless:amd64 (17.0.13+11-2, automatic)
+Upgrade: libxcb-present0:amd64 (1.17.0-2, 1.17.0-2+b1), libsmartcols1:amd64 (2.40.2-1, 2.40.2-12), libx11-xcb1:amd64 (2:1.8.7-1+b1, 2:1.8.10-2), libxcb-dri2-0:amd64 (1.17.0-2, 1.17.0-2+b1), libxcb-dri3-0:amd64 (1.17.0-2, 1.17.0-2+b1), libmount1:amd64 (2.40.2-1, 2.40.2-12), libxau6:amd64 (1:1.0.9-1+b1, 1:1.0.11-1), libxcb1:amd64 (1.17.0-2, 1.17.0-2+b1), util-linux:amd64 (2.40.2-1, 2.40.2-12), util-linux-extra:amd64 (2.40.2-1, 2.40.2-12), fdisk:amd64 (2.40.2-1, 2.40.2-12), libfdisk1:amd64 (2.40.2-1, 2.40.2-12), libx11-data:amd64 (2:1.8.7-1, 2:1.8.10-2), eject:amd64 (2.40.2-1, 2.40.2-12), libxt6t64:amd64 (1:1.2.1-1.2, 1:1.2.1-1.2+b1), libxcb-render0:amd64 (1.17.0-2, 1.17.0-2+b1), libuuid1:amd64 (2.40.2-1, 2.40.2-12), libice6:amd64 (2:1.0.10-1+b1, 2:1.1.1-1), login:amd64 (1:4.15.3-2, 1:4.16.0-2+really2.40.2-12), libxcb-glx0:amd64 (1.17.0-2, 1.17.0-2+b1), libxcb-shape0:amd64 (1.17.0-2, 1.17.0-2+b1), rfkill:amd64 (2.40.2-1, 2.40.2-12), mount:amd64 (2.40.2-1, 2.40.2-12), libxcb-randr0:amd64 (1.17.0-2, 1.17.0-2+b1), libxcb-damage0:amd64 (1.17.0-2, 1.17.0-2+b1), libxcb-xkb1:amd64 (1.17.0-2, 1.17.0-2+b1), libblkid1:amd64 (2.40.2-1, 2.40.2-12), libxcb-shm0:amd64 (1.17.0-2, 1.17.0-2+b1), libx11-6:amd64 (2:1.8.7-1+b1, 2:1.8.10-2), libxcb-xinerama0:amd64 (1.17.0-2, 1.17.0-2+b1), libxcb-xinput0:amd64 (1.17.0-2, 1.17.0-2+b1), libxcb-sync1:amd64 (1.17.0-2, 1.17.0-2+b1), bsdutils:amd64 (1:2.40.2-1, 1:2.40.2-12), libsm6:amd64 (2:1.2.3-1+b1, 2:1.2.4-1), bsdextrautils:amd64 (2.40.2-1, 2.40.2-12), libxdmcp6:amd64 (1:1.1.2-3+b1, 1:1.1.5-1), passwd:amd64 (1:4.15.3-2, 1:4.16.0-7), libxcb-xfixes0:amd64 (1.17.0-2, 1.17.0-2+b1), libxcb-xv0:amd64 (1.17.0-2, 1.17.0-2+b1)
+End-Date: 2025-01-02  01:18:02
+
+Start-Date: 2025-01-08  03:18:59
+Commandline: apt install ./wps-office_11.1.0.11723.XA_amd64.deb
+Requested-By: student (1000)
+Install: cabextract:amd64 (1.11-2, automatic), ttf-mscorefonts-installer:amd64 (3.8.1, automatic), wps-office:amd64 (11.1.0.11723.XA)
+End-Date: 2025-01-08  03:19:46
+
+Start-Date: 2025-01-08  08:01:49
+Commandline: apt install zfsutils-linux
+Requested-By: student (1000)
+Install: zfs-zed:amd64 (2.2.7-2, automatic), libnvpair3linux:amd64 (2.2.7-2, automatic), libuutil3linux:amd64 (2.2.7-2, automatic), zfs-dkms:amd64 (2.2.7-2, automatic), libzpool5linux:amd64 (2.2.7-2, automatic), libzfs4linux:amd64 (2.2.7-2, automatic), zfsutils-linux:amd64 (2.2.7-2), dkms:amd64 (3.0.13-1, automatic)
+End-Date: 2025-01-08  08:02:22
+
+Start-Date: 2025-01-11  09:47:04
+Commandline: apt install golang
+Requested-By: student (1000)
+Install: golang-go:amd64 (2:1.23~2, automatic), golang-1.23-doc:amd64 (1.23.4-2, automatic), golang-1.23-src:amd64 (1.23.4-2, automatic), golang-doc:amd64 (2:1.23~2, automatic), golang-src:amd64 (2:1.23~2, automatic), golang-1.23-go:amd64 (1.23.4-2, automatic), golang:amd64 (2:1.23~2), golang-1.23:amd64 (1.23.4-2, automatic)
+End-Date: 2025-01-11  09:47:14
+
+Start-Date: 2025-01-11  10:19:47
+Commandline: apt install protobuf-compiler
+Requested-By: student (1000)
+Install: libprotoc32t64:amd64 (3.21.12-10+b2, automatic), protobuf-compiler:amd64 (3.21.12-10+b2), libprotobuf-lite32t64:amd64 (3.21.12-10+b2, automatic), libprotobuf-dev:amd64 (3.21.12-10+b2, automatic)
+Upgrade: libprotobuf32t64:amd64 (3.21.12-8.2, 3.21.12-10+b2), python3-protobuf:amd64 (3.21.12-8.2, 3.21.12-10+b2)
+End-Date: 2025-01-11  10:19:52

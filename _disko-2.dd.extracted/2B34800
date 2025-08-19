@@ -1,0 +1,806 @@
+
+Log started: 2025-01-02  01:17:28
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 377678 files and directories currently installed.)
+Preparing to unpack .../bsdutils_1%3a2.40.2-12_amd64.deb ...
+Unpacking bsdutils (1:2.40.2-12) over (1:2.40.2-1) ...
+Setting up bsdutils (1:2.40.2-12) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 377678 files and directories currently installed.)
+Preparing to unpack .../0-eject_2.40.2-12_amd64.deb ...
+Unpacking eject (2.40.2-12) over (2.40.2-1) ...
+Preparing to unpack .../1-libfdisk1_2.40.2-12_amd64.deb ...
+Unpacking libfdisk1:amd64 (2.40.2-12) over (2.40.2-1) ...
+Preparing to unpack .../2-bsdextrautils_2.40.2-12_amd64.deb ...
+Unpacking bsdextrautils (2.40.2-12) over (2.40.2-1) ...
+Preparing to unpack .../3-util-linux-extra_2.40.2-12_amd64.deb ...
+Leaving 'diversion of /sbin/ctrlaltdel to /sbin/ctrlaltdel.usr-is-merged by util-linux-extra'
+Leaving 'diversion of /sbin/fsck.cramfs to /sbin/fsck.cramfs.usr-is-merged by util-linux-extra'
+Leaving 'diversion of /sbin/fsck.minix to /sbin/fsck.minix.usr-is-merged by util-linux-extra'
+Leaving 'diversion of /sbin/mkfs.bfs to /sbin/mkfs.bfs.usr-is-merged by util-linux-extra'
+Leaving 'diversion of /sbin/mkfs.cramfs to /sbin/mkfs.cramfs.usr-is-merged by util-linux-extra'
+Leaving 'diversion of /sbin/mkfs.minix to /sbin/mkfs.minix.usr-is-merged by util-linux-extra'
+Unpacking util-linux-extra (2.40.2-12) over (2.40.2-1) ...
+Preparing to unpack .../4-rfkill_2.40.2-12_amd64.deb ...
+Unpacking rfkill (2.40.2-12) over (2.40.2-1) ...
+Preparing to unpack .../5-libsmartcols1_2.40.2-12_amd64.deb ...
+Unpacking libsmartcols1:amd64 (2.40.2-12) over (2.40.2-1) ...
+Setting up libsmartcols1:amd64 (2.40.2-12) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 377674 files and directories currently installed.)
+Preparing to unpack .../fdisk_2.40.2-12_amd64.deb ...
+Unpacking fdisk (2.40.2-12) over (2.40.2-1) ...
+Preparing to unpack .../libblkid1_2.40.2-12_amd64.deb ...
+Unpacking libblkid1:amd64 (2.40.2-12) over (2.40.2-1) ...
+Setting up libblkid1:amd64 (2.40.2-12) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 377674 files and directories currently installed.)
+Preparing to unpack .../libmount1_2.40.2-12_amd64.deb ...
+Unpacking libmount1:amd64 (2.40.2-12) over (2.40.2-1) ...
+Setting up libmount1:amd64 (2.40.2-12) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 377674 files and directories currently installed.)
+Preparing to unpack .../mount_2.40.2-12_amd64.deb ...
+Unpacking mount (2.40.2-12) over (2.40.2-1) ...
+Preparing to unpack .../libuuid1_2.40.2-12_amd64.deb ...
+Unpacking libuuid1:amd64 (2.40.2-12) over (2.40.2-1) ...
+Setting up libuuid1:amd64 (2.40.2-12) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 377674 files and directories currently installed.)
+Preparing to unpack .../util-linux_2.40.2-12_amd64.deb ...
+Unpacking util-linux (2.40.2-12) over (2.40.2-1) ...
+Setting up util-linux (2.40.2-12) ...
+fstrim.service is a disabled or a static unit not running, not starting it.
+Selecting previously unselected package login.defs.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 377667 files and directories currently installed.)
+Preparing to unpack .../login.defs_1%3a4.16.0-7_all.deb ...
+Unpacking login.defs (1:4.16.0-7) ...
+Replacing files in old package login (1:4.15.3-2) ...
+Setting up login.defs (1:4.16.0-7) ...
+Installing new version of config file /etc/login.defs ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 377672 files and directories currently installed.)
+Preparing to unpack .../login_1%3a4.16.0-2+really2.40.2-12_amd64.deb ...
+Unpacking login (1:4.16.0-2+really2.40.2-12) over (1:4.15.3-2) ...
+Preparing to unpack .../passwd_1%3a4.16.0-7_amd64.deb ...
+Unpacking passwd (1:4.16.0-7) over (1:4.15.3-2) ...
+Setting up passwd (1:4.16.0-7) ...
+Selecting previously unselected package openjdk-17-jre-headless:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 377631 files and directories currently installed.)
+Preparing to unpack .../00-openjdk-17-jre-headless_17.0.13+11-2_amd64.deb ...
+Unpacking openjdk-17-jre-headless:amd64 (17.0.13+11-2) ...
+Preparing to unpack .../01-libx11-6_2%3a1.8.10-2_amd64.deb ...
+Unpacking libx11-6:amd64 (2:1.8.10-2) over (2:1.8.7-1+b1) ...
+Preparing to unpack .../02-libx11-xcb1_2%3a1.8.10-2_amd64.deb ...
+Unpacking libx11-xcb1:amd64 (2:1.8.10-2) over (2:1.8.7-1+b1) ...
+Preparing to unpack .../03-libxau6_1%3a1.0.11-1_amd64.deb ...
+Unpacking libxau6:amd64 (1:1.0.11-1) over (1:1.0.9-1+b1) ...
+Preparing to unpack .../04-libxdmcp6_1%3a1.1.5-1_amd64.deb ...
+Unpacking libxdmcp6:amd64 (1:1.1.5-1) over (1:1.1.2-3+b1) ...
+Preparing to unpack .../05-libxcb1_1.17.0-2+b1_amd64.deb ...
+Unpacking libxcb1:amd64 (1.17.0-2+b1) over (1.17.0-2) ...
+Preparing to unpack .../06-libx11-data_2%3a1.8.10-2_all.deb ...
+Unpacking libx11-data (2:1.8.10-2) over (2:1.8.7-1) ...
+Selecting previously unselected package openjdk-17-jre:amd64.
+Preparing to unpack .../07-openjdk-17-jre_17.0.13+11-2_amd64.deb ...
+Unpacking openjdk-17-jre:amd64 (17.0.13+11-2) ...
+Selecting previously unselected package openjdk-17-jdk-headless:amd64.
+Preparing to unpack .../08-openjdk-17-jdk-headless_17.0.13+11-2_amd64.deb ...
+Unpacking openjdk-17-jdk-headless:amd64 (17.0.13+11-2) ...
+Selecting previously unselected package openjdk-17-jdk:amd64.
+Preparing to unpack .../09-openjdk-17-jdk_17.0.13+11-2_amd64.deb ...
+Unpacking openjdk-17-jdk:amd64 (17.0.13+11-2) ...
+Selecting previously unselected package ghidra.
+Preparing to unpack .../10-ghidra_11.0+ds-0kali1_amd64.deb ...
+Unpacking ghidra (11.0+ds-0kali1) ...
+Selecting previously unselected package ghidra-data.
+Preparing to unpack .../11-ghidra-data_10.5-0kali1_all.deb ...
+Unpacking ghidra-data (10.5-0kali1) ...
+Preparing to unpack .../12-libice6_2%3a1.1.1-1_amd64.deb ...
+Unpacking libice6:amd64 (2:1.1.1-1) over (2:1.0.10-1+b1) ...
+Selecting previously unselected package xorg-sgml-doctools.
+Preparing to unpack .../13-xorg-sgml-doctools_1%3a1.11-1.1_all.deb ...
+Unpacking xorg-sgml-doctools (1:1.11-1.1) ...
+Selecting previously unselected package x11proto-dev.
+Preparing to unpack .../14-x11proto-dev_2024.1-1_all.deb ...
+Unpacking x11proto-dev (2024.1-1) ...
+Selecting previously unselected package libice-dev:amd64.
+Preparing to unpack .../15-libice-dev_2%3a1.1.1-1_amd64.deb ...
+Unpacking libice-dev:amd64 (2:1.1.1-1) ...
+Preparing to unpack .../16-libsm6_2%3a1.2.4-1_amd64.deb ...
+Unpacking libsm6:amd64 (2:1.2.4-1) over (2:1.2.3-1+b1) ...
+Selecting previously unselected package uuid-dev:amd64.
+Preparing to unpack .../17-uuid-dev_2.40.2-12_amd64.deb ...
+Unpacking uuid-dev:amd64 (2.40.2-12) ...
+Selecting previously unselected package libsm-dev:amd64.
+Preparing to unpack .../18-libsm-dev_2%3a1.2.4-1_amd64.deb ...
+Unpacking libsm-dev:amd64 (2:1.2.4-1) ...
+Selecting previously unselected package libxau-dev:amd64.
+Preparing to unpack .../19-libxau-dev_1%3a1.0.11-1_amd64.deb ...
+Unpacking libxau-dev:amd64 (1:1.0.11-1) ...
+Selecting previously unselected package libxdmcp-dev:amd64.
+Preparing to unpack .../20-libxdmcp-dev_1%3a1.1.5-1_amd64.deb ...
+Unpacking libxdmcp-dev:amd64 (1:1.1.5-1) ...
+Selecting previously unselected package xtrans-dev.
+Preparing to unpack .../21-xtrans-dev_1.4.0-1_all.deb ...
+Unpacking xtrans-dev (1.4.0-1) ...
+Selecting previously unselected package libxcb1-dev:amd64.
+Preparing to unpack .../22-libxcb1-dev_1.17.0-2+b1_amd64.deb ...
+Unpacking libxcb1-dev:amd64 (1.17.0-2+b1) ...
+Selecting previously unselected package libx11-dev:amd64.
+Preparing to unpack .../23-libx11-dev_2%3a1.8.10-2_amd64.deb ...
+Unpacking libx11-dev:amd64 (2:1.8.10-2) ...
+Preparing to unpack .../24-libxcb-damage0_1.17.0-2+b1_amd64.deb ...
+Unpacking libxcb-damage0:amd64 (1.17.0-2+b1) over (1.17.0-2) ...
+Preparing to unpack .../25-libxcb-dri2-0_1.17.0-2+b1_amd64.deb ...
+Unpacking libxcb-dri2-0:amd64 (1.17.0-2+b1) over (1.17.0-2) ...
+Preparing to unpack .../26-libxcb-dri3-0_1.17.0-2+b1_amd64.deb ...
+Unpacking libxcb-dri3-0:amd64 (1.17.0-2+b1) over (1.17.0-2) ...
+Preparing to unpack .../27-libxcb-glx0_1.17.0-2+b1_amd64.deb ...
+Unpacking libxcb-glx0:amd64 (1.17.0-2+b1) over (1.17.0-2) ...
+Preparing to unpack .../28-libxcb-present0_1.17.0-2+b1_amd64.deb ...
+Unpacking libxcb-present0:amd64 (1.17.0-2+b1) over (1.17.0-2) ...
+Preparing to unpack .../29-libxcb-randr0_1.17.0-2+b1_amd64.deb ...
+Unpacking libxcb-randr0:amd64 (1.17.0-2+b1) over (1.17.0-2) ...
+Preparing to unpack .../30-libxcb-render0_1.17.0-2+b1_amd64.deb ...
+Unpacking libxcb-render0:amd64 (1.17.0-2+b1) over (1.17.0-2) ...
+Preparing to unpack .../31-libxcb-shape0_1.17.0-2+b1_amd64.deb ...
+Unpacking libxcb-shape0:amd64 (1.17.0-2+b1) over (1.17.0-2) ...
+Preparing to unpack .../32-libxcb-shm0_1.17.0-2+b1_amd64.deb ...
+Unpacking libxcb-shm0:amd64 (1.17.0-2+b1) over (1.17.0-2) ...
+Preparing to unpack .../33-libxcb-sync1_1.17.0-2+b1_amd64.deb ...
+Unpacking libxcb-sync1:amd64 (1.17.0-2+b1) over (1.17.0-2) ...
+Preparing to unpack .../34-libxcb-xfixes0_1.17.0-2+b1_amd64.deb ...
+Unpacking libxcb-xfixes0:amd64 (1.17.0-2+b1) over (1.17.0-2) ...
+Preparing to unpack .../35-libxcb-xinerama0_1.17.0-2+b1_amd64.deb ...
+Unpacking libxcb-xinerama0:amd64 (1.17.0-2+b1) over (1.17.0-2) ...
+Preparing to unpack .../36-libxcb-xinput0_1.17.0-2+b1_amd64.deb ...
+Unpacking libxcb-xinput0:amd64 (1.17.0-2+b1) over (1.17.0-2) ...
+Preparing to unpack .../37-libxcb-xkb1_1.17.0-2+b1_amd64.deb ...
+Unpacking libxcb-xkb1:amd64 (1.17.0-2+b1) over (1.17.0-2) ...
+Preparing to unpack .../38-libxcb-xv0_1.17.0-2+b1_amd64.deb ...
+Unpacking libxcb-xv0:amd64 (1.17.0-2+b1) over (1.17.0-2) ...
+Preparing to unpack .../39-libxt6t64_1%3a1.2.1-1.2+b1_amd64.deb ...
+Unpacking libxt6t64:amd64 (1:1.2.1-1.2+b1) over (1:1.2.1-1.2) ...
+Selecting previously unselected package libxt-dev:amd64.
+Preparing to unpack .../40-libxt-dev_1%3a1.2.1-1.2+b1_amd64.deb ...
+Unpacking libxt-dev:amd64 (1:1.2.1-1.2+b1) ...
+Setting up libice6:amd64 (2:1.1.1-1) ...
+Setting up libxau6:amd64 (1:1.0.11-1) ...
+Setting up libxdmcp6:amd64 (1:1.1.5-1) ...
+Setting up libxcb1:amd64 (1.17.0-2+b1) ...
+Setting up libxcb-xfixes0:amd64 (1.17.0-2+b1) ...
+Setting up bsdextrautils (2.40.2-12) ...
+Setting up libxcb-xinput0:amd64 (1.17.0-2+b1) ...
+Setting up libxcb-render0:amd64 (1.17.0-2+b1) ...
+Setting up libxcb-glx0:amd64 (1.17.0-2+b1) ...
+Setting up libxcb-shape0:amd64 (1.17.0-2+b1) ...
+Setting up libxcb-shm0:amd64 (1.17.0-2+b1) ...
+Setting up libxcb-xkb1:amd64 (1.17.0-2+b1) ...
+Setting up libxcb-present0:amd64 (1.17.0-2+b1) ...
+Setting up eject (2.40.2-12) ...
+Setting up xtrans-dev (1.4.0-1) ...
+Setting up libxcb-xinerama0:amd64 (1.17.0-2+b1) ...
+Setting up libx11-data (2:1.8.10-2) ...
+Setting up libxcb-sync1:amd64 (1.17.0-2+b1) ...
+Setting up uuid-dev:amd64 (2.40.2-12) ...
+Setting up ghidra-data (10.5-0kali1) ...
+Setting up rfkill (2.40.2-12) ...
+Setting up libfdisk1:amd64 (2.40.2-12) ...
+Setting up openjdk-17-jre-headless:amd64 (17.0.13+11-2) ...
+Installing new version of config file /etc/java-17-openjdk/net.properties ...
+Installing new version of config file /etc/java-17-openjdk/security/java.policy ...
+Installing new version of config file /etc/java-17-openjdk/security/java.security ...
+Setting up libxcb-dri2-0:amd64 (1.17.0-2+b1) ...
+Setting up mount (2.40.2-12) ...
+Setting up libxcb-randr0:amd64 (1.17.0-2+b1) ...
+Setting up libxcb-xv0:amd64 (1.17.0-2+b1) ...
+Setting up libx11-6:amd64 (2:1.8.10-2) ...
+Setting up xorg-sgml-doctools (1:1.11-1.1) ...
+Setting up libsm6:amd64 (2:1.2.4-1) ...
+Setting up util-linux-extra (2.40.2-12) ...
+Setting up libxcb-damage0:amd64 (1.17.0-2+b1) ...
+Setting up login (1:4.16.0-2+really2.40.2-12) ...
+Setting up libxcb-dri3-0:amd64 (1.17.0-2+b1) ...
+Setting up libx11-xcb1:amd64 (2:1.8.10-2) ...
+Setting up fdisk (2.40.2-12) ...
+Setting up libxt6t64:amd64 (1:1.2.1-1.2+b1) ...
+Processing triggers for libc-bin (2.40-3) ...
+Processing triggers for man-db (2.13.0-1) ...
+Processing triggers for sgml-base (1.31) ...
+Processing triggers for mailcap (3.72) ...
+Setting up x11proto-dev (2024.1-1) ...
+Processing triggers for kali-menu (2024.3.1) ...
+Processing triggers for desktop-file-utils (0.27-2) ...
+Setting up libxau-dev:amd64 (1:1.0.11-1) ...
+Processing triggers for hicolor-icon-theme (0.18-1) ...
+Setting up libice-dev:amd64 (2:1.1.1-1) ...
+Setting up libsm-dev:amd64 (2:1.2.4-1) ...
+Setting up libxdmcp-dev:amd64 (1:1.1.5-1) ...
+Setting up libxcb1-dev:amd64 (1.17.0-2+b1) ...
+Setting up libx11-dev:amd64 (2:1.8.10-2) ...
+Setting up libxt-dev:amd64 (1:1.2.1-1.2+b1) ...
+Processing triggers for ca-certificates-java (20240118) ...
+done.
+Setting up openjdk-17-jre:amd64 (17.0.13+11-2) ...
+Setting up openjdk-17-jdk-headless:amd64 (17.0.13+11-2) ...
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/jar to provide /usr/bin/jar (jar) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/jarsigner to provide /usr/bin/jarsigner (jarsigner) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/javadoc to provide /usr/bin/javadoc (javadoc) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/javap to provide /usr/bin/javap (javap) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/jcmd to provide /usr/bin/jcmd (jcmd) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/jdb to provide /usr/bin/jdb (jdb) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/jdeprscan to provide /usr/bin/jdeprscan (jdeprscan) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/jdeps to provide /usr/bin/jdeps (jdeps) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/jfr to provide /usr/bin/jfr (jfr) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/jimage to provide /usr/bin/jimage (jimage) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/jinfo to provide /usr/bin/jinfo (jinfo) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/jlink to provide /usr/bin/jlink (jlink) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/jmap to provide /usr/bin/jmap (jmap) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/jmod to provide /usr/bin/jmod (jmod) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/jps to provide /usr/bin/jps (jps) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/jrunscript to provide /usr/bin/jrunscript (jrunscript) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/jshell to provide /usr/bin/jshell (jshell) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/jstack to provide /usr/bin/jstack (jstack) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/jstat to provide /usr/bin/jstat (jstat) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/jstatd to provide /usr/bin/jstatd (jstatd) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/serialver to provide /usr/bin/serialver (serialver) in auto mode
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/jhsdb to provide /usr/bin/jhsdb (jhsdb) in auto mode
+Setting up openjdk-17-jdk:amd64 (17.0.13+11-2) ...
+update-alternatives: using /usr/lib/jvm/java-17-openjdk-amd64/bin/jconsole to provide /usr/bin/jconsole (jconsole) in auto mode
+Setting up ghidra (11.0+ds-0kali1) ...
+Log ended: 2025-01-02  01:18:02
+
+Log started: 2025-01-08  03:18:59
+Selecting previously unselected package cabextract.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 398220 files and directories currently installed.)
+Preparing to unpack .../cabextract_1.11-2_amd64.deb ...
+Unpacking cabextract (1.11-2) ...
+Selecting previously unselected package ttf-mscorefonts-installer.
+Preparing to unpack .../ttf-mscorefonts-installer_3.8.1_all.deb ...
+Unpacking ttf-mscorefonts-installer (3.8.1) ...
+Selecting previously unselected package wps-office.
+Preparing to unpack .../wps-office_11.1.0.11723.XA_amd64.deb ...
+Unpacking wps-office (11.1.0.11723.XA) ...
+Setting up cabextract (1.11-2) ...
+Setting up wps-office (11.1.0.11723.XA) ...
+Setting up ttf-mscorefonts-installer (3.8.1) ...
+
+These fonts were provided by Microsoft "in the interest of cross-
+platform compatibility".  This is no longer the case, but they are
+still available from third parties.
+
+You are free to download these fonts and use them for your own use,
+but you may not redistribute them in modified form, including changes
+to the file name or packaging format.
+
+--2025-01-08 03:19:33--  https://downloads.sourceforge.net/corefonts/andale32.exe
+Resolving downloads.sourceforge.net (downloads.sourceforge.net)... 104.18.13.149, 104.18.12.149, 2606:4700::6812:d95, ...
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|104.18.13.149|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/andale32.exe [following]
+--2025-01-08 03:19:33--  https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/andale32.exe
+Reusing existing connection to downloads.sourceforge.net:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://psychz.dl.sourceforge.net/project/corefonts/the%20fonts/final/andale32.exe?viasf=1 [following]
+--2025-01-08 03:19:33--  https://psychz.dl.sourceforge.net/project/corefonts/the%20fonts/final/andale32.exe?viasf=1
+Resolving psychz.dl.sourceforge.net (psychz.dl.sourceforge.net)... 208.87.241.191
+Connecting to psychz.dl.sourceforge.net (psychz.dl.sourceforge.net)|208.87.241.191|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 198384 (194K) [application/octet-stream]
+Saving to: ‘./andale32.exe’
+
+     0K .......... .......... .......... .......... .......... 25%  760K 0s
+    50K .......... .......... .......... .......... .......... 51%  764K 0s
+   100K .......... .......... .......... .......... .......... 77%  158M 0s
+   150K .......... .......... .......... .......... ...       100% 1.02M=0.2s
+
+2025-01-08 03:19:34 (1.09 MB/s) - ‘./andale32.exe’ saved [198384/198384]
+
+--2025-01-08 03:19:34--  https://downloads.sourceforge.net/corefonts/arialb32.exe
+Resolving downloads.sourceforge.net (downloads.sourceforge.net)... 104.18.13.149, 104.18.12.149, 2606:4700::6812:c95, ...
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|104.18.13.149|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/arialb32.exe [following]
+--2025-01-08 03:19:34--  https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/arialb32.exe
+Reusing existing connection to downloads.sourceforge.net:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://cytranet-dal.dl.sourceforge.net/project/corefonts/the%20fonts/final/arialb32.exe?viasf=1 [following]
+--2025-01-08 03:19:34--  https://cytranet-dal.dl.sourceforge.net/project/corefonts/the%20fonts/final/arialb32.exe?viasf=1
+Resolving cytranet-dal.dl.sourceforge.net (cytranet-dal.dl.sourceforge.net)... 162.226.127.129
+Connecting to cytranet-dal.dl.sourceforge.net (cytranet-dal.dl.sourceforge.net)|162.226.127.129|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 168176 (164K) [application/octet-stream]
+Saving to: ‘./arialb32.exe’
+
+     0K .......... .......... .......... .......... .......... 30% 1.21M 0s
+    50K .......... .......... .......... .......... .......... 60% 1.22M 0s
+   100K .......... .......... .......... .......... .......... 91% 1.26M 0s
+   150K .......... ....                                       100% 20.9M=0.1s
+
+2025-01-08 03:19:34 (1.34 MB/s) - ‘./arialb32.exe’ saved [168176/168176]
+
+--2025-01-08 03:19:34--  https://downloads.sourceforge.net/corefonts/arial32.exe
+Resolving downloads.sourceforge.net (downloads.sourceforge.net)... 104.18.12.149, 104.18.13.149, 2606:4700::6812:d95, ...
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|104.18.12.149|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/arial32.exe [following]
+--2025-01-08 03:19:34--  https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/arial32.exe
+Reusing existing connection to downloads.sourceforge.net:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://psychz.dl.sourceforge.net/project/corefonts/the%20fonts/final/arial32.exe?viasf=1 [following]
+--2025-01-08 03:19:35--  https://psychz.dl.sourceforge.net/project/corefonts/the%20fonts/final/arial32.exe?viasf=1
+Resolving psychz.dl.sourceforge.net (psychz.dl.sourceforge.net)... 208.87.241.191
+Connecting to psychz.dl.sourceforge.net (psychz.dl.sourceforge.net)|208.87.241.191|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 554208 (541K) [application/octet-stream]
+Saving to: ‘./arial32.exe’
+
+     0K .......... .......... .......... .......... ..........  9%  761K 1s
+    50K .......... .......... .......... .......... .......... 18%  382K 1s
+   100K .......... .......... .......... .......... .......... 27% 55.5M 1s
+   150K .......... .......... .......... .......... .......... 36%  772K 0s
+   200K .......... .......... .......... .......... .......... 46% 52.1M 0s
+   250K .......... .......... .......... .......... .......... 55% 77.1M 0s
+   300K .......... .......... .......... .......... .......... 64%  294M 0s
+   350K .......... .......... .......... .......... .......... 73%  780K 0s
+   400K .......... .......... .......... .......... .......... 83% 72.2M 0s
+   450K .......... .......... .......... .......... .......... 92%  211M 0s
+   500K .......... .......... .......... .......... .         100%  375M=0.3s
+
+2025-01-08 03:19:35 (1.61 MB/s) - ‘./arial32.exe’ saved [554208/554208]
+
+--2025-01-08 03:19:35--  https://downloads.sourceforge.net/corefonts/comic32.exe
+Resolving downloads.sourceforge.net (downloads.sourceforge.net)... 104.18.13.149, 104.18.12.149, 2606:4700::6812:c95, ...
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|104.18.13.149|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/comic32.exe [following]
+--2025-01-08 03:19:35--  https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/comic32.exe
+Reusing existing connection to downloads.sourceforge.net:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://netactuate.dl.sourceforge.net/project/corefonts/the%20fonts/final/comic32.exe?viasf=1 [following]
+--2025-01-08 03:19:36--  https://netactuate.dl.sourceforge.net/project/corefonts/the%20fonts/final/comic32.exe?viasf=1
+Resolving netactuate.dl.sourceforge.net (netactuate.dl.sourceforge.net)... 104.225.3.66
+Connecting to netactuate.dl.sourceforge.net (netactuate.dl.sourceforge.net)|104.225.3.66|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 246008 (240K) [application/octet-stream]
+Saving to: ‘./comic32.exe’
+
+     0K .......... .......... .......... .......... .......... 20% 3.37M 0s
+    50K .......... .......... .......... .......... .......... 41% 3.41M 0s
+   100K .......... .......... .......... .......... .......... 62% 3.47M 0s
+   150K .......... .......... .......... .......... .......... 83% 66.9M 0s
+   200K .......... .......... .......... ..........           100%  259M=0.04s
+
+2025-01-08 03:19:36 (5.36 MB/s) - ‘./comic32.exe’ saved [246008/246008]
+
+--2025-01-08 03:19:36--  https://downloads.sourceforge.net/corefonts/courie32.exe
+Resolving downloads.sourceforge.net (downloads.sourceforge.net)... 104.18.13.149, 104.18.12.149, 2606:4700::6812:c95, ...
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|104.18.13.149|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/courie32.exe [following]
+--2025-01-08 03:19:36--  https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/courie32.exe
+Reusing existing connection to downloads.sourceforge.net:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://phoenixnap.dl.sourceforge.net/project/corefonts/the%20fonts/final/courie32.exe?viasf=1 [following]
+--2025-01-08 03:19:36--  https://phoenixnap.dl.sourceforge.net/project/corefonts/the%20fonts/final/courie32.exe?viasf=1
+Resolving phoenixnap.dl.sourceforge.net (phoenixnap.dl.sourceforge.net)... 184.164.141.26
+Connecting to phoenixnap.dl.sourceforge.net (phoenixnap.dl.sourceforge.net)|184.164.141.26|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 646368 (631K) [application/octet-stream]
+Saving to: ‘./courie32.exe’
+
+     0K .......... .......... .......... .......... ..........  7%  858K 1s
+    50K .......... .......... .......... .......... .......... 15%  858K 1s
+   100K .......... .......... .......... .......... .......... 23%  863K 1s
+   150K .......... .......... .......... .......... .......... 31% 80.9M 0s
+   200K .......... .......... .......... .......... .......... 39%  882K 0s
+   250K .......... .......... .......... .......... .......... 47% 81.4M 0s
+   300K .......... .......... .......... .......... .......... 55% 56.3M 0s
+   350K .......... .......... .......... .......... .......... 63% 61.2M 0s
+   400K .......... .......... .......... .......... .......... 71% 92.3M 0s
+   450K .......... .......... .......... .......... .......... 79%  908K 0s
+   500K .......... .......... .......... .......... .......... 87% 47.9M 0s
+   550K .......... .......... .......... .......... .......... 95% 44.1M 0s
+   600K .......... .......... .......... .                    100%  222M=0.3s
+
+2025-01-08 03:19:37 (2.11 MB/s) - ‘./courie32.exe’ saved [646368/646368]
+
+--2025-01-08 03:19:37--  https://downloads.sourceforge.net/corefonts/georgi32.exe
+Resolving downloads.sourceforge.net (downloads.sourceforge.net)... 104.18.12.149, 104.18.13.149, 2606:4700::6812:d95, ...
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|104.18.12.149|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/georgi32.exe [following]
+--2025-01-08 03:19:37--  https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/georgi32.exe
+Reusing existing connection to downloads.sourceforge.net:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://cytranet-dal.dl.sourceforge.net/project/corefonts/the%20fonts/final/georgi32.exe?viasf=1 [following]
+--2025-01-08 03:19:37--  https://cytranet-dal.dl.sourceforge.net/project/corefonts/the%20fonts/final/georgi32.exe?viasf=1
+Resolving cytranet-dal.dl.sourceforge.net (cytranet-dal.dl.sourceforge.net)... 162.226.127.129
+Connecting to cytranet-dal.dl.sourceforge.net (cytranet-dal.dl.sourceforge.net)|162.226.127.129|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 392440 (383K) [application/octet-stream]
+Saving to: ‘./georgi32.exe’
+
+     0K .......... .......... .......... .......... .......... 13% 1.19M 0s
+    50K .......... .......... .......... .......... .......... 26% 1.24M 0s
+   100K .......... .......... .......... .......... .......... 39% 26.7M 0s
+   150K .......... .......... .......... .......... .......... 52% 1.33M 0s
+   200K .......... .......... .......... .......... .......... 65% 34.8M 0s
+   250K .......... .......... .......... .......... .......... 78% 7.02M 0s
+   300K .......... .......... .......... .......... .......... 91% 90.3M 0s
+   350K .......... .......... .......... ...                  100% 1.06M=0.2s
+
+2025-01-08 03:19:37 (2.37 MB/s) - ‘./georgi32.exe’ saved [392440/392440]
+
+--2025-01-08 03:19:37--  https://downloads.sourceforge.net/corefonts/impact32.exe
+Resolving downloads.sourceforge.net (downloads.sourceforge.net)... 104.18.13.149, 104.18.12.149, 2606:4700::6812:d95, ...
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|104.18.13.149|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/impact32.exe [following]
+--2025-01-08 03:19:38--  https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/impact32.exe
+Reusing existing connection to downloads.sourceforge.net:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://cytranet-dal.dl.sourceforge.net/project/corefonts/the%20fonts/final/impact32.exe?viasf=1 [following]
+--2025-01-08 03:19:38--  https://cytranet-dal.dl.sourceforge.net/project/corefonts/the%20fonts/final/impact32.exe?viasf=1
+Resolving cytranet-dal.dl.sourceforge.net (cytranet-dal.dl.sourceforge.net)... 162.226.127.129
+Connecting to cytranet-dal.dl.sourceforge.net (cytranet-dal.dl.sourceforge.net)|162.226.127.129|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 173288 (169K) [application/octet-stream]
+Saving to: ‘./impact32.exe’
+
+     0K .......... .......... .......... .......... .......... 29% 1.21M 0s
+    50K .......... .......... .......... .......... .......... 59% 1.26M 0s
+   100K .......... .......... .......... .......... .......... 88% 18.1M 0s
+   150K .......... .........                                  100%  320M=0.08s
+
+2025-01-08 03:19:38 (2.02 MB/s) - ‘./impact32.exe’ saved [173288/173288]
+
+--2025-01-08 03:19:38--  https://downloads.sourceforge.net/corefonts/times32.exe
+Resolving downloads.sourceforge.net (downloads.sourceforge.net)... 104.18.12.149, 104.18.13.149, 2606:4700::6812:c95, ...
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|104.18.12.149|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/times32.exe [following]
+--2025-01-08 03:19:38--  https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/times32.exe
+Reusing existing connection to downloads.sourceforge.net:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://phoenixnap.dl.sourceforge.net/project/corefonts/the%20fonts/final/times32.exe?viasf=1 [following]
+--2025-01-08 03:19:38--  https://phoenixnap.dl.sourceforge.net/project/corefonts/the%20fonts/final/times32.exe?viasf=1
+Resolving phoenixnap.dl.sourceforge.net (phoenixnap.dl.sourceforge.net)... 184.164.141.26
+Connecting to phoenixnap.dl.sourceforge.net (phoenixnap.dl.sourceforge.net)|184.164.141.26|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 661728 (646K) [application/octet-stream]
+Saving to: ‘./times32.exe’
+
+     0K .......... .......... .......... .......... ..........  7%  921K 1s
+    50K .......... .......... .......... .......... .......... 15%  289K 1s
+   100K .......... .......... .......... .......... .......... 23% 89.8M 1s
+   150K .......... .......... .......... .......... .......... 30% 86.8M 1s
+   200K .......... .......... .......... .......... .......... 38%  926K 0s
+   250K .......... .......... .......... .......... .......... 46%  141M 0s
+   300K .......... .......... .......... .......... .......... 54% 20.0M 0s
+   350K .......... .......... .......... .......... .......... 61% 68.3M 0s
+   400K .......... .......... .......... .......... .......... 69%  999K 0s
+   450K .......... .......... .......... .......... .......... 77% 82.9M 0s
+   500K .......... .......... .......... .......... .......... 85%  108M 0s
+   550K .......... .......... .......... .......... .......... 92% 45.6M 0s
+   600K .......... .......... .......... .......... ......    100%  161M=0.3s
+
+2025-01-08 03:19:39 (1.87 MB/s) - ‘./times32.exe’ saved [661728/661728]
+
+--2025-01-08 03:19:39--  https://downloads.sourceforge.net/corefonts/trebuc32.exe
+Resolving downloads.sourceforge.net (downloads.sourceforge.net)... 104.18.12.149, 104.18.13.149, 2606:4700::6812:c95, ...
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|104.18.12.149|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/trebuc32.exe [following]
+--2025-01-08 03:19:39--  https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/trebuc32.exe
+Reusing existing connection to downloads.sourceforge.net:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://cytranet-dal.dl.sourceforge.net/project/corefonts/the%20fonts/final/trebuc32.exe?viasf=1 [following]
+--2025-01-08 03:19:39--  https://cytranet-dal.dl.sourceforge.net/project/corefonts/the%20fonts/final/trebuc32.exe?viasf=1
+Resolving cytranet-dal.dl.sourceforge.net (cytranet-dal.dl.sourceforge.net)... 162.226.127.129
+Connecting to cytranet-dal.dl.sourceforge.net (cytranet-dal.dl.sourceforge.net)|162.226.127.129|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 357200 (349K) [application/octet-stream]
+Saving to: ‘./trebuc32.exe’
+
+     0K .......... .......... .......... .......... .......... 14% 1.19M 0s
+    50K .......... .......... .......... .......... .......... 28% 1.25M 0s
+   100K .......... .......... .......... .......... .......... 43% 31.0M 0s
+   150K .......... .......... .......... .......... .......... 57% 1.31M 0s
+   200K .......... .......... .......... .......... .......... 71% 49.1M 0s
+   250K .......... .......... .......... .......... .......... 86% 65.4M 0s
+   300K .......... .......... .......... .......... ........  100% 31.7M=0.1s
+
+2025-01-08 03:19:40 (2.78 MB/s) - ‘./trebuc32.exe’ saved [357200/357200]
+
+--2025-01-08 03:19:40--  https://downloads.sourceforge.net/corefonts/verdan32.exe
+Resolving downloads.sourceforge.net (downloads.sourceforge.net)... 104.18.12.149, 104.18.13.149, 2606:4700::6812:c95, ...
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|104.18.12.149|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/verdan32.exe [following]
+--2025-01-08 03:19:40--  https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/verdan32.exe
+Reusing existing connection to downloads.sourceforge.net:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://versaweb.dl.sourceforge.net/project/corefonts/the%20fonts/final/verdan32.exe?viasf=1 [following]
+--2025-01-08 03:19:40--  https://versaweb.dl.sourceforge.net/project/corefonts/the%20fonts/final/verdan32.exe?viasf=1
+Resolving versaweb.dl.sourceforge.net (versaweb.dl.sourceforge.net)... 162.251.232.173
+Connecting to versaweb.dl.sourceforge.net (versaweb.dl.sourceforge.net)|162.251.232.173|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 351992 (344K) [application/octet-stream]
+Saving to: ‘./verdan32.exe’
+
+     0K .......... .......... .......... .......... .......... 14%  882K 0s
+    50K .......... .......... .......... .......... .......... 29%  877K 0s
+   100K .......... .......... .......... .......... .......... 43%  909K 0s
+   150K .......... .......... .......... .......... .......... 58% 22.5M 0s
+   200K .......... .......... .......... .......... .......... 72%  934K 0s
+   250K .......... .......... .......... .......... .......... 87% 30.2M 0s
+   300K .......... .......... .......... .......... ...       100% 22.5M=0.2s
+
+2025-01-08 03:19:41 (1.47 MB/s) - ‘./verdan32.exe’ saved [351992/351992]
+
+--2025-01-08 03:19:41--  https://downloads.sourceforge.net/corefonts/webdin32.exe
+Resolving downloads.sourceforge.net (downloads.sourceforge.net)... 104.18.13.149, 104.18.12.149, 2606:4700::6812:d95, ...
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|104.18.13.149|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/webdin32.exe [following]
+--2025-01-08 03:19:41--  https://downloads.sourceforge.net/project/corefonts/the%20fonts/final/webdin32.exe
+Reusing existing connection to downloads.sourceforge.net:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://gigenet.dl.sourceforge.net/project/corefonts/the%20fonts/final/webdin32.exe?viasf=1 [following]
+--2025-01-08 03:19:41--  https://gigenet.dl.sourceforge.net/project/corefonts/the%20fonts/final/webdin32.exe?viasf=1
+Resolving gigenet.dl.sourceforge.net (gigenet.dl.sourceforge.net)... 69.65.16.141
+Connecting to gigenet.dl.sourceforge.net (gigenet.dl.sourceforge.net)|69.65.16.141|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 185072 (181K) [application/octet-stream]
+Saving to: ‘./webdin32.exe’
+
+     0K .......... .......... .......... .......... .......... 27% 1.85M 0s
+    50K .......... .......... .......... .......... .......... 55% 1.91M 0s
+   100K .......... .......... .......... .......... .......... 82% 56.3M 0s
+   150K .......... .......... ..........                      100%  155M=0.05s
+
+2025-01-08 03:19:41 (3.33 MB/s) - ‘./webdin32.exe’ saved [185072/185072]
+
+andale32.exe: OK
+Extracting cabinet: andale32.exe
+  extracting fontinst.inf
+  extracting andale.inf
+  extracting fontinst.exe
+  extracting AndaleMo.TTF
+  extracting ADVPACK.DLL
+  extracting W95INF32.DLL
+  extracting W95INF16.DLL
+
+All done, no errors.
+arialb32.exe: OK
+Extracting cabinet: arialb32.exe
+  extracting fontinst.exe
+  extracting fontinst.inf
+  extracting AriBlk.TTF
+
+All done, no errors.
+arial32.exe: OK
+Extracting cabinet: arial32.exe
+  extracting FONTINST.EXE
+  extracting fontinst.inf
+  extracting Ariali.TTF
+  extracting Arialbd.TTF
+  extracting Arialbi.TTF
+  extracting Arial.TTF
+
+All done, no errors.
+comic32.exe: OK
+Extracting cabinet: comic32.exe
+  extracting fontinst.inf
+  extracting Comicbd.TTF
+  extracting Comic.TTF
+  extracting fontinst.exe
+
+All done, no errors.
+courie32.exe: OK
+Extracting cabinet: courie32.exe
+  extracting cour.ttf
+  extracting courbd.ttf
+  extracting courbi.ttf
+  extracting fontinst.inf
+  extracting couri.ttf
+  extracting fontinst.exe
+
+All done, no errors.
+georgi32.exe: OK
+Extracting cabinet: georgi32.exe
+  extracting fontinst.inf
+  extracting Georgiaz.TTF
+  extracting Georgiab.TTF
+  extracting Georgiai.TTF
+  extracting Georgia.TTF
+  extracting fontinst.exe
+
+All done, no errors.
+impact32.exe: OK
+Extracting cabinet: impact32.exe
+  extracting fontinst.exe
+  extracting Impact.TTF
+  extracting fontinst.inf
+
+All done, no errors.
+times32.exe: OK
+Extracting cabinet: times32.exe
+  extracting fontinst.inf
+  extracting Times.TTF
+  extracting Timesbd.TTF
+  extracting Timesbi.TTF
+  extracting Timesi.TTF
+  extracting FONTINST.EXE
+
+All done, no errors.
+trebuc32.exe: OK
+Extracting cabinet: trebuc32.exe
+  extracting FONTINST.EXE
+  extracting trebuc.ttf
+  extracting Trebucbd.ttf
+  extracting trebucbi.ttf
+  extracting trebucit.ttf
+  extracting fontinst.inf
+
+All done, no errors.
+verdan32.exe: OK
+Extracting cabinet: verdan32.exe
+  extracting fontinst.exe
+  extracting fontinst.inf
+  extracting Verdanab.TTF
+  extracting Verdanai.TTF
+  extracting Verdanaz.TTF
+  extracting Verdana.TTF
+
+All done, no errors.
+webdin32.exe: OK
+Extracting cabinet: webdin32.exe
+  extracting fontinst.exe
+  extracting Webdings.TTF
+  extracting fontinst.inf
+  extracting Licen.TXT
+
+All done, no errors.
+All fonts downloaded and installed.
+Processing triggers for fontconfig (2.15.0-1.1) ...
+Processing triggers for kali-menu (2024.3.1) ...
+Processing triggers for desktop-file-utils (0.27-2) ...
+Processing triggers for hicolor-icon-theme (0.18-1) ...
+Processing triggers for man-db (2.13.0-1) ...
+Processing triggers for shared-mime-info (2.4-5) ...
+Warning: program compiled against libxml 212 using older 209
+Processing triggers for mailcap (3.72) ...
+Log ended: 2025-01-08  03:19:46
+
+Log started: 2025-01-08  08:01:49
+Selecting previously unselected package dkms.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 402506 files and directories currently installed.)
+Preparing to unpack .../0-dkms_3.0.13-1_all.deb ...
+Unpacking dkms (3.0.13-1) ...
+Selecting previously unselected package zfs-dkms.
+Preparing to unpack .../1-zfs-dkms_2.2.7-2_all.deb ...
+Unpacking zfs-dkms (2.2.7-2) ...
+Selecting previously unselected package libnvpair3linux.
+Preparing to unpack .../2-libnvpair3linux_2.2.7-2_amd64.deb ...
+Unpacking libnvpair3linux (2.2.7-2) ...
+Selecting previously unselected package libuutil3linux.
+Preparing to unpack .../3-libuutil3linux_2.2.7-2_amd64.deb ...
+Unpacking libuutil3linux (2.2.7-2) ...
+Selecting previously unselected package libzfs4linux.
+Preparing to unpack .../4-libzfs4linux_2.2.7-2_amd64.deb ...
+Unpacking libzfs4linux (2.2.7-2) ...
+Selecting previously unselected package libzpool5linux.
+Preparing to unpack .../5-libzpool5linux_2.2.7-2_amd64.deb ...
+Unpacking libzpool5linux (2.2.7-2) ...
+Selecting previously unselected package zfsutils-linux.
+Preparing to unpack .../6-zfsutils-linux_2.2.7-2_amd64.deb ...
+Unpacking zfsutils-linux (2.2.7-2) ...
+Selecting previously unselected package zfs-zed.
+Preparing to unpack .../7-zfs-zed_2.2.7-2_amd64.deb ...
+Unpacking zfs-zed (2.2.7-2) ...
+Setting up libnvpair3linux (2.2.7-2) ...
+Setting up dkms (3.0.13-1) ...
+Setting up zfs-dkms (2.2.7-2) ...
+Loading new zfs-2.2.7 DKMS files...
+Building for 6.8.11-amd64
+Module build for kernel 6.8.11-amd64 was skipped since the
+kernel headers for this kernel do not seem to be installed.
+Setting up libuutil3linux (2.2.7-2) ...
+Setting up libzpool5linux (2.2.7-2) ...
+Setting up libzfs4linux (2.2.7-2) ...
+Setting up zfsutils-linux (2.2.7-2) ...
+modprobe: FATAL: Module zfs not found in directory /lib/modules/6.8.11-amd64
+update-rc.d: We have no instructions for the zfs-import init script.
+update-rc.d: It looks like a non-network service, we enable it.
+update-rc.d: We have no instructions for the zfs-mount init script.
+update-rc.d: It looks like a non-network service, we enable it.
+update-rc.d: We have no instructions for the zfs-load-key init script.
+update-rc.d: It looks like a non-network service, we enable it.
+update-rc.d: We have no instructions for the zfs-share init script.
+update-rc.d: It looks like a network service, we disable it.
+Created symlink '/etc/systemd/system/zfs-import.target.wants/zfs-import-cache.service' → '/usr/lib/systemd/system/zfs-import-cache.service'.
+Created symlink '/etc/systemd/system/zfs.target.wants/zfs-import.target' → '/usr/lib/systemd/system/zfs-import.target'.
+Created symlink '/etc/systemd/system/zfs-mount.service.wants/zfs-load-module.service' → '/usr/lib/systemd/system/zfs-load-module.service'.
+Created symlink '/etc/systemd/system/zfs.target.wants/zfs-load-module.service' → '/usr/lib/systemd/system/zfs-load-module.service'.
+Created symlink '/etc/systemd/system/zfs.target.wants/zfs-mount.service' → '/usr/lib/systemd/system/zfs-mount.service'.
+Created symlink '/etc/systemd/system/zfs.target.wants/zfs-share.service' → '/usr/lib/systemd/system/zfs-share.service'.
+Created symlink '/etc/systemd/system/zfs-volumes.target.wants/zfs-volume-wait.service' → '/usr/lib/systemd/system/zfs-volume-wait.service'.
+Created symlink '/etc/systemd/system/zfs.target.wants/zfs-volumes.target' → '/usr/lib/systemd/system/zfs-volumes.target'.
+Created symlink '/etc/systemd/system/multi-user.target.wants/zfs.target' → '/usr/lib/systemd/system/zfs.target'.
+zfs-import-scan.service is a disabled or a static unit, not starting it.
+Could not execute systemctl:  at /usr/bin/deb-systemd-invoke line 148.
+Processing triggers for kali-menu (2024.3.1) ...
+Processing triggers for initramfs-tools (0.145) ...
+update-initramfs: Generating /boot/initrd.img-6.8.11-amd64
+Processing triggers for libc-bin (2.40-3) ...
+Processing triggers for man-db (2.13.0-1) ...
+Setting up zfs-zed (2.2.7-2) ...
+update-rc.d: We have no instructions for the zfs-zed init script.
+update-rc.d: It looks like a non-network service, we enable it.
+Created symlink '/etc/systemd/system/zed.service' → '/usr/lib/systemd/system/zfs-zed.service'.
+Created symlink '/etc/systemd/system/zfs.target.wants/zfs-zed.service' → '/usr/lib/systemd/system/zfs-zed.service'.
+Log ended: 2025-01-08  08:02:22
+
+Log started: 2025-01-11  09:47:04
+Selecting previously unselected package golang-1.23-doc.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 403869 files and directories currently installed.)
+Preparing to unpack .../0-golang-1.23-doc_1.23.4-2_all.deb ...
+Unpacking golang-1.23-doc (1.23.4-2) ...
+Selecting previously unselected package golang-1.23-src.
+Preparing to unpack .../1-golang-1.23-src_1.23.4-2_all.deb ...
+Unpacking golang-1.23-src (1.23.4-2) ...
+Selecting previously unselected package golang-1.23-go.
+Preparing to unpack .../2-golang-1.23-go_1.23.4-2_amd64.deb ...
+Unpacking golang-1.23-go (1.23.4-2) ...
+Selecting previously unselected package golang-1.23.
+Preparing to unpack .../3-golang-1.23_1.23.4-2_all.deb ...
+Unpacking golang-1.23 (1.23.4-2) ...
+Selecting previously unselected package golang-src.
+Preparing to unpack .../4-golang-src_2%3a1.23~2_all.deb ...
+Unpacking golang-src (2:1.23~2) ...
+Selecting previously unselected package golang-go:amd64.
+Preparing to unpack .../5-golang-go_2%3a1.23~2_amd64.deb ...
+Unpacking golang-go:amd64 (2:1.23~2) ...
+Selecting previously unselected package golang-doc.
+Preparing to unpack .../6-golang-doc_2%3a1.23~2_all.deb ...
+Unpacking golang-doc (2:1.23~2) ...
+Selecting previously unselected package golang:amd64.
+Preparing to unpack .../7-golang_2%3a1.23~2_amd64.deb ...
+Unpacking golang:amd64 (2:1.23~2) ...
+Setting up golang-1.23-doc (1.23.4-2) ...
+Setting up golang-1.23-src (1.23.4-2) ...
+Setting up golang-src (2:1.23~2) ...
+Setting up golang-1.23-go (1.23.4-2) ...
+Setting up golang-1.23 (1.23.4-2) ...
+Setting up golang-go:amd64 (2:1.23~2) ...
+Setting up golang-doc (2:1.23~2) ...
+Setting up golang:amd64 (2:1.23~2) ...
+Processing triggers for man-db (2.13.0-1) ...
+Processing triggers for kali-menu (2024.3.1) ...
+Log ended: 2025-01-11  09:47:14
+
+Log started: 2025-01-11  10:19:47
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 418650 files and directories currently installed.)
+Preparing to unpack .../0-libprotobuf32t64_3.21.12-10+b2_amd64.deb ...
+Unpacking libprotobuf32t64:amd64 (3.21.12-10+b2) over (3.21.12-8.2) ...
+Selecting previously unselected package libprotobuf-lite32t64:amd64.
+Preparing to unpack .../1-libprotobuf-lite32t64_3.21.12-10+b2_amd64.deb ...
+Unpacking libprotobuf-lite32t64:amd64 (3.21.12-10+b2) ...
+Selecting previously unselected package libprotobuf-dev:amd64.
+Preparing to unpack .../2-libprotobuf-dev_3.21.12-10+b2_amd64.deb ...
+Unpacking libprotobuf-dev:amd64 (3.21.12-10+b2) ...
+Selecting previously unselected package libprotoc32t64:amd64.
+Preparing to unpack .../3-libprotoc32t64_3.21.12-10+b2_amd64.deb ...
+Unpacking libprotoc32t64:amd64 (3.21.12-10+b2) ...
+Selecting previously unselected package protobuf-compiler.
+Preparing to unpack .../4-protobuf-compiler_3.21.12-10+b2_amd64.deb ...
+Unpacking protobuf-compiler (3.21.12-10+b2) ...
+Preparing to unpack .../5-python3-protobuf_3.21.12-10+b2_amd64.deb ...
+Unpacking python3-protobuf (3.21.12-10+b2) over (3.21.12-8.2) ...
+Setting up libprotobuf-lite32t64:amd64 (3.21.12-10+b2) ...
+Setting up libprotobuf32t64:amd64 (3.21.12-10+b2) ...
+Setting up libprotobuf-dev:amd64 (3.21.12-10+b2) ...
+Setting up libprotoc32t64:amd64 (3.21.12-10+b2) ...
+Setting up python3-protobuf (3.21.12-10+b2) ...
+Setting up protobuf-compiler (3.21.12-10+b2) ...
+Processing triggers for man-db (2.13.0-1) ...
+Processing triggers for kali-menu (2024.3.1) ...
+Processing triggers for libc-bin (2.40-3) ...
+Log ended: 2025-01-11  10:19:52
