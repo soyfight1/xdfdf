@@ -1,0 +1,1150 @@
+2025-02-25T18:09:59.885468-05:00 kali kernel: Linux version 6.8.11-amd64 (devel@kali.org) (x86_64-linux-gnu-gcc-13 (Debian 13.2.0-25) 13.2.0, GNU ld (GNU Binutils for Debian) 2.42) #1 SMP PREEMPT_DYNAMIC Kali 6.8.11-1kali2 (2024-05-30)
+2025-02-25T18:09:59.886002-05:00 kali kernel: Command line: BOOT_IMAGE=/boot/vmlinuz-6.8.11-amd64 root=UUID=87a1ca46-dabc-443c-b181-d9961a9b420f ro quiet splash
+2025-02-25T18:09:59.886006-05:00 kali kernel: Disabled fast string operations
+2025-02-25T18:09:59.886007-05:00 kali kernel: BIOS-provided physical RAM map:
+2025-02-25T18:09:59.886007-05:00 kali kernel: BIOS-e820: [mem 0x0000000000000000-0x000000000009f7ff] usable
+2025-02-25T18:09:59.886008-05:00 kali kernel: BIOS-e820: [mem 0x000000000009f800-0x000000000009ffff] reserved
+2025-02-25T18:09:59.886008-05:00 kali kernel: BIOS-e820: [mem 0x00000000000dc000-0x00000000000fffff] reserved
+2025-02-25T18:09:59.886011-05:00 kali kernel: BIOS-e820: [mem 0x0000000000100000-0x00000000bfedffff] usable
+2025-02-25T18:09:59.886012-05:00 kali kernel: BIOS-e820: [mem 0x00000000bfee0000-0x00000000bfefefff] ACPI data
+2025-02-25T18:09:59.886013-05:00 kali kernel: BIOS-e820: [mem 0x00000000bfeff000-0x00000000bfefffff] ACPI NVS
+2025-02-25T18:09:59.886013-05:00 kali kernel: BIOS-e820: [mem 0x00000000bff00000-0x00000000bfffffff] usable
+2025-02-25T18:09:59.886014-05:00 kali kernel: BIOS-e820: [mem 0x00000000f0000000-0x00000000f7ffffff] reserved
+2025-02-25T18:09:59.886014-05:00 kali kernel: BIOS-e820: [mem 0x00000000fec00000-0x00000000fec0ffff] reserved
+2025-02-25T18:09:59.886014-05:00 kali kernel: BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+2025-02-25T18:09:59.886017-05:00 kali kernel: BIOS-e820: [mem 0x00000000fffe0000-0x00000000ffffffff] reserved
+2025-02-25T18:09:59.886018-05:00 kali kernel: BIOS-e820: [mem 0x0000000100000000-0x000000013fffffff] usable
+2025-02-25T18:09:59.886018-05:00 kali kernel: NX (Execute Disable) protection: active
+2025-02-25T18:09:59.886019-05:00 kali kernel: APIC: Static calls initialized
+2025-02-25T18:09:59.886019-05:00 kali kernel: SMBIOS 2.7 present.
+2025-02-25T18:09:59.886020-05:00 kali kernel: DMI: VMware, Inc. VMware Virtual Platform/440BX Desktop Reference Platform, BIOS 6.00 11/12/2020
+2025-02-25T18:09:59.886023-05:00 kali kernel: vmware: hypercall mode: 0x02
+2025-02-25T18:09:59.886023-05:00 kali kernel: Hypervisor detected: VMware
+2025-02-25T18:09:59.886024-05:00 kali kernel: vmware: TSC freq read from hypervisor : 1999.999 MHz
+2025-02-25T18:09:59.886024-05:00 kali kernel: vmware: Host bus clock speed read from hypervisor : 66000000 Hz
+2025-02-25T18:09:59.886025-05:00 kali kernel: vmware: using clock offset of 20912724690 ns
+2025-02-25T18:09:59.886025-05:00 kali kernel: tsc: Detected 1999.999 MHz processor
+2025-02-25T18:09:59.886028-05:00 kali kernel: e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+2025-02-25T18:09:59.886028-05:00 kali kernel: e820: remove [mem 0x000a0000-0x000fffff] usable
+2025-02-25T18:09:59.886029-05:00 kali kernel: last_pfn = 0x140000 max_arch_pfn = 0x400000000
+2025-02-25T18:09:59.886029-05:00 kali kernel: MTRR map: 8 entries (5 fixed + 3 variable; max 21), built from 8 variable MTRRs
+2025-02-25T18:09:59.886030-05:00 kali kernel: x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+2025-02-25T18:09:59.886030-05:00 kali kernel: e820: update [mem 0xc0000000-0xffffffff] usable ==> reserved
+2025-02-25T18:09:59.886031-05:00 kali kernel: last_pfn = 0xc0000 max_arch_pfn = 0x400000000
+2025-02-25T18:09:59.886034-05:00 kali kernel: found SMP MP-table at [mem 0x000f6a70-0x000f6a7f]
+2025-02-25T18:09:59.886034-05:00 kali kernel: Using GB pages for direct mapping
+2025-02-25T18:09:59.886035-05:00 kali kernel: RAMDISK: [mem 0x2e77f000-0x333b6fff]
+2025-02-25T18:09:59.886035-05:00 kali kernel: ACPI: Early table checksum verification disabled
+2025-02-25T18:09:59.886035-05:00 kali kernel: ACPI: RSDP 0x00000000000F6A00 000024 (v02 PTLTD )
+2025-02-25T18:09:59.886036-05:00 kali kernel: ACPI: XSDT 0x00000000BFEEEA0F 00005C (v01 INTEL  440BX    06040000 VMW  01324272)
+2025-02-25T18:09:59.886039-05:00 kali kernel: ACPI: FACP 0x00000000BFEFEE73 0000F4 (v04 INTEL  440BX    06040000 PTL  000F4240)
+2025-02-25T18:09:59.886039-05:00 kali kernel: ACPI: DSDT 0x00000000BFEEEC95 0101DE (v01 PTLTD  Custom   06040000 MSFT 03000001)
+2025-02-25T18:09:59.886040-05:00 kali kernel: ACPI: FACS 0x00000000BFEFFFC0 000040
+2025-02-25T18:09:59.886040-05:00 kali kernel: ACPI: FACS 0x00000000BFEFFFC0 000040
+2025-02-25T18:09:59.886041-05:00 kali kernel: ACPI: BOOT 0x00000000BFEEEC6D 000028 (v01 PTLTD  $SBFTBL$ 06040000  LTP 00000001)
+2025-02-25T18:09:59.886041-05:00 kali kernel: ACPI: APIC 0x00000000BFEEEC0F 00005E (v01 PTLTD  ? APIC   06040000  LTP 00000000)
+2025-02-25T18:09:59.886041-05:00 kali kernel: ACPI: MCFG 0x00000000BFEEEBD3 00003C (v01 PTLTD  $PCITBL$ 06040000  LTP 00000001)
+2025-02-25T18:09:59.886045-05:00 kali kernel: ACPI: SRAT 0x00000000BFEEEB0B 0000C8 (v02 VMWARE MEMPLUG  06040000 VMW  00000001)
+2025-02-25T18:09:59.886045-05:00 kali kernel: ACPI: HPET 0x00000000BFEEEAD3 000038 (v01 VMWARE VMW HPET 06040000 VMW  00000001)
+2025-02-25T18:09:59.886046-05:00 kali kernel: ACPI: WAET 0x00000000BFEEEAAB 000028 (v01 VMWARE VMW WAET 06040000 VMW  00000001)
+2025-02-25T18:09:59.886046-05:00 kali kernel: ACPI: Reserving FACP table memory at [mem 0xbfefee73-0xbfefef66]
+2025-02-25T18:09:59.886046-05:00 kali kernel: ACPI: Reserving DSDT table memory at [mem 0xbfeeec95-0xbfefee72]
+2025-02-25T18:09:59.886047-05:00 kali kernel: ACPI: Reserving FACS table memory at [mem 0xbfefffc0-0xbfefffff]
+2025-02-25T18:09:59.886050-05:00 kali kernel: ACPI: Reserving FACS table memory at [mem 0xbfefffc0-0xbfefffff]
+2025-02-25T18:09:59.886050-05:00 kali kernel: ACPI: Reserving BOOT table memory at [mem 0xbfeeec6d-0xbfeeec94]
+2025-02-25T18:09:59.886050-05:00 kali kernel: ACPI: Reserving APIC table memory at [mem 0xbfeeec0f-0xbfeeec6c]
+2025-02-25T18:09:59.886051-05:00 kali kernel: ACPI: Reserving MCFG table memory at [mem 0xbfeeebd3-0xbfeeec0e]
+2025-02-25T18:09:59.886051-05:00 kali kernel: ACPI: Reserving SRAT table memory at [mem 0xbfeeeb0b-0xbfeeebd2]
+2025-02-25T18:09:59.886052-05:00 kali kernel: ACPI: Reserving HPET table memory at [mem 0xbfeeead3-0xbfeeeb0a]
+2025-02-25T18:09:59.886054-05:00 kali kernel: ACPI: Reserving WAET table memory at [mem 0xbfeeeaab-0xbfeeead2]
+2025-02-25T18:09:59.886055-05:00 kali kernel: SRAT: PXM 0 -> APIC 0x00 -> Node 0
+2025-02-25T18:09:59.886055-05:00 kali kernel: SRAT: PXM 0 -> APIC 0x01 -> Node 0
+2025-02-25T18:09:59.886056-05:00 kali kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x00000000-0x0009ffff]
+2025-02-25T18:09:59.886056-05:00 kali kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x00100000-0xbfffffff]
+2025-02-25T18:09:59.886057-05:00 kali kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x100000000-0x13fffffff]
+2025-02-25T18:09:59.886057-05:00 kali kernel: NUMA: Node 0 [mem 0x00000000-0x0009ffff] + [mem 0x00100000-0xbfffffff] -> [mem 0x00000000-0xbfffffff]
+2025-02-25T18:09:59.886060-05:00 kali kernel: NUMA: Node 0 [mem 0x00000000-0xbfffffff] + [mem 0x100000000-0x13fffffff] -> [mem 0x00000000-0x13fffffff]
+2025-02-25T18:09:59.886061-05:00 kali kernel: NODE_DATA(0) allocated [mem 0x13ffd3000-0x13fffdfff]
+2025-02-25T18:09:59.886061-05:00 kali kernel: Zone ranges:
+2025-02-25T18:09:59.886062-05:00 kali kernel:   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+2025-02-25T18:09:59.886062-05:00 kali kernel:   DMA32    [mem 0x0000000001000000-0x00000000ffffffff]
+2025-02-25T18:09:59.886063-05:00 kali kernel:   Normal   [mem 0x0000000100000000-0x000000013fffffff]
+2025-02-25T18:09:59.886066-05:00 kali kernel:   Device   empty
+2025-02-25T18:09:59.886067-05:00 kali kernel: Movable zone start for each node
+2025-02-25T18:09:59.886067-05:00 kali kernel: Early memory node ranges
+2025-02-25T18:09:59.886068-05:00 kali kernel:   node   0: [mem 0x0000000000001000-0x000000000009efff]
+2025-02-25T18:09:59.886068-05:00 kali kernel:   node   0: [mem 0x0000000000100000-0x00000000bfedffff]
+2025-02-25T18:09:59.886068-05:00 kali kernel:   node   0: [mem 0x00000000bff00000-0x00000000bfffffff]
+2025-02-25T18:09:59.886071-05:00 kali kernel:   node   0: [mem 0x0000000100000000-0x000000013fffffff]
+2025-02-25T18:09:59.886072-05:00 kali kernel: Initmem setup node 0 [mem 0x0000000000001000-0x000000013fffffff]
+2025-02-25T18:09:59.886072-05:00 kali kernel: On node 0, zone DMA: 1 pages in unavailable ranges
+2025-02-25T18:09:59.886072-05:00 kali kernel: On node 0, zone DMA: 97 pages in unavailable ranges
+2025-02-25T18:09:59.886073-05:00 kali kernel: On node 0, zone DMA32: 32 pages in unavailable ranges
+2025-02-25T18:09:59.886073-05:00 kali kernel: ACPI: PM-Timer IO Port: 0x1008
+2025-02-25T18:09:59.886074-05:00 kali kernel: ACPI: LAPIC_NMI (acpi_id[0x00] high edge lint[0x1])
+2025-02-25T18:09:59.886077-05:00 kali kernel: ACPI: LAPIC_NMI (acpi_id[0x01] high edge lint[0x1])
+2025-02-25T18:09:59.886077-05:00 kali kernel: IOAPIC[0]: apic_id 2, version 32, address 0xfec00000, GSI 0-23
+2025-02-25T18:09:59.886077-05:00 kali kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 high edge)
+2025-02-25T18:09:59.886078-05:00 kali kernel: ACPI: Using ACPI (MADT) for SMP configuration information
+2025-02-25T18:09:59.886078-05:00 kali kernel: ACPI: HPET id: 0x8086af01 base: 0xfed00000
+2025-02-25T18:09:59.886079-05:00 kali kernel: TSC deadline timer available
+2025-02-25T18:09:59.886082-05:00 kali kernel: smpboot: Allowing 2 CPUs, 0 hotplug CPUs
+2025-02-25T18:09:59.886082-05:00 kali kernel: PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+2025-02-25T18:09:59.886083-05:00 kali kernel: PM: hibernation: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+2025-02-25T18:09:59.886083-05:00 kali kernel: PM: hibernation: Registered nosave memory: [mem 0x000a0000-0x000dbfff]
+2025-02-25T18:09:59.886083-05:00 kali kernel: PM: hibernation: Registered nosave memory: [mem 0x000dc000-0x000fffff]
+2025-02-25T18:09:59.886084-05:00 kali kernel: PM: hibernation: Registered nosave memory: [mem 0xbfee0000-0xbfefefff]
+2025-02-25T18:09:59.886089-05:00 kali kernel: PM: hibernation: Registered nosave memory: [mem 0xbfeff000-0xbfefffff]
+2025-02-25T18:09:59.886089-05:00 kali kernel: PM: hibernation: Registered nosave memory: [mem 0xc0000000-0xefffffff]
+2025-02-25T18:09:59.886089-05:00 kali kernel: PM: hibernation: Registered nosave memory: [mem 0xf0000000-0xf7ffffff]
+2025-02-25T18:09:59.886090-05:00 kali kernel: PM: hibernation: Registered nosave memory: [mem 0xf8000000-0xfebfffff]
+2025-02-25T18:09:59.886090-05:00 kali kernel: PM: hibernation: Registered nosave memory: [mem 0xfec00000-0xfec0ffff]
+2025-02-25T18:09:59.886091-05:00 kali kernel: PM: hibernation: Registered nosave memory: [mem 0xfec10000-0xfedfffff]
+2025-02-25T18:09:59.886091-05:00 kali kernel: PM: hibernation: Registered nosave memory: [mem 0xfee00000-0xfee00fff]
+2025-02-25T18:09:59.886094-05:00 kali kernel: PM: hibernation: Registered nosave memory: [mem 0xfee01000-0xfffdffff]
+2025-02-25T18:09:59.886165-05:00 kali kernel: PM: hibernation: Registered nosave memory: [mem 0xfffe0000-0xffffffff]
+2025-02-25T18:09:59.886165-05:00 kali kernel: [mem 0xc0000000-0xefffffff] available for PCI devices
+2025-02-25T18:09:59.886166-05:00 kali kernel: Booting paravirtualized kernel on VMware hypervisor
+2025-02-25T18:09:59.886166-05:00 kali kernel: clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+2025-02-25T18:09:59.886167-05:00 kali kernel: setup_percpu: NR_CPUS:8192 nr_cpumask_bits:2 nr_cpu_ids:2 nr_node_ids:1
+2025-02-25T18:09:59.886169-05:00 kali kernel: percpu: Embedded 64 pages/cpu s225280 r8192 d28672 u1048576
+2025-02-25T18:09:59.886170-05:00 kali kernel: pcpu-alloc: s225280 r8192 d28672 u1048576 alloc=1*2097152
+2025-02-25T18:09:59.886170-05:00 kali kernel: pcpu-alloc: [0] 0 1 
+2025-02-25T18:09:59.886171-05:00 kali kernel: Kernel command line: BOOT_IMAGE=/boot/vmlinuz-6.8.11-amd64 root=UUID=87a1ca46-dabc-443c-b181-d9961a9b420f ro quiet splash
+2025-02-25T18:09:59.886171-05:00 kali kernel: Unknown kernel command line parameters "splash BOOT_IMAGE=/boot/vmlinuz-6.8.11-amd64", will be passed to user space.
+2025-02-25T18:09:59.886172-05:00 kali kernel: random: crng init done
+2025-02-25T18:09:59.886175-05:00 kali kernel: Dentry cache hash table entries: 524288 (order: 10, 4194304 bytes, linear)
+2025-02-25T18:09:59.886175-05:00 kali kernel: Inode-cache hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+2025-02-25T18:09:59.886176-05:00 kali kernel: Fallback order for Node 0: 0 
+2025-02-25T18:09:59.886176-05:00 kali kernel: Built 1 zonelists, mobility grouping on.  Total pages: 1031904
+2025-02-25T18:09:59.886177-05:00 kali kernel: Policy zone: Normal
+2025-02-25T18:09:59.886177-05:00 kali kernel: mem auto-init: stack:all(zero), heap alloc:on, heap free:off
+2025-02-25T18:09:59.886180-05:00 kali kernel: software IO TLB: area num 2.
+2025-02-25T18:09:59.886180-05:00 kali kernel: Memory: 3086676K/4193784K available (16384K kernel code, 2368K rwdata, 10760K rodata, 4028K init, 5548K bss, 262564K reserved, 0K cma-reserved)
+2025-02-25T18:09:59.886181-05:00 kali kernel: SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+2025-02-25T18:09:59.886181-05:00 kali kernel: Kernel/User page tables isolation: enabled
+2025-02-25T18:09:59.886182-05:00 kali kernel: ftrace: allocating 43653 entries in 171 pages
+2025-02-25T18:09:59.886182-05:00 kali kernel: ftrace: allocated 171 pages with 5 groups
+2025-02-25T18:09:59.886183-05:00 kali kernel: Dynamic Preempt: voluntary
+2025-02-25T18:09:59.886185-05:00 kali kernel: rcu: Preemptible hierarchical RCU implementation.
+2025-02-25T18:09:59.886186-05:00 kali kernel: rcu: 	RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=2.
+2025-02-25T18:09:59.886186-05:00 kali kernel: 	Trampoline variant of Tasks RCU enabled.
+2025-02-25T18:09:59.886187-05:00 kali kernel: 	Rude variant of Tasks RCU enabled.
+2025-02-25T18:09:59.886187-05:00 kali kernel: 	Tracing variant of Tasks RCU enabled.
+2025-02-25T18:09:59.886188-05:00 kali kernel: rcu: RCU calculated value of scheduler-enlistment delay is 25 jiffies.
+2025-02-25T18:09:59.886190-05:00 kali kernel: rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=2
+2025-02-25T18:09:59.886191-05:00 kali kernel: NR_IRQS: 524544, nr_irqs: 440, preallocated irqs: 16
+2025-02-25T18:09:59.886191-05:00 kali kernel: rcu: srcu_init: Setting srcu_struct sizes based on contention.
+2025-02-25T18:09:59.886191-05:00 kali kernel: Console: colour VGA+ 80x25
+2025-02-25T18:09:59.886192-05:00 kali kernel: printk: legacy console [tty0] enabled
+2025-02-25T18:09:59.886192-05:00 kali kernel: ACPI: Core revision 20230628
+2025-02-25T18:09:59.886195-05:00 kali kernel: clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 133484882848 ns
+2025-02-25T18:09:59.886196-05:00 kali kernel: APIC: Switch to symmetric I/O mode setup
+2025-02-25T18:09:59.886196-05:00 kali kernel: x2apic enabled
+2025-02-25T18:09:59.886197-05:00 kali kernel: APIC: Switched APIC routing to: physical x2apic
+2025-02-25T18:09:59.886197-05:00 kali kernel: ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+2025-02-25T18:09:59.886197-05:00 kali kernel: clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x39a85afc727, max_idle_ns: 881590685098 ns
+2025-02-25T18:09:59.886198-05:00 kali kernel: Calibrating delay loop (skipped) preset value.. 3999.99 BogoMIPS (lpj=7999999)
+2025-02-25T18:09:59.886201-05:00 kali kernel: Disabled fast string operations
+2025-02-25T18:09:59.886201-05:00 kali kernel: Last level iTLB entries: 4KB 64, 2MB 8, 4MB 8
+2025-02-25T18:09:59.886202-05:00 kali kernel: Last level dTLB entries: 4KB 64, 2MB 0, 4MB 0, 1GB 4
+2025-02-25T18:09:59.886202-05:00 kali kernel: Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+2025-02-25T18:09:59.886202-05:00 kali kernel: Spectre V2 : Spectre BHI mitigation: SW BHB clearing on vm exit
+2025-02-25T18:09:59.886203-05:00 kali kernel: Spectre V2 : Spectre BHI mitigation: SW BHB clearing on syscall
+2025-02-25T18:09:59.886206-05:00 kali kernel: Spectre V2 : Mitigation: IBRS
+2025-02-25T18:09:59.886206-05:00 kali kernel: Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+2025-02-25T18:09:59.886206-05:00 kali kernel: Spectre V2 : Spectre v2 / SpectreRSB : Filling RSB on VMEXIT
+2025-02-25T18:09:59.886207-05:00 kali kernel: RETBleed: Mitigation: IBRS
+2025-02-25T18:09:59.886207-05:00 kali kernel: Spectre V2 : mitigation: Enabling conditional Indirect Branch Prediction Barrier
+2025-02-25T18:09:59.886208-05:00 kali kernel: Speculative Store Bypass: Mitigation: Speculative Store Bypass disabled via prctl
+2025-02-25T18:09:59.886223-05:00 kali kernel: MDS: Mitigation: Clear CPU buffers
+2025-02-25T18:09:59.886223-05:00 kali kernel: MMIO Stale Data: Mitigation: Clear CPU buffers
+2025-02-25T18:09:59.886224-05:00 kali kernel: GDS: Unknown: Dependent on hypervisor status
+2025-02-25T18:09:59.886224-05:00 kali kernel: x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+2025-02-25T18:09:59.886225-05:00 kali kernel: x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+2025-02-25T18:09:59.886225-05:00 kali kernel: x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+2025-02-25T18:09:59.886225-05:00 kali kernel: x86/fpu: Supporting XSAVE feature 0x020: 'AVX-512 opmask'
+2025-02-25T18:09:59.886228-05:00 kali kernel: x86/fpu: Supporting XSAVE feature 0x040: 'AVX-512 Hi256'
+2025-02-25T18:09:59.886229-05:00 kali kernel: x86/fpu: Supporting XSAVE feature 0x080: 'AVX-512 ZMM_Hi256'
+2025-02-25T18:09:59.886229-05:00 kali kernel: x86/fpu: Supporting XSAVE feature 0x200: 'Protection Keys User registers'
+2025-02-25T18:09:59.886229-05:00 kali kernel: x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+2025-02-25T18:09:59.886230-05:00 kali kernel: x86/fpu: xstate_offset[5]:  832, xstate_sizes[5]:   64
+2025-02-25T18:09:59.886230-05:00 kali kernel: x86/fpu: xstate_offset[6]:  896, xstate_sizes[6]:  512
+2025-02-25T18:09:59.886233-05:00 kali kernel: x86/fpu: xstate_offset[7]: 1408, xstate_sizes[7]: 1024
+2025-02-25T18:09:59.886234-05:00 kali kernel: x86/fpu: xstate_offset[9]: 2432, xstate_sizes[9]:    8
+2025-02-25T18:09:59.886234-05:00 kali kernel: x86/fpu: Enabled xstate features 0x2e7, context size is 2440 bytes, using 'compacted' format.
+2025-02-25T18:09:59.886235-05:00 kali kernel: Freeing SMP alternatives memory: 36K
+2025-02-25T18:09:59.886235-05:00 kali kernel: pid_max: default: 32768 minimum: 301
+2025-02-25T18:09:59.886236-05:00 kali kernel: LSM: initializing lsm=lockdown,capability,landlock,yama,apparmor,tomoyo,bpf,integrity
+2025-02-25T18:09:59.886236-05:00 kali kernel: landlock: Up and running.
+2025-02-25T18:09:59.886239-05:00 kali kernel: Yama: disabled by default; enable with sysctl kernel.yama.*
+2025-02-25T18:09:59.886240-05:00 kali kernel: AppArmor: AppArmor initialized
+2025-02-25T18:09:59.886240-05:00 kali kernel: TOMOYO Linux initialized
+2025-02-25T18:09:59.886240-05:00 kali kernel: LSM support for eBPF active
+2025-02-25T18:09:59.886241-05:00 kali kernel: Mount-cache hash table entries: 8192 (order: 4, 65536 bytes, linear)
+2025-02-25T18:09:59.886241-05:00 kali kernel: Mountpoint-cache hash table entries: 8192 (order: 4, 65536 bytes, linear)
+2025-02-25T18:09:59.886244-05:00 kali kernel: smpboot: CPU0: Intel(R) Xeon(R) Gold 6138 CPU @ 2.00GHz (family: 0x6, model: 0x55, stepping: 0x4)
+2025-02-25T18:09:59.886245-05:00 kali kernel: RCU Tasks: Setting shift to 1 and lim to 1 rcu_task_cb_adjust=1.
+2025-02-25T18:09:59.886245-05:00 kali kernel: RCU Tasks Rude: Setting shift to 1 and lim to 1 rcu_task_cb_adjust=1.
+2025-02-25T18:09:59.886246-05:00 kali kernel: RCU Tasks Trace: Setting shift to 1 and lim to 1 rcu_task_cb_adjust=1.
+2025-02-25T18:09:59.886246-05:00 kali kernel: Performance Events: Skylake events, core PMU driver.
+2025-02-25T18:09:59.886246-05:00 kali kernel: core: CPUID marked event: 'cpu cycles' unavailable
+2025-02-25T18:09:59.886251-05:00 kali kernel: core: CPUID marked event: 'instructions' unavailable
+2025-02-25T18:09:59.886252-05:00 kali kernel: core: CPUID marked event: 'bus cycles' unavailable
+2025-02-25T18:09:59.886252-05:00 kali kernel: core: CPUID marked event: 'cache references' unavailable
+2025-02-25T18:09:59.886252-05:00 kali kernel: core: CPUID marked event: 'cache misses' unavailable
+2025-02-25T18:09:59.886253-05:00 kali kernel: core: CPUID marked event: 'branch instructions' unavailable
+2025-02-25T18:09:59.886253-05:00 kali kernel: core: CPUID marked event: 'branch misses' unavailable
+2025-02-25T18:09:59.886254-05:00 kali kernel: ... version:                1
+2025-02-25T18:09:59.886257-05:00 kali kernel: ... bit width:              48
+2025-02-25T18:09:59.886257-05:00 kali kernel: ... generic registers:      4
+2025-02-25T18:09:59.886258-05:00 kali kernel: ... value mask:             0000ffffffffffff
+2025-02-25T18:09:59.886258-05:00 kali kernel: ... max period:             000000007fffffff
+2025-02-25T18:09:59.886258-05:00 kali kernel: ... fixed-purpose events:   0
+2025-02-25T18:09:59.886259-05:00 kali kernel: ... event mask:             000000000000000f
+2025-02-25T18:09:59.886271-05:00 kali kernel: signal: max sigframe size: 3632
+2025-02-25T18:09:59.886271-05:00 kali kernel: rcu: Hierarchical SRCU implementation.
+2025-02-25T18:09:59.886272-05:00 kali kernel: rcu: 	Max phase no-delay instances is 1000.
+2025-02-25T18:09:59.886272-05:00 kali kernel: NMI watchdog: Perf NMI watchdog permanently disabled
+2025-02-25T18:09:59.886273-05:00 kali kernel: smp: Bringing up secondary CPUs ...
+2025-02-25T18:09:59.886273-05:00 kali kernel: smpboot: x86: Booting SMP configuration:
+2025-02-25T18:09:59.886276-05:00 kali kernel: .... node  #0, CPUs:      #1
+2025-02-25T18:09:59.886279-05:00 kali kernel: Disabled fast string operations
+2025-02-25T18:09:59.886280-05:00 kali kernel: smp: Brought up 1 node, 2 CPUs
+2025-02-25T18:09:59.886280-05:00 kali kernel: smpboot: Max logical packages: 1
+2025-02-25T18:09:59.886280-05:00 kali kernel: smpboot: Total of 2 processors activated (7999.99 BogoMIPS)
+2025-02-25T18:09:59.886281-05:00 kali kernel: node 0 deferred pages initialised in 4ms
+2025-02-25T18:09:59.886281-05:00 kali kernel: devtmpfs: initialized
+2025-02-25T18:09:59.886346-05:00 kali kernel: x86/mm: Memory block size: 128MB
+2025-02-25T18:09:59.886347-05:00 kali kernel: ACPI: PM: Registering ACPI NVS region [mem 0xbfeff000-0xbfefffff] (4096 bytes)
+2025-02-25T18:09:59.886347-05:00 kali kernel: clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+2025-02-25T18:09:59.886348-05:00 kali kernel: futex hash table entries: 512 (order: 3, 32768 bytes, linear)
+2025-02-25T18:09:59.886348-05:00 kali kernel: pinctrl core: initialized pinctrl subsystem
+2025-02-25T18:09:59.886349-05:00 kali kernel: NET: Registered PF_NETLINK/PF_ROUTE protocol family
+2025-02-25T18:09:59.886354-05:00 kali kernel: DMA: preallocated 512 KiB GFP_KERNEL pool for atomic allocations
+2025-02-25T18:09:59.886354-05:00 kali kernel: DMA: preallocated 512 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+2025-02-25T18:09:59.886354-05:00 kali kernel: DMA: preallocated 512 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+2025-02-25T18:09:59.886355-05:00 kali kernel: audit: initializing netlink subsys (disabled)
+2025-02-25T18:09:59.886355-05:00 kali kernel: audit: type=2000 audit(1740524994.036:1): state=initialized audit_enabled=0 res=1
+2025-02-25T18:09:59.886356-05:00 kali kernel: thermal_sys: Registered thermal governor 'fair_share'
+2025-02-25T18:09:59.886356-05:00 kali kernel: thermal_sys: Registered thermal governor 'bang_bang'
+2025-02-25T18:09:59.886361-05:00 kali kernel: thermal_sys: Registered thermal governor 'step_wise'
+2025-02-25T18:09:59.886361-05:00 kali kernel: thermal_sys: Registered thermal governor 'user_space'
+2025-02-25T18:09:59.886362-05:00 kali kernel: thermal_sys: Registered thermal governor 'power_allocator'
+2025-02-25T18:09:59.886362-05:00 kali kernel: cpuidle: using governor ladder
+2025-02-25T18:09:59.886363-05:00 kali kernel: cpuidle: using governor menu
+2025-02-25T18:09:59.886363-05:00 kali kernel: Simple Boot Flag at 0x36 set to 0x80
+2025-02-25T18:09:59.886368-05:00 kali kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+2025-02-25T18:09:59.886368-05:00 kali kernel: PCI: ECAM [mem 0xf0000000-0xf7ffffff] (base 0xf0000000) for domain 0000 [bus 00-7f]
+2025-02-25T18:09:59.886369-05:00 kali kernel: PCI: ECAM [mem 0xf0000000-0xf7ffffff] reserved as E820 entry
+2025-02-25T18:09:59.886369-05:00 kali kernel: PCI: Using configuration type 1 for base access
+2025-02-25T18:09:59.886369-05:00 kali kernel: kprobes: kprobe jump-optimization is enabled. All kprobes are optimized if possible.
+2025-02-25T18:09:59.886370-05:00 kali kernel: HugeTLB: registered 1.00 GiB page size, pre-allocated 0 pages
+2025-02-25T18:09:59.886372-05:00 kali kernel: HugeTLB: 16380 KiB vmemmap can be freed for a 1.00 GiB page
+2025-02-25T18:09:59.886375-05:00 kali kernel: HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+2025-02-25T18:09:59.886375-05:00 kali kernel: HugeTLB: 28 KiB vmemmap can be freed for a 2.00 MiB page
+2025-02-25T18:09:59.886376-05:00 kali kernel: ACPI: Added _OSI(Module Device)
+2025-02-25T18:09:59.886376-05:00 kali kernel: ACPI: Added _OSI(Processor Device)
+2025-02-25T18:09:59.886377-05:00 kali kernel: ACPI: Added _OSI(3.0 _SCP Extensions)
+2025-02-25T18:09:59.886377-05:00 kali kernel: ACPI: Added _OSI(Processor Aggregator Device)
+2025-02-25T18:09:59.886382-05:00 kali kernel: ACPI: 1 ACPI AML tables successfully acquired and loaded
+2025-02-25T18:09:59.886382-05:00 kali kernel: ACPI: [Firmware Bug]: BIOS _OSI(Linux) query ignored
+2025-02-25T18:09:59.886383-05:00 kali kernel: ACPI: _OSC evaluation for CPUs failed, trying _PDC
+2025-02-25T18:09:59.886383-05:00 kali kernel: ACPI: Interpreter enabled
+2025-02-25T18:09:59.886384-05:00 kali kernel: ACPI: PM: (supports S0 S1 S4 S5)
+2025-02-25T18:09:59.886384-05:00 kali kernel: ACPI: Using IOAPIC for interrupt routing
+2025-02-25T18:09:59.886389-05:00 kali kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+2025-02-25T18:09:59.886390-05:00 kali kernel: PCI: Using E820 reservations for host bridge windows
+2025-02-25T18:09:59.886390-05:00 kali kernel: ACPI: Enabled 4 GPEs in block 00 to 0F
+2025-02-25T18:09:59.886390-05:00 kali kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-7f])
+2025-02-25T18:09:59.886391-05:00 kali kernel: acpi PNP0A03:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI HPX-Type3]
+2025-02-25T18:09:59.886391-05:00 kali kernel: acpi PNP0A03:00: _OSC: platform does not support [AER LTR]
+2025-02-25T18:09:59.886392-05:00 kali kernel: acpi PNP0A03:00: _OSC: OS now controls [PCIeHotplug SHPCHotplug PME PCIeCapability]
+2025-02-25T18:09:59.886397-05:00 kali kernel: PCI host bridge to bus 0000:00
+2025-02-25T18:09:59.886397-05:00 kali kernel: pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+2025-02-25T18:09:59.886397-05:00 kali kernel: pci_bus 0000:00: root bus resource [mem 0x000cc000-0x000dbfff window]
+2025-02-25T18:09:59.886398-05:00 kali kernel: pci_bus 0000:00: root bus resource [mem 0xc0000000-0xfebfffff window]
+2025-02-25T18:09:59.886398-05:00 kali kernel: pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+2025-02-25T18:09:59.886399-05:00 kali kernel: pci_bus 0000:00: root bus resource [io  0x0d00-0xfeff window]
+2025-02-25T18:09:59.886404-05:00 kali kernel: pci_bus 0000:00: root bus resource [bus 00-7f]
+2025-02-25T18:09:59.886404-05:00 kali kernel: pci 0000:00:00.0: [8086:7190] type 00 class 0x060000 conventional PCI endpoint
+2025-02-25T18:09:59.886404-05:00 kali kernel: pci 0000:00:01.0: [8086:7191] type 01 class 0x060400 conventional PCI bridge
+2025-02-25T18:09:59.886405-05:00 kali kernel: pci 0000:00:01.0: PCI bridge to [bus 01]
+2025-02-25T18:09:59.886413-05:00 kali kernel: pci 0000:00:07.0: [8086:7110] type 00 class 0x060100 conventional PCI endpoint
+2025-02-25T18:09:59.886414-05:00 kali kernel: pci 0000:00:07.1: [8086:7111] type 00 class 0x01018a conventional PCI endpoint
+2025-02-25T18:09:59.886416-05:00 kali kernel: pci 0000:00:07.1: BAR 4 [io  0x1060-0x106f]
+2025-02-25T18:09:59.886419-05:00 kali kernel: pci 0000:00:07.1: BAR 0 [io  0x01f0-0x01f7]: legacy IDE quirk
+2025-02-25T18:09:59.886420-05:00 kali kernel: pci 0000:00:07.1: BAR 1 [io  0x03f6]: legacy IDE quirk
+2025-02-25T18:09:59.886420-05:00 kali kernel: pci 0000:00:07.1: BAR 2 [io  0x0170-0x0177]: legacy IDE quirk
+2025-02-25T18:09:59.886420-05:00 kali kernel: pci 0000:00:07.1: BAR 3 [io  0x0376]: legacy IDE quirk
+2025-02-25T18:09:59.886421-05:00 kali kernel: pci 0000:00:07.3: [8086:7113] type 00 class 0x068000 conventional PCI endpoint
+2025-02-25T18:09:59.886421-05:00 kali kernel: pci 0000:00:07.3: quirk: [io  0x1000-0x103f] claimed by PIIX4 ACPI
+2025-02-25T18:09:59.886426-05:00 kali kernel: pci 0000:00:07.3: quirk: [io  0x1040-0x104f] claimed by PIIX4 SMB
+2025-02-25T18:09:59.886427-05:00 kali kernel: pci 0000:00:07.7: [15ad:0740] type 00 class 0x088000 conventional PCI endpoint
+2025-02-25T18:09:59.886427-05:00 kali kernel: pci 0000:00:07.7: BAR 0 [io  0x1080-0x10bf]
+2025-02-25T18:09:59.886428-05:00 kali kernel: pci 0000:00:07.7: BAR 1 [mem 0xfebfe000-0xfebfffff 64bit]
+2025-02-25T18:09:59.886428-05:00 kali kernel: pci 0000:00:0f.0: [15ad:0405] type 00 class 0x030000 conventional PCI endpoint
+2025-02-25T18:09:59.886429-05:00 kali kernel: pci 0000:00:0f.0: BAR 0 [io  0x1070-0x107f]
+2025-02-25T18:09:59.886435-05:00 kali kernel: pci 0000:00:0f.0: BAR 1 [mem 0xe8000000-0xefffffff pref]
+2025-02-25T18:09:59.886436-05:00 kali kernel: pci 0000:00:0f.0: BAR 2 [mem 0xfe000000-0xfe7fffff]
+2025-02-25T18:09:59.886436-05:00 kali kernel: pci 0000:00:0f.0: ROM [mem 0x00000000-0x00007fff pref]
+2025-02-25T18:09:59.886437-05:00 kali kernel: pci 0000:00:0f.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+2025-02-25T18:09:59.886437-05:00 kali kernel: pci 0000:00:10.0: [1000:0030] type 00 class 0x010000 conventional PCI endpoint
+2025-02-25T18:09:59.886438-05:00 kali kernel: pci 0000:00:10.0: BAR 0 [io  0x1400-0x14ff]
+2025-02-25T18:09:59.886438-05:00 kali kernel: pci 0000:00:10.0: BAR 1 [mem 0xfeba0000-0xfebbffff 64bit]
+2025-02-25T18:09:59.886443-05:00 kali kernel: pci 0000:00:10.0: BAR 3 [mem 0xfebc0000-0xfebdffff 64bit]
+2025-02-25T18:09:59.886444-05:00 kali kernel: pci 0000:00:10.0: ROM [mem 0x00000000-0x00003fff pref]
+2025-02-25T18:09:59.886444-05:00 kali kernel: pci 0000:00:11.0: [15ad:0790] type 01 class 0x060401 conventional PCI bridge
+2025-02-25T18:09:59.886444-05:00 kali kernel: pci 0000:00:11.0: PCI bridge to [bus 02] (subtractive decode)
+2025-02-25T18:09:59.886445-05:00 kali kernel: pci 0000:00:11.0:   bridge window [io  0x2000-0x3fff]
+2025-02-25T18:09:59.886445-05:00 kali kernel: pci 0000:00:11.0:   bridge window [mem 0xfd500000-0xfdffffff]
+2025-02-25T18:09:59.886450-05:00 kali kernel: pci 0000:00:11.0:   bridge window [mem 0xe7b00000-0xe7ffffff 64bit pref]
+2025-02-25T18:09:59.886451-05:00 kali kernel: pci 0000:00:15.0: [15ad:07a0] type 01 class 0x060400 PCIe Root Port
+2025-02-25T18:09:59.886451-05:00 kali kernel: pci 0000:00:15.0: PCI bridge to [bus 03]
+2025-02-25T18:09:59.886452-05:00 kali kernel: pci 0000:00:15.0:   bridge window [io  0x4000-0x4fff]
+2025-02-25T18:09:59.886452-05:00 kali kernel: pci 0000:00:15.0:   bridge window [mem 0xfd400000-0xfd4fffff]
+2025-02-25T18:09:59.886452-05:00 kali kernel: pci 0000:00:15.0:   bridge window [mem 0xe7a00000-0xe7afffff 64bit pref]
+2025-02-25T18:09:59.886455-05:00 kali kernel: pci 0000:00:15.0: PME# supported from D0 D3hot D3cold
+2025-02-25T18:09:59.886458-05:00 kali kernel: pci 0000:00:15.1: [15ad:07a0] type 01 class 0x060400 PCIe Root Port
+2025-02-25T18:09:59.886458-05:00 kali kernel: pci 0000:00:15.1: PCI bridge to [bus 04]
+2025-02-25T18:09:59.886459-05:00 kali kernel: pci 0000:00:15.1:   bridge window [io  0x8000-0x8fff]
+2025-02-25T18:09:59.886459-05:00 kali kernel: pci 0000:00:15.1:   bridge window [mem 0xfd000000-0xfd0fffff]
+2025-02-25T18:09:59.886460-05:00 kali kernel: pci 0000:00:15.1:   bridge window [mem 0xe7600000-0xe76fffff 64bit pref]
+2025-02-25T18:09:59.886460-05:00 kali kernel: pci 0000:00:15.1: PME# supported from D0 D3hot D3cold
+2025-02-25T18:09:59.886465-05:00 kali kernel: pci 0000:00:15.2: [15ad:07a0] type 01 class 0x060400 PCIe Root Port
+2025-02-25T18:09:59.886465-05:00 kali kernel: pci 0000:00:15.2: PCI bridge to [bus 05]
+2025-02-25T18:09:59.886466-05:00 kali kernel: pci 0000:00:15.2:   bridge window [io  0xc000-0xcfff]
+2025-02-25T18:09:59.886466-05:00 kali kernel: pci 0000:00:15.2:   bridge window [mem 0xfcc00000-0xfccfffff]
+2025-02-25T18:09:59.886466-05:00 kali kernel: pci 0000:00:15.2:   bridge window [mem 0xe7200000-0xe72fffff 64bit pref]
+2025-02-25T18:09:59.886467-05:00 kali kernel: pci 0000:00:15.2: PME# supported from D0 D3hot D3cold
+2025-02-25T18:09:59.886472-05:00 kali kernel: pci 0000:00:15.3: [15ad:07a0] type 01 class 0x060400 PCIe Root Port
+2025-02-25T18:09:59.886472-05:00 kali kernel: pci 0000:00:15.3: PCI bridge to [bus 06]
+2025-02-25T18:09:59.886473-05:00 kali kernel: pci 0000:00:15.3:   bridge window [mem 0xfc800000-0xfc8fffff]
+2025-02-25T18:09:59.886533-05:00 kali kernel: pci 0000:00:15.3:   bridge window [mem 0xe6e00000-0xe6efffff 64bit pref]
+2025-02-25T18:09:59.886533-05:00 kali kernel: pci 0000:00:15.3: PME# supported from D0 D3hot D3cold
+2025-02-25T18:09:59.886534-05:00 kali kernel: pci 0000:00:15.4: [15ad:07a0] type 01 class 0x060400 PCIe Root Port
+2025-02-25T18:09:59.886534-05:00 kali kernel: pci 0000:00:15.4: PCI bridge to [bus 07]
+2025-02-25T18:09:59.886539-05:00 kali kernel: pci 0000:00:15.4:   bridge window [mem 0xfc400000-0xfc4fffff]
+2025-02-25T18:09:59.886540-05:00 kali kernel: pci 0000:00:15.4:   bridge window [mem 0xe6a00000-0xe6afffff 64bit pref]
+2025-02-25T18:09:59.886540-05:00 kali kernel: pci 0000:00:15.4: PME# supported from D0 D3hot D3cold
+2025-02-25T18:09:59.886540-05:00 kali kernel: pci 0000:00:15.5: [15ad:07a0] type 01 class 0x060400 PCIe Root Port
+2025-02-25T18:09:59.886541-05:00 kali kernel: pci 0000:00:15.5: PCI bridge to [bus 08]
+2025-02-25T18:09:59.886541-05:00 kali kernel: pci 0000:00:15.5:   bridge window [mem 0xfc000000-0xfc0fffff]
+2025-02-25T18:09:59.886546-05:00 kali kernel: pci 0000:00:15.5:   bridge window [mem 0xe6600000-0xe66fffff 64bit pref]
+2025-02-25T18:09:59.886546-05:00 kali kernel: pci 0000:00:15.5: PME# supported from D0 D3hot D3cold
+2025-02-25T18:09:59.886547-05:00 kali kernel: pci 0000:00:15.6: [15ad:07a0] type 01 class 0x060400 PCIe Root Port
+2025-02-25T18:09:59.886547-05:00 kali kernel: pci 0000:00:15.6: PCI bridge to [bus 09]
+2025-02-25T18:09:59.886548-05:00 kali kernel: pci 0000:00:15.6:   bridge window [mem 0xfbc00000-0xfbcfffff]
+2025-02-25T18:09:59.886548-05:00 kali kernel: pci 0000:00:15.6:   bridge window [mem 0xe6200000-0xe62fffff 64bit pref]
+2025-02-25T18:09:59.886550-05:00 kali kernel: pci 0000:00:15.6: PME# supported from D0 D3hot D3cold
+2025-02-25T18:09:59.886554-05:00 kali kernel: pci 0000:00:15.7: [15ad:07a0] type 01 class 0x060400 PCIe Root Port
+2025-02-25T18:09:59.886554-05:00 kali kernel: pci 0000:00:15.7: PCI bridge to [bus 0a]
+2025-02-25T18:09:59.886554-05:00 kali kernel: pci 0000:00:15.7:   bridge window [mem 0xfb800000-0xfb8fffff]
+2025-02-25T18:09:59.886555-05:00 kali kernel: pci 0000:00:15.7:   bridge window [mem 0xe5e00000-0xe5efffff 64bit pref]
+2025-02-25T18:09:59.886555-05:00 kali kernel: pci 0000:00:15.7: PME# supported from D0 D3hot D3cold
+2025-02-25T18:09:59.886556-05:00 kali kernel: pci 0000:00:16.0: [15ad:07a0] type 01 class 0x060400 PCIe Root Port
+2025-02-25T18:09:59.886560-05:00 kali kernel: pci 0000:00:16.0: PCI bridge to [bus 0b]
+2025-02-25T18:09:59.886561-05:00 kali kernel: pci 0000:00:16.0:   bridge window [io  0x5000-0x5fff]
+2025-02-25T18:09:59.886561-05:00 kali kernel: pci 0000:00:16.0:   bridge window [mem 0xfd300000-0xfd3fffff]
+2025-02-25T18:09:59.886562-05:00 kali kernel: pci 0000:00:16.0:   bridge window [mem 0xe7900000-0xe79fffff 64bit pref]
+2025-02-25T18:09:59.886562-05:00 kali kernel: pci 0000:00:16.0: PME# supported from D0 D3hot D3cold
+2025-02-25T18:09:59.886562-05:00 kali kernel: pci 0000:00:16.1: [15ad:07a0] type 01 class 0x060400 PCIe Root Port
+2025-02-25T18:09:59.886567-05:00 kali kernel: pci 0000:00:16.1: PCI bridge to [bus 0c]
+2025-02-25T18:09:59.886568-05:00 kali kernel: pci 0000:00:16.1:   bridge window [io  0x9000-0x9fff]
+2025-02-25T18:09:59.886568-05:00 kali kernel: pci 0000:00:16.1:   bridge window [mem 0xfcf00000-0xfcffffff]
+2025-02-25T18:09:59.886569-05:00 kali kernel: pci 0000:00:16.1:   bridge window [mem 0xe7500000-0xe75fffff 64bit pref]
+2025-02-25T18:09:59.886569-05:00 kali kernel: pci 0000:00:16.1: PME# supported from D0 D3hot D3cold
+2025-02-25T18:09:59.886569-05:00 kali kernel: pci 0000:00:16.2: [15ad:07a0] type 01 class 0x060400 PCIe Root Port
+2025-02-25T18:09:59.886570-05:00 kali kernel: pci 0000:00:16.2: PCI bridge to [bus 0d]
+2025-02-25T18:09:59.886575-05:00 kali kernel: pci 0000:00:16.2:   bridge window [io  0xd000-0xdfff]
+2025-02-25T18:09:59.886575-05:00 kali kernel: pci 0000:00:16.2:   bridge window [mem 0xfcb00000-0xfcbfffff]
+2025-02-25T18:09:59.886576-05:00 kali kernel: pci 0000:00:16.2:   bridge window [mem 0xe7100000-0xe71fffff 64bit pref]
+2025-02-25T18:09:59.886576-05:00 kali kernel: pci 0000:00:16.2: PME# supported from D0 D3hot D3cold
+2025-02-25T18:09:59.886577-05:00 kali kernel: pci 0000:00:16.3: [15ad:07a0] type 01 class 0x060400 PCIe Root Port
+2025-02-25T18:09:59.886577-05:00 kali kernel: pci 0000:00:16.3: PCI bridge to [bus 0e]
+2025-02-25T18:09:59.886582-05:00 kali kernel: pci 0000:00:16.3:   bridge window [mem 0xfc700000-0xfc7fffff]
+2025-02-25T18:09:59.886582-05:00 kali kernel: pci 0000:00:16.3:   bridge window [mem 0xe6d00000-0xe6dfffff 64bit pref]
+2025-02-25T18:09:59.886583-05:00 kali kernel: pci 0000:00:16.3: PME# supported from D0 D3hot D3cold
+2025-02-25T18:09:59.886583-05:00 kali kernel: pci 0000:00:16.4: [15ad:07a0] type 01 class 0x060400 PCIe Root Port
+2025-02-25T18:09:59.886583-05:00 kali kernel: pci 0000:00:16.4: PCI bridge to [bus 0f]
+2025-02-25T18:09:59.886584-05:00 kali kernel: pci 0000:00:16.4:   bridge window [mem 0xfc300000-0xfc3fffff]
+2025-02-25T18:09:59.886586-05:00 kali kernel: pci 0000:00:16.4:   bridge window [mem 0xe6900000-0xe69fffff 64bit pref]
+2025-02-25T18:09:59.886589-05:00 kali kernel: pci 0000:00:16.4: PME# supported from D0 D3hot D3cold
+2025-02-25T18:09:59.886589-05:00 kali kernel: pci 0000:00:16.5: [15ad:07a0] type 01 class 0x060400 PCIe Root Port
+2025-02-25T18:09:59.886590-05:00 kali kernel: pci 0000:00:16.5: PCI bridge to [bus 10]
+2025-02-25T18:09:59.886590-05:00 kali kernel: pci 0000:00:16.5:   bridge window [mem 0xfbf00000-0xfbffffff]
+2025-02-25T18:09:59.886591-05:00 kali kernel: pci 0000:00:16.5:   bridge window [mem 0xe6500000-0xe65fffff 64bit pref]
+2025-02-25T18:09:59.886591-05:00 kali kernel: pci 0000:00:16.5: PME# supported from D0 D3hot D3cold
+2025-02-25T18:09:59.886596-05:00 kali kernel: pci 0000:00:16.6: [15ad:07a0] type 01 class 0x060400 PCIe Root Port
+2025-02-25T18:09:59.886596-05:00 kali kernel: pci 0000:00:16.6: PCI bridge to [bus 11]
+2025-02-25T18:09:59.886597-05:00 kali kernel: pci 0000:00:16.6:   bridge window [mem 0xfbb00000-0xfbbfffff]
+2025-02-25T18:09:59.886597-05:00 kali kernel: pci 0000:00:16.6:   bridge window [mem 0xe6100000-0xe61fffff 64bit pref]
+2025-02-25T18:09:59.886597-05:00 kali kernel: pci 0000:00:16.6: PME# supported from D0 D3hot D3cold
+2025-02-25T18:09:59.886598-05:00 kali kernel: pci 0000:00:16.7: [15ad:07a0] type 01 class 0x060400 PCIe Root Port
+2025-02-25T18:09:59.886604-05:00 kali kernel: pci 0000:00:16.7: PCI bridge to [bus 12]
+2025-02-25T18:09:59.886605-05:00 kali kernel: pci 0000:00:16.7:   bridge window [mem 0xfb700000-0xfb7fffff]
+2025-02-25T18:09:59.886605-05:00 kali kernel: pci 0000:00:16.7:   bridge window [mem 0xe5d00000-0xe5dfffff 64bit pref]
+2025-02-25T18:09:59.886606-05:00 kali kernel: pci 0000:00:16.7: PME# supported from D0 D3hot D3cold
+2025-02-25T18:09:59.886606-05:00 kali kernel: pci 0000:00:17.0: [15ad:07a0] type 01 class 0x060400 PCIe Root Port
+2025-02-25T18:09:59.886607-05:00 kali kernel: pci 0000:00:17.0: PCI bridge to [bus 13]
+2025-02-25T18:09:59.886607-05:00 kali kernel: pci 0000:00:17.0:   bridge window [io  0x6000-0x6fff]
+2025-02-25T18:09:59.886612-05:00 kali kernel: pci 0000:00:17.0:   bridge window [mem 0xfd200000-0xfd2fffff]
+2025-02-25T18:09:59.886612-05:00 kali kernel: pci 0000:00:17.0:   bridge window [mem 0xe7800000-0xe78fffff 64bit pref]
+2025-02-25T18:09:59.886613-05:00 kali kernel: pci 0000:00:17.0: PME# supported from D0 D3hot D3cold
+2025-02-25T18:09:59.886613-05:00 kali kernel: pci 0000:00:17.1: [15ad:07a0] type 01 class 0x060400 PCIe Root Port
+2025-02-25T18:09:59.886614-05:00 kali kernel: pci 0000:00:17.1: PCI bridge to [bus 14]
+2025-02-25T18:09:59.886614-05:00 kali kernel: pci 0000:00:17.1:   bridge window [io  0xa000-0xafff]
+2025-02-25T18:09:59.886621-05:00 kali kernel: pci 0000:00:17.1:   bridge window [mem 0xfce00000-0xfcefffff]
+2025-02-25T18:09:59.886622-05:00 kali kernel: pci 0000:00:17.1:   bridge window [mem 0xe7400000-0xe74fffff 64bit pref]
+2025-02-25T18:09:59.886622-05:00 kali kernel: pci 0000:00:17.1: PME# supported from D0 D3hot D3cold
+2025-02-25T18:09:59.886623-05:00 kali kernel: pci 0000:00:17.2: [15ad:07a0] type 01 class 0x060400 PCIe Root Port
+2025-02-25T18:09:59.886623-05:00 kali kernel: pci 0000:00:17.2: PCI bridge to [bus 15]
+2025-02-25T18:09:59.886623-05:00 kali kernel: pci 0000:00:17.2:   bridge window [io  0xe000-0xefff]
+2025-02-25T18:09:59.886626-05:00 kali kernel: pci 0000:00:17.2:   bridge window [mem 0xfca00000-0xfcafffff]
+2025-02-25T18:09:59.886628-05:00 kali kernel: pci 0000:00:17.2:   bridge window [mem 0xe7000000-0xe70fffff 64bit pref]
+2025-02-25T18:09:59.886629-05:00 kali kernel: pci 0000:00:17.2: PME# supported from D0 D3hot D3cold
+2025-02-25T18:09:59.886629-05:00 kali kernel: pci 0000:00:17.3: [15ad:07a0] type 01 class 0x060400 PCIe Root Port
+2025-02-25T18:09:59.886630-05:00 kali kernel: pci 0000:00:17.3: PCI bridge to [bus 16]
+2025-02-25T18:09:59.886630-05:00 kali kernel: pci 0000:00:17.3:   bridge window [mem 0xfc600000-0xfc6fffff]
+2025-02-25T18:09:59.886631-05:00 kali kernel: pci 0000:00:17.3:   bridge window [mem 0xe6c00000-0xe6cfffff 64bit pref]
+2025-02-25T18:09:59.886636-05:00 kali kernel: pci 0000:00:17.3: PME# supported from D0 D3hot D3cold
+2025-02-25T18:09:59.886636-05:00 kali kernel: pci 0000:00:17.4: [15ad:07a0] type 01 class 0x060400 PCIe Root Port
+2025-02-25T18:09:59.886637-05:00 kali kernel: pci 0000:00:17.4: PCI bridge to [bus 17]
+2025-02-25T18:09:59.886637-05:00 kali kernel: pci 0000:00:17.4:   bridge window [mem 0xfc200000-0xfc2fffff]
+2025-02-25T18:09:59.886637-05:00 kali kernel: pci 0000:00:17.4:   bridge window [mem 0xe6800000-0xe68fffff 64bit pref]
+2025-02-25T18:09:59.886638-05:00 kali kernel: pci 0000:00:17.4: PME# supported from D0 D3hot D3cold
+2025-02-25T18:09:59.886643-05:00 kali kernel: pci 0000:00:17.5: [15ad:07a0] type 01 class 0x060400 PCIe Root Port
+2025-02-25T18:09:59.886643-05:00 kali kernel: pci 0000:00:17.5: PCI bridge to [bus 18]
+2025-02-25T18:09:59.886643-05:00 kali kernel: pci 0000:00:17.5:   bridge window [mem 0xfbe00000-0xfbefffff]
+2025-02-25T18:09:59.886644-05:00 kali kernel: pci 0000:00:17.5:   bridge window [mem 0xe6400000-0xe64fffff 64bit pref]
+2025-02-25T18:09:59.886644-05:00 kali kernel: pci 0000:00:17.5: PME# supported from D0 D3hot D3cold
+2025-02-25T18:09:59.886645-05:00 kali kernel: pci 0000:00:17.6: [15ad:07a0] type 01 class 0x060400 PCIe Root Port
+2025-02-25T18:09:59.886645-05:00 kali kernel: pci 0000:00:17.6: PCI bridge to [bus 19]
+2025-02-25T18:09:59.886650-05:00 kali kernel: pci 0000:00:17.6:   bridge window [mem 0xfba00000-0xfbafffff]
+2025-02-25T18:09:59.886650-05:00 kali kernel: pci 0000:00:17.6:   bridge window [mem 0xe6000000-0xe60fffff 64bit pref]
+2025-02-25T18:09:59.886651-05:00 kali kernel: pci 0000:00:17.6: PME# supported from D0 D3hot D3cold
+2025-02-25T18:09:59.886651-05:00 kali kernel: pci 0000:00:17.7: [15ad:07a0] type 01 class 0x060400 PCIe Root Port
+2025-02-25T18:09:59.886715-05:00 kali kernel: pci 0000:00:17.7: PCI bridge to [bus 1a]
+2025-02-25T18:09:59.886716-05:00 kali kernel: pci 0000:00:17.7:   bridge window [mem 0xfb600000-0xfb6fffff]
+2025-02-25T18:09:59.886720-05:00 kali kernel: pci 0000:00:17.7:   bridge window [mem 0xe5c00000-0xe5cfffff 64bit pref]
+2025-02-25T18:09:59.886721-05:00 kali kernel: pci 0000:00:17.7: PME# supported from D0 D3hot D3cold
+2025-02-25T18:09:59.886721-05:00 kali kernel: pci 0000:00:18.0: [15ad:07a0] type 01 class 0x060400 PCIe Root Port
+2025-02-25T18:09:59.886722-05:00 kali kernel: pci 0000:00:18.0: PCI bridge to [bus 1b]
+2025-02-25T18:09:59.886722-05:00 kali kernel: pci 0000:00:18.0:   bridge window [io  0x7000-0x7fff]
+2025-02-25T18:09:59.886723-05:00 kali kernel: pci 0000:00:18.0:   bridge window [mem 0xfd100000-0xfd1fffff]
+2025-02-25T18:09:59.886725-05:00 kali kernel: pci 0000:00:18.0:   bridge window [mem 0xe7700000-0xe77fffff 64bit pref]
+2025-02-25T18:09:59.886728-05:00 kali kernel: pci 0000:00:18.0: PME# supported from D0 D3hot D3cold
+2025-02-25T18:09:59.886728-05:00 kali kernel: pci 0000:00:18.1: [15ad:07a0] type 01 class 0x060400 PCIe Root Port
+2025-02-25T18:09:59.886729-05:00 kali kernel: pci 0000:00:18.1: PCI bridge to [bus 1c]
+2025-02-25T18:09:59.886729-05:00 kali kernel: pci 0000:00:18.1:   bridge window [io  0xb000-0xbfff]
+2025-02-25T18:09:59.886730-05:00 kali kernel: pci 0000:00:18.1:   bridge window [mem 0xfcd00000-0xfcdfffff]
+2025-02-25T18:09:59.886730-05:00 kali kernel: pci 0000:00:18.1:   bridge window [mem 0xe7300000-0xe73fffff 64bit pref]
+2025-02-25T18:09:59.886735-05:00 kali kernel: pci 0000:00:18.1: PME# supported from D0 D3hot D3cold
+2025-02-25T18:09:59.886735-05:00 kali kernel: pci 0000:00:18.2: [15ad:07a0] type 01 class 0x060400 PCIe Root Port
+2025-02-25T18:09:59.886736-05:00 kali kernel: pci 0000:00:18.2: PCI bridge to [bus 1d]
+2025-02-25T18:09:59.886736-05:00 kali kernel: pci 0000:00:18.2:   bridge window [mem 0xfc900000-0xfc9fffff]
+2025-02-25T18:09:59.886737-05:00 kali kernel: pci 0000:00:18.2:   bridge window [mem 0xe6f00000-0xe6ffffff 64bit pref]
+2025-02-25T18:09:59.886737-05:00 kali kernel: pci 0000:00:18.2: PME# supported from D0 D3hot D3cold
+2025-02-25T18:09:59.886742-05:00 kali kernel: pci 0000:00:18.3: [15ad:07a0] type 01 class 0x060400 PCIe Root Port
+2025-02-25T18:09:59.886742-05:00 kali kernel: pci 0000:00:18.3: PCI bridge to [bus 1e]
+2025-02-25T18:09:59.886743-05:00 kali kernel: pci 0000:00:18.3:   bridge window [mem 0xfc500000-0xfc5fffff]
+2025-02-25T18:09:59.886743-05:00 kali kernel: pci 0000:00:18.3:   bridge window [mem 0xe6b00000-0xe6bfffff 64bit pref]
+2025-02-25T18:09:59.886743-05:00 kali kernel: pci 0000:00:18.3: PME# supported from D0 D3hot D3cold
+2025-02-25T18:09:59.886744-05:00 kali kernel: pci 0000:00:18.4: [15ad:07a0] type 01 class 0x060400 PCIe Root Port
+2025-02-25T18:09:59.886744-05:00 kali kernel: pci 0000:00:18.4: PCI bridge to [bus 1f]
+2025-02-25T18:09:59.886749-05:00 kali kernel: pci 0000:00:18.4:   bridge window [mem 0xfc100000-0xfc1fffff]
+2025-02-25T18:09:59.886750-05:00 kali kernel: pci 0000:00:18.4:   bridge window [mem 0xe6700000-0xe67fffff 64bit pref]
+2025-02-25T18:09:59.886750-05:00 kali kernel: pci 0000:00:18.4: PME# supported from D0 D3hot D3cold
+2025-02-25T18:09:59.886750-05:00 kali kernel: pci 0000:00:18.5: [15ad:07a0] type 01 class 0x060400 PCIe Root Port
+2025-02-25T18:09:59.886751-05:00 kali kernel: pci 0000:00:18.5: PCI bridge to [bus 20]
+2025-02-25T18:09:59.886751-05:00 kali kernel: pci 0000:00:18.5:   bridge window [mem 0xfbd00000-0xfbdfffff]
+2025-02-25T18:09:59.886756-05:00 kali kernel: pci 0000:00:18.5:   bridge window [mem 0xe6300000-0xe63fffff 64bit pref]
+2025-02-25T18:09:59.886757-05:00 kali kernel: pci 0000:00:18.5: PME# supported from D0 D3hot D3cold
+2025-02-25T18:09:59.886757-05:00 kali kernel: pci 0000:00:18.6: [15ad:07a0] type 01 class 0x060400 PCIe Root Port
+2025-02-25T18:09:59.886758-05:00 kali kernel: pci 0000:00:18.6: PCI bridge to [bus 21]
+2025-02-25T18:09:59.886758-05:00 kali kernel: pci 0000:00:18.6:   bridge window [mem 0xfb900000-0xfb9fffff]
+2025-02-25T18:09:59.886758-05:00 kali kernel: pci 0000:00:18.6:   bridge window [mem 0xe5f00000-0xe5ffffff 64bit pref]
+2025-02-25T18:09:59.886761-05:00 kali kernel: pci 0000:00:18.6: PME# supported from D0 D3hot D3cold
+2025-02-25T18:09:59.886764-05:00 kali kernel: pci 0000:00:18.7: [15ad:07a0] type 01 class 0x060400 PCIe Root Port
+2025-02-25T18:09:59.886765-05:00 kali kernel: pci 0000:00:18.7: PCI bridge to [bus 22]
+2025-02-25T18:09:59.886765-05:00 kali kernel: pci 0000:00:18.7:   bridge window [mem 0xfb500000-0xfb5fffff]
+2025-02-25T18:09:59.886765-05:00 kali kernel: pci 0000:00:18.7:   bridge window [mem 0xe5b00000-0xe5bfffff 64bit pref]
+2025-02-25T18:09:59.886766-05:00 kali kernel: pci 0000:00:18.7: PME# supported from D0 D3hot D3cold
+2025-02-25T18:09:59.886766-05:00 kali kernel: pci_bus 0000:01: extended config space not accessible
+2025-02-25T18:09:59.886771-05:00 kali kernel: pci 0000:00:01.0: PCI bridge to [bus 01]
+2025-02-25T18:09:59.886771-05:00 kali kernel: pci_bus 0000:02: extended config space not accessible
+2025-02-25T18:09:59.886772-05:00 kali kernel: acpiphp: Slot [32] registered
+2025-02-25T18:09:59.886772-05:00 kali kernel: acpiphp: Slot [33] registered
+2025-02-25T18:09:59.886773-05:00 kali kernel: acpiphp: Slot [34] registered
+2025-02-25T18:09:59.886773-05:00 kali kernel: acpiphp: Slot [35] registered
+2025-02-25T18:09:59.886780-05:00 kali kernel: acpiphp: Slot [36] registered
+2025-02-25T18:09:59.886780-05:00 kali kernel: acpiphp: Slot [37] registered
+2025-02-25T18:09:59.886780-05:00 kali kernel: acpiphp: Slot [38] registered
+2025-02-25T18:09:59.886781-05:00 kali kernel: acpiphp: Slot [39] registered
+2025-02-25T18:09:59.886781-05:00 kali kernel: acpiphp: Slot [40] registered
+2025-02-25T18:09:59.886782-05:00 kali kernel: acpiphp: Slot [41] registered
+2025-02-25T18:09:59.886782-05:00 kali kernel: acpiphp: Slot [42] registered
+2025-02-25T18:09:59.886787-05:00 kali kernel: acpiphp: Slot [43] registered
+2025-02-25T18:09:59.886787-05:00 kali kernel: acpiphp: Slot [44] registered
+2025-02-25T18:09:59.886788-05:00 kali kernel: acpiphp: Slot [45] registered
+2025-02-25T18:09:59.886788-05:00 kali kernel: acpiphp: Slot [46] registered
+2025-02-25T18:09:59.886789-05:00 kali kernel: acpiphp: Slot [47] registered
+2025-02-25T18:09:59.886789-05:00 kali kernel: acpiphp: Slot [48] registered
+2025-02-25T18:09:59.886794-05:00 kali kernel: acpiphp: Slot [49] registered
+2025-02-25T18:09:59.886795-05:00 kali kernel: acpiphp: Slot [50] registered
+2025-02-25T18:09:59.886795-05:00 kali kernel: acpiphp: Slot [51] registered
+2025-02-25T18:09:59.886795-05:00 kali kernel: acpiphp: Slot [52] registered
+2025-02-25T18:09:59.886796-05:00 kali kernel: acpiphp: Slot [53] registered
+2025-02-25T18:09:59.886796-05:00 kali kernel: acpiphp: Slot [54] registered
+2025-02-25T18:09:59.886798-05:00 kali kernel: acpiphp: Slot [55] registered
+2025-02-25T18:09:59.886801-05:00 kali kernel: acpiphp: Slot [56] registered
+2025-02-25T18:09:59.886802-05:00 kali kernel: acpiphp: Slot [57] registered
+2025-02-25T18:09:59.886802-05:00 kali kernel: acpiphp: Slot [58] registered
+2025-02-25T18:09:59.886806-05:00 kali kernel: acpiphp: Slot [59] registered
+2025-02-25T18:09:59.886806-05:00 kali kernel: acpiphp: Slot [60] registered
+2025-02-25T18:09:59.886807-05:00 kali kernel: acpiphp: Slot [61] registered
+2025-02-25T18:09:59.886812-05:00 kali kernel: acpiphp: Slot [62] registered
+2025-02-25T18:09:59.886812-05:00 kali kernel: acpiphp: Slot [63] registered
+2025-02-25T18:09:59.886813-05:00 kali kernel: pci 0000:02:00.0: [8086:100f] type 00 class 0x020000 conventional PCI endpoint
+2025-02-25T18:09:59.886813-05:00 kali kernel: pci 0000:02:00.0: BAR 0 [mem 0xfd5c0000-0xfd5dffff 64bit]
+2025-02-25T18:09:59.886813-05:00 kali kernel: pci 0000:02:00.0: BAR 2 [mem 0xfdff0000-0xfdffffff 64bit]
+2025-02-25T18:09:59.886817-05:00 kali kernel: pci 0000:02:00.0: BAR 4 [io  0x2000-0x203f]
+2025-02-25T18:09:59.886822-05:00 kali kernel: pci 0000:02:00.0: ROM [mem 0x00000000-0x0000ffff pref]
+2025-02-25T18:09:59.886822-05:00 kali kernel: pci 0000:02:00.0: PME# supported from D0 D3hot D3cold
+2025-02-25T18:09:59.886823-05:00 kali kernel: pci 0000:00:11.0: PCI bridge to [bus 02] (subtractive decode)
+2025-02-25T18:09:59.886823-05:00 kali kernel: pci 0000:00:11.0:   bridge window [mem 0x000a0000-0x000bffff window] (subtractive decode)
+2025-02-25T18:09:59.886824-05:00 kali kernel: pci 0000:00:11.0:   bridge window [mem 0x000cc000-0x000dbfff window] (subtractive decode)
+2025-02-25T18:09:59.886824-05:00 kali kernel: pci 0000:00:11.0:   bridge window [mem 0xc0000000-0xfebfffff window] (subtractive decode)
+2025-02-25T18:09:59.886824-05:00 kali kernel: pci 0000:00:11.0:   bridge window [io  0x0000-0x0cf7 window] (subtractive decode)
+2025-02-25T18:09:59.886829-05:00 kali kernel: pci 0000:00:11.0:   bridge window [io  0x0d00-0xfeff window] (subtractive decode)
+2025-02-25T18:09:59.886830-05:00 kali kernel: pci 0000:00:15.0: PCI bridge to [bus 03]
+2025-02-25T18:09:59.886831-05:00 kali kernel: pci 0000:00:15.1: PCI bridge to [bus 04]
+2025-02-25T18:09:59.886832-05:00 kali kernel: pci 0000:00:15.2: PCI bridge to [bus 05]
+2025-02-25T18:09:59.886832-05:00 kali kernel: pci 0000:00:15.3: PCI bridge to [bus 06]
+2025-02-25T18:09:59.886832-05:00 kali kernel: pci 0000:00:15.4: PCI bridge to [bus 07]
+2025-02-25T18:09:59.886837-05:00 kali kernel: pci 0000:00:15.5: PCI bridge to [bus 08]
+2025-02-25T18:09:59.886838-05:00 kali kernel: pci 0000:00:15.6: PCI bridge to [bus 09]
+2025-02-25T18:09:59.886838-05:00 kali kernel: pci 0000:00:15.7: PCI bridge to [bus 0a]
+2025-02-25T18:09:59.886839-05:00 kali kernel: pci 0000:00:16.0: PCI bridge to [bus 0b]
+2025-02-25T18:09:59.886839-05:00 kali kernel: pci 0000:00:16.1: PCI bridge to [bus 0c]
+2025-02-25T18:09:59.886840-05:00 kali kernel: pci 0000:00:16.2: PCI bridge to [bus 0d]
+2025-02-25T18:09:59.886842-05:00 kali kernel: pci 0000:00:16.3: PCI bridge to [bus 0e]
+2025-02-25T18:09:59.886845-05:00 kali kernel: pci 0000:00:16.4: PCI bridge to [bus 0f]
+2025-02-25T18:09:59.886846-05:00 kali kernel: pci 0000:00:16.5: PCI bridge to [bus 10]
+2025-02-25T18:09:59.886846-05:00 kali kernel: pci 0000:00:16.6: PCI bridge to [bus 11]
+2025-02-25T18:09:59.886847-05:00 kali kernel: pci 0000:00:16.7: PCI bridge to [bus 12]
+2025-02-25T18:09:59.886850-05:00 kali kernel: pci 0000:00:17.0: PCI bridge to [bus 13]
+2025-02-25T18:09:59.886851-05:00 kali kernel: pci 0000:00:17.1: PCI bridge to [bus 14]
+2025-02-25T18:09:59.886856-05:00 kali kernel: pci 0000:00:17.2: PCI bridge to [bus 15]
+2025-02-25T18:09:59.886856-05:00 kali kernel: pci 0000:00:17.3: PCI bridge to [bus 16]
+2025-02-25T18:09:59.886857-05:00 kali kernel: pci 0000:00:17.4: PCI bridge to [bus 17]
+2025-02-25T18:09:59.886857-05:00 kali kernel: pci 0000:00:17.5: PCI bridge to [bus 18]
+2025-02-25T18:09:59.886857-05:00 kali kernel: pci 0000:00:17.6: PCI bridge to [bus 19]
+2025-02-25T18:09:59.886858-05:00 kali kernel: pci 0000:00:17.7: PCI bridge to [bus 1a]
+2025-02-25T18:09:59.886863-05:00 kali kernel: pci 0000:00:18.0: PCI bridge to [bus 1b]
+2025-02-25T18:09:59.886863-05:00 kali kernel: pci 0000:00:18.1: PCI bridge to [bus 1c]
+2025-02-25T18:09:59.886864-05:00 kali kernel: pci 0000:00:18.2: PCI bridge to [bus 1d]
+2025-02-25T18:09:59.886864-05:00 kali kernel: pci 0000:00:18.3: PCI bridge to [bus 1e]
+2025-02-25T18:09:59.886865-05:00 kali kernel: pci 0000:00:18.4: PCI bridge to [bus 1f]
+2025-02-25T18:09:59.886921-05:00 kali kernel: pci 0000:00:18.5: PCI bridge to [bus 20]
+2025-02-25T18:09:59.887424-05:00 kali kernel: pci 0000:00:18.6: PCI bridge to [bus 21]
+2025-02-25T18:09:59.887433-05:00 kali kernel: pci 0000:00:18.7: PCI bridge to [bus 22]
+2025-02-25T18:09:59.887433-05:00 kali kernel: ACPI: PCI: Interrupt link LNKA configured for IRQ 9
+2025-02-25T18:09:59.887434-05:00 kali kernel: ACPI: PCI: Interrupt link LNKB configured for IRQ 11
+2025-02-25T18:09:59.887434-05:00 kali kernel: ACPI: PCI: Interrupt link LNKC configured for IRQ 10
+2025-02-25T18:09:59.887435-05:00 kali kernel: ACPI: PCI: Interrupt link LNKD configured for IRQ 0
+2025-02-25T18:09:59.887435-05:00 kali kernel: ACPI: PCI: Interrupt link LNKD disabled
+2025-02-25T18:09:59.887440-05:00 kali kernel: iommu: Default domain type: Translated
+2025-02-25T18:09:59.887441-05:00 kali kernel: iommu: DMA domain TLB invalidation policy: lazy mode
+2025-02-25T18:09:59.887441-05:00 kali kernel: pps_core: LinuxPPS API ver. 1 registered
+2025-02-25T18:09:59.887441-05:00 kali kernel: pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+2025-02-25T18:09:59.887442-05:00 kali kernel: PTP clock support registered
+2025-02-25T18:09:59.887442-05:00 kali kernel: EDAC MC: Ver: 3.0.0
+2025-02-25T18:09:59.887445-05:00 kali kernel: NetLabel: Initializing
+2025-02-25T18:09:59.887448-05:00 kali kernel: NetLabel:  domain hash size = 128
+2025-02-25T18:09:59.887448-05:00 kali kernel: NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+2025-02-25T18:09:59.887449-05:00 kali kernel: NetLabel:  unlabeled traffic allowed by default
+2025-02-25T18:09:59.887449-05:00 kali kernel: PCI: Using ACPI for IRQ routing
+2025-02-25T18:09:59.887449-05:00 kali kernel: PCI: pci_cache_line_size set to 64 bytes
+2025-02-25T18:09:59.887450-05:00 kali kernel: e820: reserve RAM buffer [mem 0x0009f800-0x0009ffff]
+2025-02-25T18:09:59.887455-05:00 kali kernel: e820: reserve RAM buffer [mem 0xbfee0000-0xbfffffff]
+2025-02-25T18:09:59.887455-05:00 kali kernel: pci 0000:00:0f.0: vgaarb: setting as boot VGA device
+2025-02-25T18:09:59.887456-05:00 kali kernel: pci 0000:00:0f.0: vgaarb: bridge control possible
+2025-02-25T18:09:59.887456-05:00 kali kernel: pci 0000:00:0f.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+2025-02-25T18:09:59.887457-05:00 kali kernel: vgaarb: loaded
+2025-02-25T18:09:59.887457-05:00 kali kernel: hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2025-02-25T18:09:59.887462-05:00 kali kernel: hpet0: 16 comparators, 64-bit 14.318180 MHz counter
+2025-02-25T18:09:59.887463-05:00 kali kernel: clocksource: Switched to clocksource tsc-early
+2025-02-25T18:09:59.887463-05:00 kali kernel: VFS: Disk quotas dquot_6.6.0
+2025-02-25T18:09:59.887464-05:00 kali kernel: VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+2025-02-25T18:09:59.887464-05:00 kali kernel: AppArmor: AppArmor Filesystem Enabled
+2025-02-25T18:09:59.887464-05:00 kali kernel: pnp: PnP ACPI init
+2025-02-25T18:09:59.887465-05:00 kali kernel: system 00:00: [io  0x1000-0x103f] has been reserved
+2025-02-25T18:09:59.887470-05:00 kali kernel: system 00:00: [io  0x1040-0x104f] has been reserved
+2025-02-25T18:09:59.887470-05:00 kali kernel: system 00:00: [io  0x0cf0-0x0cf1] has been reserved
+2025-02-25T18:09:59.887470-05:00 kali kernel: system 00:04: [mem 0xfed00000-0xfed003ff] has been reserved
+2025-02-25T18:09:59.887471-05:00 kali kernel: system 00:05: [io  0xfce0-0xfcff] has been reserved
+2025-02-25T18:09:59.887471-05:00 kali kernel: system 00:05: [mem 0xf0000000-0xf7ffffff] has been reserved
+2025-02-25T18:09:59.887472-05:00 kali kernel: system 00:05: [mem 0xfe800000-0xfe9fffff] has been reserved
+2025-02-25T18:09:59.887477-05:00 kali kernel: pnp: PnP ACPI: found 6 devices
+2025-02-25T18:09:59.887477-05:00 kali kernel: clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+2025-02-25T18:09:59.887478-05:00 kali kernel: NET: Registered PF_INET protocol family
+2025-02-25T18:09:59.887478-05:00 kali kernel: IP idents hash table entries: 65536 (order: 7, 524288 bytes, linear)
+2025-02-25T18:09:59.887479-05:00 kali kernel: tcp_listen_portaddr_hash hash table entries: 2048 (order: 3, 32768 bytes, linear)
+2025-02-25T18:09:59.887479-05:00 kali kernel: Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+2025-02-25T18:09:59.887481-05:00 kali kernel: TCP established hash table entries: 32768 (order: 6, 262144 bytes, linear)
+2025-02-25T18:09:59.887485-05:00 kali kernel: TCP bind hash table entries: 32768 (order: 8, 1048576 bytes, linear)
+2025-02-25T18:09:59.887485-05:00 kali kernel: TCP: Hash tables configured (established 32768 bind 32768)
+2025-02-25T18:09:59.887485-05:00 kali kernel: MPTCP token hash table entries: 4096 (order: 4, 98304 bytes, linear)
+2025-02-25T18:09:59.887486-05:00 kali kernel: UDP hash table entries: 2048 (order: 4, 65536 bytes, linear)
+2025-02-25T18:09:59.887486-05:00 kali kernel: UDP-Lite hash table entries: 2048 (order: 4, 65536 bytes, linear)
+2025-02-25T18:09:59.887487-05:00 kali kernel: NET: Registered PF_UNIX/PF_LOCAL protocol family
+2025-02-25T18:09:59.887492-05:00 kali kernel: NET: Registered PF_XDP protocol family
+2025-02-25T18:09:59.887492-05:00 kali kernel: pci 0000:00:15.3: bridge window [io  0x1000-0x0fff] to [bus 06] add_size 1000
+2025-02-25T18:09:59.887492-05:00 kali kernel: pci 0000:00:15.4: bridge window [io  0x1000-0x0fff] to [bus 07] add_size 1000
+2025-02-25T18:09:59.887493-05:00 kali kernel: pci 0000:00:15.5: bridge window [io  0x1000-0x0fff] to [bus 08] add_size 1000
+2025-02-25T18:09:59.887493-05:00 kali kernel: pci 0000:00:15.6: bridge window [io  0x1000-0x0fff] to [bus 09] add_size 1000
+2025-02-25T18:09:59.887494-05:00 kali kernel: pci 0000:00:15.7: bridge window [io  0x1000-0x0fff] to [bus 0a] add_size 1000
+2025-02-25T18:09:59.887499-05:00 kali kernel: pci 0000:00:16.3: bridge window [io  0x1000-0x0fff] to [bus 0e] add_size 1000
+2025-02-25T18:09:59.887499-05:00 kali kernel: pci 0000:00:16.4: bridge window [io  0x1000-0x0fff] to [bus 0f] add_size 1000
+2025-02-25T18:09:59.887499-05:00 kali kernel: pci 0000:00:16.5: bridge window [io  0x1000-0x0fff] to [bus 10] add_size 1000
+2025-02-25T18:09:59.887500-05:00 kali kernel: pci 0000:00:16.6: bridge window [io  0x1000-0x0fff] to [bus 11] add_size 1000
+2025-02-25T18:09:59.887500-05:00 kali kernel: pci 0000:00:16.7: bridge window [io  0x1000-0x0fff] to [bus 12] add_size 1000
+2025-02-25T18:09:59.887501-05:00 kali kernel: pci 0000:00:17.3: bridge window [io  0x1000-0x0fff] to [bus 16] add_size 1000
+2025-02-25T18:09:59.887501-05:00 kali kernel: pci 0000:00:17.4: bridge window [io  0x1000-0x0fff] to [bus 17] add_size 1000
+2025-02-25T18:09:59.887508-05:00 kali kernel: pci 0000:00:17.5: bridge window [io  0x1000-0x0fff] to [bus 18] add_size 1000
+2025-02-25T18:09:59.887509-05:00 kali kernel: pci 0000:00:17.6: bridge window [io  0x1000-0x0fff] to [bus 19] add_size 1000
+2025-02-25T18:09:59.887509-05:00 kali kernel: pci 0000:00:17.7: bridge window [io  0x1000-0x0fff] to [bus 1a] add_size 1000
+2025-02-25T18:09:59.887510-05:00 kali kernel: pci 0000:00:18.2: bridge window [io  0x1000-0x0fff] to [bus 1d] add_size 1000
+2025-02-25T18:09:59.887510-05:00 kali kernel: pci 0000:00:18.3: bridge window [io  0x1000-0x0fff] to [bus 1e] add_size 1000
+2025-02-25T18:09:59.887510-05:00 kali kernel: pci 0000:00:18.4: bridge window [io  0x1000-0x0fff] to [bus 1f] add_size 1000
+2025-02-25T18:09:59.887516-05:00 kali kernel: pci 0000:00:18.5: bridge window [io  0x1000-0x0fff] to [bus 20] add_size 1000
+2025-02-25T18:09:59.887516-05:00 kali kernel: pci 0000:00:18.6: bridge window [io  0x1000-0x0fff] to [bus 21] add_size 1000
+2025-02-25T18:09:59.887516-05:00 kali kernel: pci 0000:00:18.7: bridge window [io  0x1000-0x0fff] to [bus 22] add_size 1000
+2025-02-25T18:09:59.887517-05:00 kali kernel: pci 0000:00:10.0: ROM [mem 0xc0000000-0xc0003fff pref]: assigned
+2025-02-25T18:09:59.887517-05:00 kali kernel: pci 0000:00:15.3: bridge window [io  size 0x1000]: can't assign; no space
+2025-02-25T18:09:59.887518-05:00 kali kernel: pci 0000:00:15.3: bridge window [io  size 0x1000]: failed to assign
+2025-02-25T18:09:59.887520-05:00 kali kernel: pci 0000:00:15.4: bridge window [io  size 0x1000]: can't assign; no space
+2025-02-25T18:09:59.887523-05:00 kali kernel: pci 0000:00:15.4: bridge window [io  size 0x1000]: failed to assign
+2025-02-25T18:09:59.887523-05:00 kali kernel: pci 0000:00:15.5: bridge window [io  size 0x1000]: can't assign; no space
+2025-02-25T18:09:59.887524-05:00 kali kernel: pci 0000:00:15.5: bridge window [io  size 0x1000]: failed to assign
+2025-02-25T18:09:59.887524-05:00 kali kernel: pci 0000:00:15.6: bridge window [io  size 0x1000]: can't assign; no space
+2025-02-25T18:09:59.887525-05:00 kali kernel: pci 0000:00:15.6: bridge window [io  size 0x1000]: failed to assign
+2025-02-25T18:09:59.887525-05:00 kali kernel: pci 0000:00:15.7: bridge window [io  size 0x1000]: can't assign; no space
+2025-02-25T18:09:59.887530-05:00 kali kernel: pci 0000:00:15.7: bridge window [io  size 0x1000]: failed to assign
+2025-02-25T18:09:59.887530-05:00 kali kernel: pci 0000:00:16.3: bridge window [io  size 0x1000]: can't assign; no space
+2025-02-25T18:09:59.887531-05:00 kali kernel: pci 0000:00:16.3: bridge window [io  size 0x1000]: failed to assign
+2025-02-25T18:09:59.887531-05:00 kali kernel: pci 0000:00:16.4: bridge window [io  size 0x1000]: can't assign; no space
+2025-02-25T18:09:59.887531-05:00 kali kernel: pci 0000:00:16.4: bridge window [io  size 0x1000]: failed to assign
+2025-02-25T18:09:59.887532-05:00 kali kernel: pci 0000:00:16.5: bridge window [io  size 0x1000]: can't assign; no space
+2025-02-25T18:09:59.887536-05:00 kali kernel: pci 0000:00:16.5: bridge window [io  size 0x1000]: failed to assign
+2025-02-25T18:09:59.887537-05:00 kali kernel: pci 0000:00:16.6: bridge window [io  size 0x1000]: can't assign; no space
+2025-02-25T18:09:59.887537-05:00 kali kernel: pci 0000:00:16.6: bridge window [io  size 0x1000]: failed to assign
+2025-02-25T18:09:59.887538-05:00 kali kernel: pci 0000:00:16.7: bridge window [io  size 0x1000]: can't assign; no space
+2025-02-25T18:09:59.887538-05:00 kali kernel: pci 0000:00:16.7: bridge window [io  size 0x1000]: failed to assign
+2025-02-25T18:09:59.887539-05:00 kali kernel: pci 0000:00:17.3: bridge window [io  size 0x1000]: can't assign; no space
+2025-02-25T18:09:59.887539-05:00 kali kernel: pci 0000:00:17.3: bridge window [io  size 0x1000]: failed to assign
+2025-02-25T18:09:59.887544-05:00 kali kernel: pci 0000:00:17.4: bridge window [io  size 0x1000]: can't assign; no space
+2025-02-25T18:09:59.887544-05:00 kali kernel: pci 0000:00:17.4: bridge window [io  size 0x1000]: failed to assign
+2025-02-25T18:09:59.887545-05:00 kali kernel: pci 0000:00:17.5: bridge window [io  size 0x1000]: can't assign; no space
+2025-02-25T18:09:59.887600-05:00 kali kernel: pci 0000:00:17.5: bridge window [io  size 0x1000]: failed to assign
+2025-02-25T18:09:59.887601-05:00 kali kernel: pci 0000:00:17.6: bridge window [io  size 0x1000]: can't assign; no space
+2025-02-25T18:09:59.887601-05:00 kali kernel: pci 0000:00:17.6: bridge window [io  size 0x1000]: failed to assign
+2025-02-25T18:09:59.887606-05:00 kali kernel: pci 0000:00:17.7: bridge window [io  size 0x1000]: can't assign; no space
+2025-02-25T18:09:59.887607-05:00 kali kernel: pci 0000:00:17.7: bridge window [io  size 0x1000]: failed to assign
+2025-02-25T18:09:59.887607-05:00 kali kernel: pci 0000:00:18.2: bridge window [io  size 0x1000]: can't assign; no space
+2025-02-25T18:09:59.887608-05:00 kali kernel: pci 0000:00:18.2: bridge window [io  size 0x1000]: failed to assign
+2025-02-25T18:09:59.887608-05:00 kali kernel: pci 0000:00:18.3: bridge window [io  size 0x1000]: can't assign; no space
+2025-02-25T18:09:59.887609-05:00 kali kernel: pci 0000:00:18.3: bridge window [io  size 0x1000]: failed to assign
+2025-02-25T18:09:59.887611-05:00 kali kernel: pci 0000:00:18.4: bridge window [io  size 0x1000]: can't assign; no space
+2025-02-25T18:09:59.887614-05:00 kali kernel: pci 0000:00:18.4: bridge window [io  size 0x1000]: failed to assign
+2025-02-25T18:09:59.887614-05:00 kali kernel: pci 0000:00:18.5: bridge window [io  size 0x1000]: can't assign; no space
+2025-02-25T18:09:59.887615-05:00 kali kernel: pci 0000:00:18.5: bridge window [io  size 0x1000]: failed to assign
+2025-02-25T18:09:59.887615-05:00 kali kernel: pci 0000:00:18.6: bridge window [io  size 0x1000]: can't assign; no space
+2025-02-25T18:09:59.887615-05:00 kali kernel: pci 0000:00:18.6: bridge window [io  size 0x1000]: failed to assign
+2025-02-25T18:09:59.887616-05:00 kali kernel: pci 0000:00:18.7: bridge window [io  size 0x1000]: can't assign; no space
+2025-02-25T18:09:59.887621-05:00 kali kernel: pci 0000:00:18.7: bridge window [io  size 0x1000]: failed to assign
+2025-02-25T18:09:59.887621-05:00 kali kernel: pci 0000:00:18.7: bridge window [io  size 0x1000]: can't assign; no space
+2025-02-25T18:09:59.887622-05:00 kali kernel: pci 0000:00:18.7: bridge window [io  size 0x1000]: failed to assign
+2025-02-25T18:09:59.887622-05:00 kali kernel: pci 0000:00:18.6: bridge window [io  size 0x1000]: can't assign; no space
+2025-02-25T18:09:59.887623-05:00 kali kernel: pci 0000:00:18.6: bridge window [io  size 0x1000]: failed to assign
+2025-02-25T18:09:59.887623-05:00 kali kernel: pci 0000:00:18.5: bridge window [io  size 0x1000]: can't assign; no space
+2025-02-25T18:09:59.887628-05:00 kali kernel: pci 0000:00:18.5: bridge window [io  size 0x1000]: failed to assign
+2025-02-25T18:09:59.887628-05:00 kali kernel: pci 0000:00:18.4: bridge window [io  size 0x1000]: can't assign; no space
+2025-02-25T18:09:59.887629-05:00 kali kernel: pci 0000:00:18.4: bridge window [io  size 0x1000]: failed to assign
+2025-02-25T18:09:59.887629-05:00 kali kernel: pci 0000:00:18.3: bridge window [io  size 0x1000]: can't assign; no space
+2025-02-25T18:09:59.887630-05:00 kali kernel: pci 0000:00:18.3: bridge window [io  size 0x1000]: failed to assign
+2025-02-25T18:09:59.887630-05:00 kali kernel: pci 0000:00:18.2: bridge window [io  size 0x1000]: can't assign; no space
+2025-02-25T18:09:59.887631-05:00 kali kernel: pci 0000:00:18.2: bridge window [io  size 0x1000]: failed to assign
+2025-02-25T18:09:59.887635-05:00 kali kernel: pci 0000:00:17.7: bridge window [io  size 0x1000]: can't assign; no space
+2025-02-25T18:09:59.887636-05:00 kali kernel: pci 0000:00:17.7: bridge window [io  size 0x1000]: failed to assign
+2025-02-25T18:09:59.887636-05:00 kali kernel: pci 0000:00:17.6: bridge window [io  size 0x1000]: can't assign; no space
+2025-02-25T18:09:59.887637-05:00 kali kernel: pci 0000:00:17.6: bridge window [io  size 0x1000]: failed to assign
+2025-02-25T18:09:59.887637-05:00 kali kernel: pci 0000:00:17.5: bridge window [io  size 0x1000]: can't assign; no space
+2025-02-25T18:09:59.887637-05:00 kali kernel: pci 0000:00:17.5: bridge window [io  size 0x1000]: failed to assign
+2025-02-25T18:09:59.887642-05:00 kali kernel: pci 0000:00:17.4: bridge window [io  size 0x1000]: can't assign; no space
+2025-02-25T18:09:59.887643-05:00 kali kernel: pci 0000:00:17.4: bridge window [io  size 0x1000]: failed to assign
+2025-02-25T18:09:59.887643-05:00 kali kernel: pci 0000:00:17.3: bridge window [io  size 0x1000]: can't assign; no space
+2025-02-25T18:09:59.887644-05:00 kali kernel: pci 0000:00:17.3: bridge window [io  size 0x1000]: failed to assign
+2025-02-25T18:09:59.887644-05:00 kali kernel: pci 0000:00:16.7: bridge window [io  size 0x1000]: can't assign; no space
+2025-02-25T18:09:59.887645-05:00 kali kernel: pci 0000:00:16.7: bridge window [io  size 0x1000]: failed to assign
+2025-02-25T18:09:59.887647-05:00 kali kernel: pci 0000:00:16.6: bridge window [io  size 0x1000]: can't assign; no space
+2025-02-25T18:09:59.887650-05:00 kali kernel: pci 0000:00:16.6: bridge window [io  size 0x1000]: failed to assign
+2025-02-25T18:09:59.887650-05:00 kali kernel: pci 0000:00:16.5: bridge window [io  size 0x1000]: can't assign; no space
+2025-02-25T18:09:59.887651-05:00 kali kernel: pci 0000:00:16.5: bridge window [io  size 0x1000]: failed to assign
+2025-02-25T18:09:59.887651-05:00 kali kernel: pci 0000:00:16.4: bridge window [io  size 0x1000]: can't assign; no space
+2025-02-25T18:09:59.887651-05:00 kali kernel: pci 0000:00:16.4: bridge window [io  size 0x1000]: failed to assign
+2025-02-25T18:09:59.887652-05:00 kali kernel: pci 0000:00:16.3: bridge window [io  size 0x1000]: can't assign; no space
+2025-02-25T18:09:59.887656-05:00 kali kernel: pci 0000:00:16.3: bridge window [io  size 0x1000]: failed to assign
+2025-02-25T18:09:59.887657-05:00 kali kernel: pci 0000:00:15.7: bridge window [io  size 0x1000]: can't assign; no space
+2025-02-25T18:09:59.887657-05:00 kali kernel: pci 0000:00:15.7: bridge window [io  size 0x1000]: failed to assign
+2025-02-25T18:09:59.887658-05:00 kali kernel: pci 0000:00:15.6: bridge window [io  size 0x1000]: can't assign; no space
+2025-02-25T18:09:59.887658-05:00 kali kernel: pci 0000:00:15.6: bridge window [io  size 0x1000]: failed to assign
+2025-02-25T18:09:59.887658-05:00 kali kernel: pci 0000:00:15.5: bridge window [io  size 0x1000]: can't assign; no space
+2025-02-25T18:09:59.887663-05:00 kali kernel: pci 0000:00:15.5: bridge window [io  size 0x1000]: failed to assign
+2025-02-25T18:09:59.887664-05:00 kali kernel: pci 0000:00:15.4: bridge window [io  size 0x1000]: can't assign; no space
+2025-02-25T18:09:59.887664-05:00 kali kernel: pci 0000:00:15.4: bridge window [io  size 0x1000]: failed to assign
+2025-02-25T18:09:59.887665-05:00 kali kernel: pci 0000:00:15.3: bridge window [io  size 0x1000]: can't assign; no space
+2025-02-25T18:09:59.887665-05:00 kali kernel: pci 0000:00:15.3: bridge window [io  size 0x1000]: failed to assign
+2025-02-25T18:09:59.887665-05:00 kali kernel: pci 0000:00:01.0: PCI bridge to [bus 01]
+2025-02-25T18:09:59.887666-05:00 kali kernel: pci 0000:02:00.0: ROM [mem 0xfd500000-0xfd50ffff pref]: assigned
+2025-02-25T18:09:59.887673-05:00 kali kernel: pci 0000:00:11.0: PCI bridge to [bus 02]
+2025-02-25T18:09:59.887673-05:00 kali kernel: pci 0000:00:11.0:   bridge window [io  0x2000-0x3fff]
+2025-02-25T18:09:59.887673-05:00 kali kernel: pci 0000:00:11.0:   bridge window [mem 0xfd500000-0xfdffffff]
+2025-02-25T18:09:59.887674-05:00 kali kernel: pci 0000:00:11.0:   bridge window [mem 0xe7b00000-0xe7ffffff 64bit pref]
+2025-02-25T18:09:59.887674-05:00 kali kernel: pci 0000:00:15.0: PCI bridge to [bus 03]
+2025-02-25T18:09:59.887675-05:00 kali kernel: pci 0000:00:15.0:   bridge window [io  0x4000-0x4fff]
+2025-02-25T18:09:59.887680-05:00 kali kernel: pci 0000:00:15.0:   bridge window [mem 0xfd400000-0xfd4fffff]
+2025-02-25T18:09:59.887680-05:00 kali kernel: pci 0000:00:15.0:   bridge window [mem 0xe7a00000-0xe7afffff 64bit pref]
+2025-02-25T18:09:59.887680-05:00 kali kernel: pci 0000:00:15.1: PCI bridge to [bus 04]
+2025-02-25T18:09:59.887681-05:00 kali kernel: pci 0000:00:15.1:   bridge window [io  0x8000-0x8fff]
+2025-02-25T18:09:59.889090-05:00 kali kernel: pci 0000:00:15.1:   bridge window [mem 0xfd000000-0xfd0fffff]
+2025-02-25T18:09:59.889093-05:00 kali kernel: pci 0000:00:15.1:   bridge window [mem 0xe7600000-0xe76fffff 64bit pref]
+2025-02-25T18:09:59.889098-05:00 kali kernel: pci 0000:00:15.2: PCI bridge to [bus 05]
+2025-02-25T18:09:59.889103-05:00 kali kernel: pci 0000:00:15.2:   bridge window [io  0xc000-0xcfff]
+2025-02-25T18:09:59.889103-05:00 kali kernel: pci 0000:00:15.2:   bridge window [mem 0xfcc00000-0xfccfffff]
+2025-02-25T18:09:59.889104-05:00 kali kernel: pci 0000:00:15.2:   bridge window [mem 0xe7200000-0xe72fffff 64bit pref]
+2025-02-25T18:09:59.889104-05:00 kali kernel: pci 0000:00:15.3: PCI bridge to [bus 06]
+2025-02-25T18:09:59.889105-05:00 kali kernel: pci 0000:00:15.3:   bridge window [mem 0xfc800000-0xfc8fffff]
+2025-02-25T18:09:59.889105-05:00 kali kernel: pci 0000:00:15.3:   bridge window [mem 0xe6e00000-0xe6efffff 64bit pref]
+2025-02-25T18:09:59.889110-05:00 kali kernel: pci 0000:00:15.4: PCI bridge to [bus 07]
+2025-02-25T18:09:59.889111-05:00 kali kernel: pci 0000:00:15.4:   bridge window [mem 0xfc400000-0xfc4fffff]
+2025-02-25T18:09:59.889111-05:00 kali kernel: pci 0000:00:15.4:   bridge window [mem 0xe6a00000-0xe6afffff 64bit pref]
+2025-02-25T18:09:59.889112-05:00 kali kernel: pci 0000:00:15.5: PCI bridge to [bus 08]
+2025-02-25T18:09:59.889112-05:00 kali kernel: pci 0000:00:15.5:   bridge window [mem 0xfc000000-0xfc0fffff]
+2025-02-25T18:09:59.889112-05:00 kali kernel: pci 0000:00:15.5:   bridge window [mem 0xe6600000-0xe66fffff 64bit pref]
+2025-02-25T18:09:59.889117-05:00 kali kernel: pci 0000:00:15.6: PCI bridge to [bus 09]
+2025-02-25T18:09:59.889117-05:00 kali kernel: pci 0000:00:15.6:   bridge window [mem 0xfbc00000-0xfbcfffff]
+2025-02-25T18:09:59.889118-05:00 kali kernel: pci 0000:00:15.6:   bridge window [mem 0xe6200000-0xe62fffff 64bit pref]
+2025-02-25T18:09:59.889118-05:00 kali kernel: pci 0000:00:15.7: PCI bridge to [bus 0a]
+2025-02-25T18:09:59.889119-05:00 kali kernel: pci 0000:00:15.7:   bridge window [mem 0xfb800000-0xfb8fffff]
+2025-02-25T18:09:59.889119-05:00 kali kernel: pci 0000:00:15.7:   bridge window [mem 0xe5e00000-0xe5efffff 64bit pref]
+2025-02-25T18:09:59.889120-05:00 kali kernel: pci 0000:00:16.0: PCI bridge to [bus 0b]
+2025-02-25T18:09:59.889124-05:00 kali kernel: pci 0000:00:16.0:   bridge window [io  0x5000-0x5fff]
+2025-02-25T18:09:59.889125-05:00 kali kernel: pci 0000:00:16.0:   bridge window [mem 0xfd300000-0xfd3fffff]
+2025-02-25T18:09:59.889125-05:00 kali kernel: pci 0000:00:16.0:   bridge window [mem 0xe7900000-0xe79fffff 64bit pref]
+2025-02-25T18:09:59.889187-05:00 kali kernel: pci 0000:00:16.1: PCI bridge to [bus 0c]
+2025-02-25T18:09:59.889188-05:00 kali kernel: pci 0000:00:16.1:   bridge window [io  0x9000-0x9fff]
+2025-02-25T18:09:59.889188-05:00 kali kernel: pci 0000:00:16.1:   bridge window [mem 0xfcf00000-0xfcffffff]
+2025-02-25T18:09:59.889193-05:00 kali kernel: pci 0000:00:16.1:   bridge window [mem 0xe7500000-0xe75fffff 64bit pref]
+2025-02-25T18:09:59.889193-05:00 kali kernel: pci 0000:00:16.2: PCI bridge to [bus 0d]
+2025-02-25T18:09:59.889194-05:00 kali kernel: pci 0000:00:16.2:   bridge window [io  0xd000-0xdfff]
+2025-02-25T18:09:59.889194-05:00 kali kernel: pci 0000:00:16.2:   bridge window [mem 0xfcb00000-0xfcbfffff]
+2025-02-25T18:09:59.889195-05:00 kali kernel: pci 0000:00:16.2:   bridge window [mem 0xe7100000-0xe71fffff 64bit pref]
+2025-02-25T18:09:59.889195-05:00 kali kernel: pci 0000:00:16.3: PCI bridge to [bus 0e]
+2025-02-25T18:09:59.889197-05:00 kali kernel: pci 0000:00:16.3:   bridge window [mem 0xfc700000-0xfc7fffff]
+2025-02-25T18:09:59.889200-05:00 kali kernel: pci 0000:00:16.3:   bridge window [mem 0xe6d00000-0xe6dfffff 64bit pref]
+2025-02-25T18:09:59.889201-05:00 kali kernel: pci 0000:00:16.4: PCI bridge to [bus 0f]
+2025-02-25T18:09:59.889201-05:00 kali kernel: pci 0000:00:16.4:   bridge window [mem 0xfc300000-0xfc3fffff]
+2025-02-25T18:09:59.889202-05:00 kali kernel: pci 0000:00:16.4:   bridge window [mem 0xe6900000-0xe69fffff 64bit pref]
+2025-02-25T18:09:59.889202-05:00 kali kernel: pci 0000:00:16.5: PCI bridge to [bus 10]
+2025-02-25T18:09:59.889202-05:00 kali kernel: pci 0000:00:16.5:   bridge window [mem 0xfbf00000-0xfbffffff]
+2025-02-25T18:09:59.889207-05:00 kali kernel: pci 0000:00:16.5:   bridge window [mem 0xe6500000-0xe65fffff 64bit pref]
+2025-02-25T18:09:59.889207-05:00 kali kernel: pci 0000:00:16.6: PCI bridge to [bus 11]
+2025-02-25T18:09:59.889208-05:00 kali kernel: pci 0000:00:16.6:   bridge window [mem 0xfbb00000-0xfbbfffff]
+2025-02-25T18:09:59.889208-05:00 kali kernel: pci 0000:00:16.6:   bridge window [mem 0xe6100000-0xe61fffff 64bit pref]
+2025-02-25T18:09:59.889209-05:00 kali kernel: pci 0000:00:16.7: PCI bridge to [bus 12]
+2025-02-25T18:09:59.889209-05:00 kali kernel: pci 0000:00:16.7:   bridge window [mem 0xfb700000-0xfb7fffff]
+2025-02-25T18:09:59.889214-05:00 kali kernel: pci 0000:00:16.7:   bridge window [mem 0xe5d00000-0xe5dfffff 64bit pref]
+2025-02-25T18:09:59.889214-05:00 kali kernel: pci 0000:00:17.0: PCI bridge to [bus 13]
+2025-02-25T18:09:59.889215-05:00 kali kernel: pci 0000:00:17.0:   bridge window [io  0x6000-0x6fff]
+2025-02-25T18:09:59.889215-05:00 kali kernel: pci 0000:00:17.0:   bridge window [mem 0xfd200000-0xfd2fffff]
+2025-02-25T18:09:59.889215-05:00 kali kernel: pci 0000:00:17.0:   bridge window [mem 0xe7800000-0xe78fffff 64bit pref]
+2025-02-25T18:09:59.889216-05:00 kali kernel: pci 0000:00:17.1: PCI bridge to [bus 14]
+2025-02-25T18:09:59.889216-05:00 kali kernel: pci 0000:00:17.1:   bridge window [io  0xa000-0xafff]
+2025-02-25T18:09:59.889221-05:00 kali kernel: pci 0000:00:17.1:   bridge window [mem 0xfce00000-0xfcefffff]
+2025-02-25T18:09:59.889221-05:00 kali kernel: pci 0000:00:17.1:   bridge window [mem 0xe7400000-0xe74fffff 64bit pref]
+2025-02-25T18:09:59.889222-05:00 kali kernel: pci 0000:00:17.2: PCI bridge to [bus 15]
+2025-02-25T18:09:59.889222-05:00 kali kernel: pci 0000:00:17.2:   bridge window [io  0xe000-0xefff]
+2025-02-25T18:09:59.889223-05:00 kali kernel: pci 0000:00:17.2:   bridge window [mem 0xfca00000-0xfcafffff]
+2025-02-25T18:09:59.889223-05:00 kali kernel: pci 0000:00:17.2:   bridge window [mem 0xe7000000-0xe70fffff 64bit pref]
+2025-02-25T18:09:59.889228-05:00 kali kernel: pci 0000:00:17.3: PCI bridge to [bus 16]
+2025-02-25T18:09:59.889228-05:00 kali kernel: pci 0000:00:17.3:   bridge window [mem 0xfc600000-0xfc6fffff]
+2025-02-25T18:09:59.889229-05:00 kali kernel: pci 0000:00:17.3:   bridge window [mem 0xe6c00000-0xe6cfffff 64bit pref]
+2025-02-25T18:09:59.889229-05:00 kali kernel: pci 0000:00:17.4: PCI bridge to [bus 17]
+2025-02-25T18:09:59.889229-05:00 kali kernel: pci 0000:00:17.4:   bridge window [mem 0xfc200000-0xfc2fffff]
+2025-02-25T18:09:59.889230-05:00 kali kernel: pci 0000:00:17.4:   bridge window [mem 0xe6800000-0xe68fffff 64bit pref]
+2025-02-25T18:09:59.889232-05:00 kali kernel: pci 0000:00:17.5: PCI bridge to [bus 18]
+2025-02-25T18:09:59.889235-05:00 kali kernel: pci 0000:00:17.5:   bridge window [mem 0xfbe00000-0xfbefffff]
+2025-02-25T18:09:59.889236-05:00 kali kernel: pci 0000:00:17.5:   bridge window [mem 0xe6400000-0xe64fffff 64bit pref]
+2025-02-25T18:09:59.889236-05:00 kali kernel: pci 0000:00:17.6: PCI bridge to [bus 19]
+2025-02-25T18:09:59.889236-05:00 kali kernel: pci 0000:00:17.6:   bridge window [mem 0xfba00000-0xfbafffff]
+2025-02-25T18:09:59.889237-05:00 kali kernel: pci 0000:00:17.6:   bridge window [mem 0xe6000000-0xe60fffff 64bit pref]
+2025-02-25T18:09:59.889237-05:00 kali kernel: pci 0000:00:17.7: PCI bridge to [bus 1a]
+2025-02-25T18:09:59.889242-05:00 kali kernel: pci 0000:00:17.7:   bridge window [mem 0xfb600000-0xfb6fffff]
+2025-02-25T18:09:59.889242-05:00 kali kernel: pci 0000:00:17.7:   bridge window [mem 0xe5c00000-0xe5cfffff 64bit pref]
+2025-02-25T18:09:59.889243-05:00 kali kernel: pci 0000:00:18.0: PCI bridge to [bus 1b]
+2025-02-25T18:09:59.889243-05:00 kali kernel: pci 0000:00:18.0:   bridge window [io  0x7000-0x7fff]
+2025-02-25T18:09:59.889244-05:00 kali kernel: pci 0000:00:18.0:   bridge window [mem 0xfd100000-0xfd1fffff]
+2025-02-25T18:09:59.889244-05:00 kali kernel: pci 0000:00:18.0:   bridge window [mem 0xe7700000-0xe77fffff 64bit pref]
+2025-02-25T18:09:59.889249-05:00 kali kernel: pci 0000:00:18.1: PCI bridge to [bus 1c]
+2025-02-25T18:09:59.889249-05:00 kali kernel: pci 0000:00:18.1:   bridge window [io  0xb000-0xbfff]
+2025-02-25T18:09:59.889250-05:00 kali kernel: pci 0000:00:18.1:   bridge window [mem 0xfcd00000-0xfcdfffff]
+2025-02-25T18:09:59.889250-05:00 kali kernel: pci 0000:00:18.1:   bridge window [mem 0xe7300000-0xe73fffff 64bit pref]
+2025-02-25T18:09:59.889250-05:00 kali kernel: pci 0000:00:18.2: PCI bridge to [bus 1d]
+2025-02-25T18:09:59.889251-05:00 kali kernel: pci 0000:00:18.2:   bridge window [mem 0xfc900000-0xfc9fffff]
+2025-02-25T18:09:59.889251-05:00 kali kernel: pci 0000:00:18.2:   bridge window [mem 0xe6f00000-0xe6ffffff 64bit pref]
+2025-02-25T18:09:59.889256-05:00 kali kernel: pci 0000:00:18.3: PCI bridge to [bus 1e]
+2025-02-25T18:09:59.889257-05:00 kali kernel: pci 0000:00:18.3:   bridge window [mem 0xfc500000-0xfc5fffff]
+2025-02-25T18:09:59.889257-05:00 kali kernel: pci 0000:00:18.3:   bridge window [mem 0xe6b00000-0xe6bfffff 64bit pref]
+2025-02-25T18:09:59.889258-05:00 kali kernel: pci 0000:00:18.4: PCI bridge to [bus 1f]
+2025-02-25T18:09:59.889258-05:00 kali kernel: pci 0000:00:18.4:   bridge window [mem 0xfc100000-0xfc1fffff]
+2025-02-25T18:09:59.889259-05:00 kali kernel: pci 0000:00:18.4:   bridge window [mem 0xe6700000-0xe67fffff 64bit pref]
+2025-02-25T18:09:59.889265-05:00 kali kernel: pci 0000:00:18.5: PCI bridge to [bus 20]
+2025-02-25T18:09:59.889266-05:00 kali kernel: pci 0000:00:18.5:   bridge window [mem 0xfbd00000-0xfbdfffff]
+2025-02-25T18:09:59.889266-05:00 kali kernel: pci 0000:00:18.5:   bridge window [mem 0xe6300000-0xe63fffff 64bit pref]
+2025-02-25T18:09:59.889266-05:00 kali kernel: pci 0000:00:18.6: PCI bridge to [bus 21]
+2025-02-25T18:09:59.889267-05:00 kali kernel: pci 0000:00:18.6:   bridge window [mem 0xfb900000-0xfb9fffff]
+2025-02-25T18:09:59.889267-05:00 kali kernel: pci 0000:00:18.6:   bridge window [mem 0xe5f00000-0xe5ffffff 64bit pref]
+2025-02-25T18:09:59.889270-05:00 kali kernel: pci 0000:00:18.7: PCI bridge to [bus 22]
+2025-02-25T18:09:59.889272-05:00 kali kernel: pci 0000:00:18.7:   bridge window [mem 0xfb500000-0xfb5fffff]
+2025-02-25T18:09:59.889273-05:00 kali kernel: pci 0000:00:18.7:   bridge window [mem 0xe5b00000-0xe5bfffff 64bit pref]
+2025-02-25T18:09:59.889273-05:00 kali kernel: pci_bus 0000:00: resource 4 [mem 0x000a0000-0x000bffff window]
+2025-02-25T18:09:59.889274-05:00 kali kernel: pci_bus 0000:00: resource 5 [mem 0x000cc000-0x000dbfff window]
+2025-02-25T18:09:59.889274-05:00 kali kernel: pci_bus 0000:00: resource 6 [mem 0xc0000000-0xfebfffff window]
+2025-02-25T18:09:59.889275-05:00 kali kernel: pci_bus 0000:00: resource 7 [io  0x0000-0x0cf7 window]
+2025-02-25T18:09:59.889279-05:00 kali kernel: pci_bus 0000:00: resource 8 [io  0x0d00-0xfeff window]
+2025-02-25T18:09:59.889280-05:00 kali kernel: pci_bus 0000:02: resource 0 [io  0x2000-0x3fff]
+2025-02-25T18:09:59.889280-05:00 kali kernel: pci_bus 0000:02: resource 1 [mem 0xfd500000-0xfdffffff]
+2025-02-25T18:09:59.889280-05:00 kali kernel: pci_bus 0000:02: resource 2 [mem 0xe7b00000-0xe7ffffff 64bit pref]
+2025-02-25T18:09:59.889281-05:00 kali kernel: pci_bus 0000:02: resource 4 [mem 0x000a0000-0x000bffff window]
+2025-02-25T18:09:59.889281-05:00 kali kernel: pci_bus 0000:02: resource 5 [mem 0x000cc000-0x000dbfff window]
+2025-02-25T18:09:59.889286-05:00 kali kernel: pci_bus 0000:02: resource 6 [mem 0xc0000000-0xfebfffff window]
+2025-02-25T18:09:59.889286-05:00 kali kernel: pci_bus 0000:02: resource 7 [io  0x0000-0x0cf7 window]
+2025-02-25T18:09:59.889287-05:00 kali kernel: pci_bus 0000:02: resource 8 [io  0x0d00-0xfeff window]
+2025-02-25T18:09:59.889287-05:00 kali kernel: pci_bus 0000:03: resource 0 [io  0x4000-0x4fff]
+2025-02-25T18:09:59.889288-05:00 kali kernel: pci_bus 0000:03: resource 1 [mem 0xfd400000-0xfd4fffff]
+2025-02-25T18:09:59.889288-05:00 kali kernel: pci_bus 0000:03: resource 2 [mem 0xe7a00000-0xe7afffff 64bit pref]
+2025-02-25T18:09:59.889288-05:00 kali kernel: pci_bus 0000:04: resource 0 [io  0x8000-0x8fff]
+2025-02-25T18:09:59.889293-05:00 kali kernel: pci_bus 0000:04: resource 1 [mem 0xfd000000-0xfd0fffff]
+2025-02-25T18:09:59.889293-05:00 kali kernel: pci_bus 0000:04: resource 2 [mem 0xe7600000-0xe76fffff 64bit pref]
+2025-02-25T18:09:59.889294-05:00 kali kernel: pci_bus 0000:05: resource 0 [io  0xc000-0xcfff]
+2025-02-25T18:09:59.889294-05:00 kali kernel: pci_bus 0000:05: resource 1 [mem 0xfcc00000-0xfccfffff]
+2025-02-25T18:09:59.889295-05:00 kali kernel: pci_bus 0000:05: resource 2 [mem 0xe7200000-0xe72fffff 64bit pref]
+2025-02-25T18:09:59.889295-05:00 kali kernel: pci_bus 0000:06: resource 1 [mem 0xfc800000-0xfc8fffff]
+2025-02-25T18:09:59.889300-05:00 kali kernel: pci_bus 0000:06: resource 2 [mem 0xe6e00000-0xe6efffff 64bit pref]
+2025-02-25T18:09:59.889300-05:00 kali kernel: pci_bus 0000:07: resource 1 [mem 0xfc400000-0xfc4fffff]
+2025-02-25T18:09:59.889301-05:00 kali kernel: pci_bus 0000:07: resource 2 [mem 0xe6a00000-0xe6afffff 64bit pref]
+2025-02-25T18:09:59.889301-05:00 kali kernel: pci_bus 0000:08: resource 1 [mem 0xfc000000-0xfc0fffff]
+2025-02-25T18:09:59.889301-05:00 kali kernel: pci_bus 0000:08: resource 2 [mem 0xe6600000-0xe66fffff 64bit pref]
+2025-02-25T18:09:59.889302-05:00 kali kernel: pci_bus 0000:09: resource 1 [mem 0xfbc00000-0xfbcfffff]
+2025-02-25T18:09:59.889360-05:00 kali kernel: pci_bus 0000:09: resource 2 [mem 0xe6200000-0xe62fffff 64bit pref]
+2025-02-25T18:09:59.889363-05:00 kali kernel: pci_bus 0000:0a: resource 1 [mem 0xfb800000-0xfb8fffff]
+2025-02-25T18:09:59.889363-05:00 kali kernel: pci_bus 0000:0a: resource 2 [mem 0xe5e00000-0xe5efffff 64bit pref]
+2025-02-25T18:09:59.889364-05:00 kali kernel: pci_bus 0000:0b: resource 0 [io  0x5000-0x5fff]
+2025-02-25T18:09:59.889364-05:00 kali kernel: pci_bus 0000:0b: resource 1 [mem 0xfd300000-0xfd3fffff]
+2025-02-25T18:09:59.889364-05:00 kali kernel: pci_bus 0000:0b: resource 2 [mem 0xe7900000-0xe79fffff 64bit pref]
+2025-02-25T18:09:59.889365-05:00 kali kernel: pci_bus 0000:0c: resource 0 [io  0x9000-0x9fff]
+2025-02-25T18:09:59.889370-05:00 kali kernel: pci_bus 0000:0c: resource 1 [mem 0xfcf00000-0xfcffffff]
+2025-02-25T18:09:59.889370-05:00 kali kernel: pci_bus 0000:0c: resource 2 [mem 0xe7500000-0xe75fffff 64bit pref]
+2025-02-25T18:09:59.889370-05:00 kali kernel: pci_bus 0000:0d: resource 0 [io  0xd000-0xdfff]
+2025-02-25T18:09:59.889371-05:00 kali kernel: pci_bus 0000:0d: resource 1 [mem 0xfcb00000-0xfcbfffff]
+2025-02-25T18:09:59.889371-05:00 kali kernel: pci_bus 0000:0d: resource 2 [mem 0xe7100000-0xe71fffff 64bit pref]
+2025-02-25T18:09:59.889372-05:00 kali kernel: pci_bus 0000:0e: resource 1 [mem 0xfc700000-0xfc7fffff]
+2025-02-25T18:09:59.889376-05:00 kali kernel: pci_bus 0000:0e: resource 2 [mem 0xe6d00000-0xe6dfffff 64bit pref]
+2025-02-25T18:09:59.889377-05:00 kali kernel: pci_bus 0000:0f: resource 1 [mem 0xfc300000-0xfc3fffff]
+2025-02-25T18:09:59.889377-05:00 kali kernel: pci_bus 0000:0f: resource 2 [mem 0xe6900000-0xe69fffff 64bit pref]
+2025-02-25T18:09:59.889378-05:00 kali kernel: pci_bus 0000:10: resource 1 [mem 0xfbf00000-0xfbffffff]
+2025-02-25T18:09:59.889378-05:00 kali kernel: pci_bus 0000:10: resource 2 [mem 0xe6500000-0xe65fffff 64bit pref]
+2025-02-25T18:09:59.889378-05:00 kali kernel: pci_bus 0000:11: resource 1 [mem 0xfbb00000-0xfbbfffff]
+2025-02-25T18:09:59.889379-05:00 kali kernel: pci_bus 0000:11: resource 2 [mem 0xe6100000-0xe61fffff 64bit pref]
+2025-02-25T18:09:59.889384-05:00 kali kernel: pci_bus 0000:12: resource 1 [mem 0xfb700000-0xfb7fffff]
+2025-02-25T18:09:59.889384-05:00 kali kernel: pci_bus 0000:12: resource 2 [mem 0xe5d00000-0xe5dfffff 64bit pref]
+2025-02-25T18:09:59.889385-05:00 kali kernel: pci_bus 0000:13: resource 0 [io  0x6000-0x6fff]
+2025-02-25T18:09:59.889385-05:00 kali kernel: pci_bus 0000:13: resource 1 [mem 0xfd200000-0xfd2fffff]
+2025-02-25T18:09:59.889385-05:00 kali kernel: pci_bus 0000:13: resource 2 [mem 0xe7800000-0xe78fffff 64bit pref]
+2025-02-25T18:09:59.889386-05:00 kali kernel: pci_bus 0000:14: resource 0 [io  0xa000-0xafff]
+2025-02-25T18:09:59.889390-05:00 kali kernel: pci_bus 0000:14: resource 1 [mem 0xfce00000-0xfcefffff]
+2025-02-25T18:09:59.889391-05:00 kali kernel: pci_bus 0000:14: resource 2 [mem 0xe7400000-0xe74fffff 64bit pref]
+2025-02-25T18:09:59.889391-05:00 kali kernel: pci_bus 0000:15: resource 0 [io  0xe000-0xefff]
+2025-02-25T18:09:59.889392-05:00 kali kernel: pci_bus 0000:15: resource 1 [mem 0xfca00000-0xfcafffff]
+2025-02-25T18:09:59.889392-05:00 kali kernel: pci_bus 0000:15: resource 2 [mem 0xe7000000-0xe70fffff 64bit pref]
+2025-02-25T18:09:59.889392-05:00 kali kernel: pci_bus 0000:16: resource 1 [mem 0xfc600000-0xfc6fffff]
+2025-02-25T18:09:59.889395-05:00 kali kernel: pci_bus 0000:16: resource 2 [mem 0xe6c00000-0xe6cfffff 64bit pref]
+2025-02-25T18:09:59.889397-05:00 kali kernel: pci_bus 0000:17: resource 1 [mem 0xfc200000-0xfc2fffff]
+2025-02-25T18:09:59.889398-05:00 kali kernel: pci_bus 0000:17: resource 2 [mem 0xe6800000-0xe68fffff 64bit pref]
+2025-02-25T18:09:59.889398-05:00 kali kernel: pci_bus 0000:18: resource 1 [mem 0xfbe00000-0xfbefffff]
+2025-02-25T18:09:59.889399-05:00 kali kernel: pci_bus 0000:18: resource 2 [mem 0xe6400000-0xe64fffff 64bit pref]
+2025-02-25T18:09:59.889399-05:00 kali kernel: pci_bus 0000:19: resource 1 [mem 0xfba00000-0xfbafffff]
+2025-02-25T18:09:59.889400-05:00 kali kernel: pci_bus 0000:19: resource 2 [mem 0xe6000000-0xe60fffff 64bit pref]
+2025-02-25T18:09:59.889405-05:00 kali kernel: pci_bus 0000:1a: resource 1 [mem 0xfb600000-0xfb6fffff]
+2025-02-25T18:09:59.889405-05:00 kali kernel: pci_bus 0000:1a: resource 2 [mem 0xe5c00000-0xe5cfffff 64bit pref]
+2025-02-25T18:09:59.889405-05:00 kali kernel: pci_bus 0000:1b: resource 0 [io  0x7000-0x7fff]
+2025-02-25T18:09:59.889406-05:00 kali kernel: pci_bus 0000:1b: resource 1 [mem 0xfd100000-0xfd1fffff]
+2025-02-25T18:09:59.889406-05:00 kali kernel: pci_bus 0000:1b: resource 2 [mem 0xe7700000-0xe77fffff 64bit pref]
+2025-02-25T18:09:59.889407-05:00 kali kernel: pci_bus 0000:1c: resource 0 [io  0xb000-0xbfff]
+2025-02-25T18:09:59.889411-05:00 kali kernel: pci_bus 0000:1c: resource 1 [mem 0xfcd00000-0xfcdfffff]
+2025-02-25T18:09:59.889412-05:00 kali kernel: pci_bus 0000:1c: resource 2 [mem 0xe7300000-0xe73fffff 64bit pref]
+2025-02-25T18:09:59.889412-05:00 kali kernel: pci_bus 0000:1d: resource 1 [mem 0xfc900000-0xfc9fffff]
+2025-02-25T18:09:59.889413-05:00 kali kernel: pci_bus 0000:1d: resource 2 [mem 0xe6f00000-0xe6ffffff 64bit pref]
+2025-02-25T18:09:59.889413-05:00 kali kernel: pci_bus 0000:1e: resource 1 [mem 0xfc500000-0xfc5fffff]
+2025-02-25T18:09:59.889414-05:00 kali kernel: pci_bus 0000:1e: resource 2 [mem 0xe6b00000-0xe6bfffff 64bit pref]
+2025-02-25T18:09:59.889414-05:00 kali kernel: pci_bus 0000:1f: resource 1 [mem 0xfc100000-0xfc1fffff]
+2025-02-25T18:09:59.889418-05:00 kali kernel: pci_bus 0000:1f: resource 2 [mem 0xe6700000-0xe67fffff 64bit pref]
+2025-02-25T18:09:59.889419-05:00 kali kernel: pci_bus 0000:20: resource 1 [mem 0xfbd00000-0xfbdfffff]
+2025-02-25T18:09:59.889419-05:00 kali kernel: pci_bus 0000:20: resource 2 [mem 0xe6300000-0xe63fffff 64bit pref]
+2025-02-25T18:09:59.889420-05:00 kali kernel: pci_bus 0000:21: resource 1 [mem 0xfb900000-0xfb9fffff]
+2025-02-25T18:09:59.889420-05:00 kali kernel: pci_bus 0000:21: resource 2 [mem 0xe5f00000-0xe5ffffff 64bit pref]
+2025-02-25T18:09:59.889421-05:00 kali kernel: pci_bus 0000:22: resource 1 [mem 0xfb500000-0xfb5fffff]
+2025-02-25T18:09:59.889427-05:00 kali kernel: pci_bus 0000:22: resource 2 [mem 0xe5b00000-0xe5bfffff 64bit pref]
+2025-02-25T18:09:59.889427-05:00 kali kernel: pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+2025-02-25T18:09:59.889428-05:00 kali kernel: pci 0000:02:00.0: CLS mismatch (32 != 64), using 64 bytes
+2025-02-25T18:09:59.889428-05:00 kali kernel: PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+2025-02-25T18:09:59.889429-05:00 kali kernel: software IO TLB: mapped [mem 0x00000000bbee0000-0x00000000bfee0000] (64MB)
+2025-02-25T18:09:59.889429-05:00 kali kernel: clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x39a85afc727, max_idle_ns: 881590685098 ns
+2025-02-25T18:09:59.889431-05:00 kali kernel: clocksource: Switched to clocksource tsc
+2025-02-25T18:09:59.889434-05:00 kali kernel: Trying to unpack rootfs image as initramfs...
+2025-02-25T18:09:59.889435-05:00 kali kernel: Initialise system trusted keyrings
+2025-02-25T18:09:59.889435-05:00 kali kernel: Key type blacklist registered
+2025-02-25T18:09:59.889436-05:00 kali kernel: workingset: timestamp_bits=36 max_order=20 bucket_order=0
+2025-02-25T18:09:59.889436-05:00 kali kernel: zbud: loaded
+2025-02-25T18:09:59.889437-05:00 kali kernel: fuse: init (API version 7.39)
+2025-02-25T18:09:59.889442-05:00 kali kernel: integrity: Platform Keyring initialized
+2025-02-25T18:09:59.889442-05:00 kali kernel: integrity: Machine keyring initialized
+2025-02-25T18:09:59.889442-05:00 kali kernel: Key type asymmetric registered
+2025-02-25T18:09:59.889443-05:00 kali kernel: Asymmetric key parser 'x509' registered
+2025-02-25T18:09:59.889443-05:00 kali kernel: Freeing initrd memory: 78048K
+2025-02-25T18:09:59.889444-05:00 kali kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 247)
+2025-02-25T18:09:59.889448-05:00 kali kernel: io scheduler mq-deadline registered
+2025-02-25T18:09:59.889449-05:00 kali kernel: pcieport 0000:00:15.0: PME: Signaling with IRQ 24
+2025-02-25T18:09:59.889449-05:00 kali kernel: pcieport 0000:00:15.0: pciehp: Slot #160 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+2025-02-25T18:09:59.889450-05:00 kali kernel: pcieport 0000:00:15.1: PME: Signaling with IRQ 25
+2025-02-25T18:09:59.889450-05:00 kali kernel: pcieport 0000:00:15.1: pciehp: Slot #161 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+2025-02-25T18:09:59.889451-05:00 kali kernel: pcieport 0000:00:15.2: PME: Signaling with IRQ 26
+2025-02-25T18:09:59.889456-05:00 kali kernel: pcieport 0000:00:15.2: pciehp: Slot #162 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+2025-02-25T18:09:59.889456-05:00 kali kernel: pcieport 0000:00:15.3: PME: Signaling with IRQ 27
+2025-02-25T18:09:59.889457-05:00 kali kernel: pcieport 0000:00:15.3: pciehp: Slot #163 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+2025-02-25T18:09:59.889457-05:00 kali kernel: pcieport 0000:00:15.4: PME: Signaling with IRQ 28
+2025-02-25T18:09:59.889458-05:00 kali kernel: pcieport 0000:00:15.4: pciehp: Slot #164 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+2025-02-25T18:09:59.889458-05:00 kali kernel: pcieport 0000:00:15.5: PME: Signaling with IRQ 29
+2025-02-25T18:09:59.889463-05:00 kali kernel: pcieport 0000:00:15.5: pciehp: Slot #165 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+2025-02-25T18:09:59.889464-05:00 kali kernel: pcieport 0000:00:15.6: PME: Signaling with IRQ 30
+2025-02-25T18:09:59.889464-05:00 kali kernel: pcieport 0000:00:15.6: pciehp: Slot #166 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+2025-02-25T18:09:59.889464-05:00 kali kernel: pcieport 0000:00:15.7: PME: Signaling with IRQ 31
+2025-02-25T18:09:59.889465-05:00 kali kernel: pcieport 0000:00:15.7: pciehp: Slot #167 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+2025-02-25T18:09:59.889467-05:00 kali kernel: pcieport 0000:00:16.0: PME: Signaling with IRQ 32
+2025-02-25T18:09:59.889470-05:00 kali kernel: pcieport 0000:00:16.0: pciehp: Slot #192 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+2025-02-25T18:09:59.889471-05:00 kali kernel: pcieport 0000:00:16.1: PME: Signaling with IRQ 33
+2025-02-25T18:09:59.889471-05:00 kali kernel: pcieport 0000:00:16.1: pciehp: Slot #193 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+2025-02-25T18:09:59.889529-05:00 kali kernel: pcieport 0000:00:16.2: PME: Signaling with IRQ 34
+2025-02-25T18:09:59.889530-05:00 kali kernel: pcieport 0000:00:16.2: pciehp: Slot #194 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+2025-02-25T18:09:59.889534-05:00 kali kernel: pcieport 0000:00:16.3: PME: Signaling with IRQ 35
+2025-02-25T18:09:59.889535-05:00 kali kernel: pcieport 0000:00:16.3: pciehp: Slot #195 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+2025-02-25T18:09:59.889535-05:00 kali kernel: pcieport 0000:00:16.4: PME: Signaling with IRQ 36
+2025-02-25T18:09:59.889536-05:00 kali kernel: pcieport 0000:00:16.4: pciehp: Slot #196 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+2025-02-25T18:09:59.889536-05:00 kali kernel: pcieport 0000:00:16.5: PME: Signaling with IRQ 37
+2025-02-25T18:09:59.889537-05:00 kali kernel: pcieport 0000:00:16.5: pciehp: Slot #197 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+2025-02-25T18:09:59.889542-05:00 kali kernel: pcieport 0000:00:16.6: PME: Signaling with IRQ 38
+2025-02-25T18:09:59.889542-05:00 kali kernel: pcieport 0000:00:16.6: pciehp: Slot #198 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+2025-02-25T18:09:59.889543-05:00 kali kernel: pcieport 0000:00:16.7: PME: Signaling with IRQ 39
+2025-02-25T18:09:59.889543-05:00 kali kernel: pcieport 0000:00:16.7: pciehp: Slot #199 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+2025-02-25T18:09:59.889543-05:00 kali kernel: pcieport 0000:00:17.0: PME: Signaling with IRQ 40
+2025-02-25T18:09:59.889544-05:00 kali kernel: pcieport 0000:00:17.0: pciehp: Slot #224 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+2025-02-25T18:09:59.889549-05:00 kali kernel: pcieport 0000:00:17.1: PME: Signaling with IRQ 41
+2025-02-25T18:09:59.889549-05:00 kali kernel: pcieport 0000:00:17.1: pciehp: Slot #225 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+2025-02-25T18:09:59.889550-05:00 kali kernel: pcieport 0000:00:17.2: PME: Signaling with IRQ 42
+2025-02-25T18:09:59.889550-05:00 kali kernel: pcieport 0000:00:17.2: pciehp: Slot #226 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+2025-02-25T18:09:59.889551-05:00 kali kernel: pcieport 0000:00:17.3: PME: Signaling with IRQ 43
+2025-02-25T18:09:59.889555-05:00 kali kernel: pcieport 0000:00:17.3: pciehp: Slot #227 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+2025-02-25T18:09:59.889556-05:00 kali kernel: pcieport 0000:00:17.4: PME: Signaling with IRQ 44
+2025-02-25T18:09:59.889556-05:00 kali kernel: pcieport 0000:00:17.4: pciehp: Slot #228 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+2025-02-25T18:09:59.889557-05:00 kali kernel: pcieport 0000:00:17.5: PME: Signaling with IRQ 45
+2025-02-25T18:09:59.889557-05:00 kali kernel: pcieport 0000:00:17.5: pciehp: Slot #229 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+2025-02-25T18:09:59.889558-05:00 kali kernel: pcieport 0000:00:17.6: PME: Signaling with IRQ 46
+2025-02-25T18:09:59.889562-05:00 kali kernel: pcieport 0000:00:17.6: pciehp: Slot #230 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+2025-02-25T18:09:59.889563-05:00 kali kernel: pcieport 0000:00:17.7: PME: Signaling with IRQ 47
+2025-02-25T18:09:59.889563-05:00 kali kernel: pcieport 0000:00:17.7: pciehp: Slot #231 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+2025-02-25T18:09:59.889564-05:00 kali kernel: pcieport 0000:00:18.0: PME: Signaling with IRQ 48
+2025-02-25T18:09:59.889564-05:00 kali kernel: pcieport 0000:00:18.0: pciehp: Slot #256 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+2025-02-25T18:09:59.889565-05:00 kali kernel: pcieport 0000:00:18.1: PME: Signaling with IRQ 49
+2025-02-25T18:09:59.889570-05:00 kali kernel: pcieport 0000:00:18.1: pciehp: Slot #257 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+2025-02-25T18:09:59.889570-05:00 kali kernel: pcieport 0000:00:18.2: PME: Signaling with IRQ 50
+2025-02-25T18:09:59.889571-05:00 kali kernel: pcieport 0000:00:18.2: pciehp: Slot #258 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+2025-02-25T18:09:59.889571-05:00 kali kernel: pcieport 0000:00:18.3: PME: Signaling with IRQ 51
+2025-02-25T18:09:59.889571-05:00 kali kernel: pcieport 0000:00:18.3: pciehp: Slot #259 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+2025-02-25T18:09:59.889576-05:00 kali kernel: pcieport 0000:00:18.4: PME: Signaling with IRQ 52
+2025-02-25T18:09:59.889577-05:00 kali kernel: pcieport 0000:00:18.4: pciehp: Slot #260 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+2025-02-25T18:09:59.889577-05:00 kali kernel: pcieport 0000:00:18.5: PME: Signaling with IRQ 53
+2025-02-25T18:09:59.889578-05:00 kali kernel: pcieport 0000:00:18.5: pciehp: Slot #261 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+2025-02-25T18:09:59.889578-05:00 kali kernel: pcieport 0000:00:18.6: PME: Signaling with IRQ 54
+2025-02-25T18:09:59.889578-05:00 kali kernel: pcieport 0000:00:18.6: pciehp: Slot #262 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+2025-02-25T18:09:59.889585-05:00 kali kernel: pcieport 0000:00:18.7: PME: Signaling with IRQ 55
+2025-02-25T18:09:59.889585-05:00 kali kernel: pcieport 0000:00:18.7: pciehp: Slot #263 AttnBtn+ PwrCtrl+ MRL- AttnInd- PwrInd- HotPlug+ Surprise- Interlock- NoCompl+ IbPresDis- LLActRep+
+2025-02-25T18:09:59.889586-05:00 kali kernel: shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+2025-02-25T18:09:59.889586-05:00 kali kernel: Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+2025-02-25T18:09:59.889587-05:00 kali kernel: Linux agpgart interface v0.103
+2025-02-25T18:09:59.889587-05:00 kali kernel: agpgart-intel 0000:00:00.0: Intel 440BX Chipset
+2025-02-25T18:09:59.889592-05:00 kali kernel: agpgart-intel 0000:00:00.0: AGP aperture is 256M @ 0x0
+2025-02-25T18:09:59.889592-05:00 kali kernel: i8042: PNP: PS/2 Controller [PNP0303:KBC,PNP0f13:MOUS] at 0x60,0x64 irq 1,12
+2025-02-25T18:09:59.889593-05:00 kali kernel: serio: i8042 KBD port at 0x60,0x64 irq 1
+2025-02-25T18:09:59.889593-05:00 kali kernel: serio: i8042 AUX port at 0x60,0x64 irq 12
+2025-02-25T18:09:59.889594-05:00 kali kernel: mousedev: PS/2 mouse device common for all mice
+2025-02-25T18:09:59.889594-05:00 kali kernel: rtc_cmos 00:01: registered as rtc0
+2025-02-25T18:09:59.889596-05:00 kali kernel: rtc_cmos 00:01: setting system clock to 2025-02-25T23:09:55 UTC (1740524995)
+2025-02-25T18:09:59.889599-05:00 kali kernel: rtc_cmos 00:01: alarms up to one month, y3k, 114 bytes nvram
+2025-02-25T18:09:59.889600-05:00 kali kernel: intel_pstate: CPU model not supported
+2025-02-25T18:09:59.889600-05:00 kali kernel: ledtrig-cpu: registered to indicate activity on CPUs
+2025-02-25T18:09:59.889601-05:00 kali kernel: NET: Registered PF_INET6 protocol family
+2025-02-25T18:09:59.889601-05:00 kali kernel: input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input0
+2025-02-25T18:09:59.889602-05:00 kali kernel: Segment Routing with IPv6
+2025-02-25T18:09:59.889606-05:00 kali kernel: In-situ OAM (IOAM) with IPv6
+2025-02-25T18:09:59.889607-05:00 kali kernel: mip6: Mobile IPv6
+2025-02-25T18:09:59.889607-05:00 kali kernel: NET: Registered PF_PACKET protocol family
+2025-02-25T18:09:59.889607-05:00 kali kernel: mpls_gso: MPLS GSO support
+2025-02-25T18:09:59.889608-05:00 kali kernel: No MBM correction factor available
+2025-02-25T18:09:59.889608-05:00 kali kernel: IPI shorthand broadcast: enabled
+2025-02-25T18:09:59.889613-05:00 kali kernel: sched_clock: Marking stable (1029980321, 3939860)->(1039149596, -5229415)
+2025-02-25T18:09:59.889614-05:00 kali kernel: registered taskstats version 1
+2025-02-25T18:09:59.889614-05:00 kali kernel: Loading compiled-in X.509 certificates
+2025-02-25T18:09:59.889614-05:00 kali kernel: Loaded X.509 cert 'Build time autogenerated kernel key: 5074cd6907c9af0896adabe46ab51220a9ca7ba0'
+2025-02-25T18:09:59.889615-05:00 kali kernel: Key type .fscrypt registered
+2025-02-25T18:09:59.889615-05:00 kali kernel: Key type fscrypt-provisioning registered
+2025-02-25T18:09:59.889616-05:00 kali kernel: cryptd: max_cpu_qlen set to 1000
+2025-02-25T18:09:59.889620-05:00 kali kernel: AVX2 version of gcm_enc/dec engaged.
+2025-02-25T18:09:59.889621-05:00 kali kernel: AES CTR mode by8 optimization enabled
+2025-02-25T18:09:59.889621-05:00 kali kernel: Key type encrypted registered
+2025-02-25T18:09:59.889622-05:00 kali kernel: AppArmor: AppArmor sha256 policy hashing enabled
+2025-02-25T18:09:59.889622-05:00 kali kernel: ima: No TPM chip found, activating TPM-bypass!
+2025-02-25T18:09:59.889623-05:00 kali kernel: ima: Allocated hash algorithm: sha256
+2025-02-25T18:09:59.889627-05:00 kali kernel: ima: No architecture policies found
+2025-02-25T18:09:59.889628-05:00 kali kernel: evm: Initialising EVM extended attributes:
+2025-02-25T18:09:59.889628-05:00 kali kernel: evm: security.selinux
+2025-02-25T18:09:59.889629-05:00 kali kernel: evm: security.SMACK64 (disabled)
+2025-02-25T18:09:59.889629-05:00 kali kernel: evm: security.SMACK64EXEC (disabled)
+2025-02-25T18:09:59.889630-05:00 kali kernel: evm: security.SMACK64TRANSMUTE (disabled)
+2025-02-25T18:09:59.889632-05:00 kali kernel: evm: security.SMACK64MMAP (disabled)
+2025-02-25T18:09:59.889635-05:00 kali kernel: evm: security.apparmor
+2025-02-25T18:09:59.889635-05:00 kali kernel: evm: security.ima
+2025-02-25T18:09:59.889636-05:00 kali kernel: evm: security.capability
+2025-02-25T18:09:59.889636-05:00 kali kernel: evm: HMAC attrs: 0x1
+2025-02-25T18:09:59.889636-05:00 kali kernel: RAS: Correctable Errors collector initialized.
+2025-02-25T18:09:59.889637-05:00 kali kernel: clk: Disabling unused clocks
+2025-02-25T18:09:59.889641-05:00 kali kernel: Freeing unused decrypted memory: 2028K
+2025-02-25T18:09:59.889642-05:00 kali kernel: Freeing unused kernel image (initmem) memory: 4028K
+2025-02-25T18:09:59.889699-05:00 kali kernel: Write protecting the kernel read-only data: 28672k
+2025-02-25T18:09:59.889699-05:00 kali kernel: Freeing unused kernel image (rodata/data gap) memory: 1528K
+2025-02-25T18:09:59.889700-05:00 kali kernel: x86/mm: Checked W+X mappings: passed, no W+X pages found.
+2025-02-25T18:09:59.889700-05:00 kali kernel: x86/mm: Checking user space page tables
+2025-02-25T18:09:59.889705-05:00 kali kernel: x86/mm: Checked W+X mappings: passed, no W+X pages found.
+2025-02-25T18:09:59.889706-05:00 kali kernel: Run /init as init process
+2025-02-25T18:09:59.889706-05:00 kali kernel:   with arguments:
+2025-02-25T18:09:59.889707-05:00 kali kernel:     /init
+2025-02-25T18:09:59.889707-05:00 kali kernel:     splash
+2025-02-25T18:09:59.889707-05:00 kali kernel:   with environment:
+2025-02-25T18:09:59.889708-05:00 kali kernel:     HOME=/
+2025-02-25T18:09:59.889713-05:00 kali kernel:     TERM=linux
+2025-02-25T18:09:59.889713-05:00 kali kernel:     BOOT_IMAGE=/boot/vmlinuz-6.8.11-amd64
+2025-02-25T18:09:59.889714-05:00 kali kernel: input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input2
+2025-02-25T18:09:59.889714-05:00 kali kernel: ACPI: button: Power Button [PWRF]
+2025-02-25T18:09:59.889714-05:00 kali kernel: piix4_smbus 0000:00:07.3: SMBus Host Controller not enabled!
+2025-02-25T18:09:59.889715-05:00 kali kernel: input: VirtualPS/2 VMware VMMouse as /devices/platform/i8042/serio1/input/input4
+2025-02-25T18:09:59.889720-05:00 kali kernel: SCSI subsystem initialized
+2025-02-25T18:09:59.889720-05:00 kali kernel: e1000: Intel(R) PRO/1000 Network Driver
+2025-02-25T18:09:59.889721-05:00 kali kernel: e1000: Copyright (c) 1999-2006 Intel Corporation.
+2025-02-25T18:09:59.889721-05:00 kali kernel: input: VirtualPS/2 VMware VMMouse as /devices/platform/i8042/serio1/input/input3
+2025-02-25T18:09:59.889721-05:00 kali kernel: Fusion MPT base driver 3.04.20
+2025-02-25T18:09:59.889722-05:00 kali kernel: Copyright (c) 1999-2008 LSI Corporation
+2025-02-25T18:09:59.889724-05:00 kali kernel: Fusion MPT SPI Host driver 3.04.20
+2025-02-25T18:09:59.889727-05:00 kali kernel: mptbase: ioc0: Initiating bringup
+2025-02-25T18:09:59.889727-05:00 kali kernel: ACPI: bus type drm_connector registered
+2025-02-25T18:09:59.889728-05:00 kali kernel: libata version 3.00 loaded.
+2025-02-25T18:09:59.889728-05:00 kali kernel: ata_piix 0000:00:07.1: version 2.13
+2025-02-25T18:09:59.889729-05:00 kali kernel: scsi host0: ata_piix
+2025-02-25T18:09:59.889729-05:00 kali kernel: scsi host1: ata_piix
+2025-02-25T18:09:59.889734-05:00 kali kernel: ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0x1060 irq 14 lpm-pol 0
+2025-02-25T18:09:59.889735-05:00 kali kernel: ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0x1068 irq 15 lpm-pol 0
+2025-02-25T18:09:59.889735-05:00 kali kernel: ioc0: LSI53C1030 B0: Capabilities={Initiator}
+2025-02-25T18:09:59.889735-05:00 kali kernel: ata1.00: ATAPI: VMware Virtual IDE CDROM Drive, 00000001, max UDMA/33
+2025-02-25T18:09:59.889736-05:00 kali kernel: scsi 0:0:0:0: CD-ROM            NECVMWar VMware IDE CDR00 1.00 PQ: 0 ANSI: 5
+2025-02-25T18:09:59.889736-05:00 kali kernel: vmwgfx 0000:00:0f.0: vgaarb: deactivate vga console
+2025-02-25T18:09:59.889741-05:00 kali kernel: Console: switching to colour dummy device 80x25
+2025-02-25T18:09:59.889741-05:00 kali kernel: vmwgfx 0000:00:0f.0: [drm] FIFO at 0x00000000fe000000 size is 8192 kiB
+2025-02-25T18:09:59.889742-05:00 kali kernel: vmwgfx 0000:00:0f.0: [drm] VRAM at 0x00000000e8000000 size is 131072 kiB
+2025-02-25T18:09:59.889742-05:00 kali kernel: vmwgfx 0000:00:0f.0: [drm] Running on SVGA version 2.
+2025-02-25T18:09:59.889743-05:00 kali kernel: vmwgfx 0000:00:0f.0: [drm] Capabilities: rect copy, cursor, cursor bypass, cursor bypass 2, 8bit emulation, alpha cursor, extended fifo, multimon, pitchlock, irq mask, display topology, gmr, traces, gmr2, screen object 2, command buffers, command buffers 2, gbobject, dx, hp cmd queue, no bb restriction, cap2 register, 
+2025-02-25T18:09:59.889744-05:00 kali kernel: vmwgfx 0000:00:0f.0: [drm] Capabilities2: grow otable, intra surface copy, dx2, gb memsize 2, screendma reg, otable ptdepth2, non ms to ms stretchblt, cursor mob, mshint, cb max size 4mb, dx3, frame type, trace full fb, extra regs, 
+2025-02-25T18:09:59.889750-05:00 kali kernel: vmwgfx 0000:00:0f.0: [drm] DMA map mode: Caching DMA mappings.
+2025-02-25T18:09:59.889751-05:00 kali kernel: vmwgfx 0000:00:0f.0: [drm] Legacy memory limits: VRAM = 16384 kB, FIFO = 256 kB, surface = 0 kB
+2025-02-25T18:09:59.889751-05:00 kali kernel: vmwgfx 0000:00:0f.0: [drm] MOB limits: max mob size = 16384 kB, max mob pages = 12288
+2025-02-25T18:09:59.889752-05:00 kali kernel: vmwgfx 0000:00:0f.0: [drm] Max GMR ids is 64
+2025-02-25T18:09:59.889752-05:00 kali kernel: vmwgfx 0000:00:0f.0: [drm] Max number of GMR pages is 65536
+2025-02-25T18:09:59.889752-05:00 kali kernel: vmwgfx 0000:00:0f.0: [drm] Maximum display memory size is 16384 kiB
+2025-02-25T18:09:59.889757-05:00 kali kernel: vmwgfx 0000:00:0f.0: [drm] Screen Target display unit initialized
+2025-02-25T18:09:59.889758-05:00 kali kernel: vmwgfx 0000:00:0f.0: [drm] Fifo max 0x00040000 min 0x00001000 cap 0x0000077f
+2025-02-25T18:09:59.889758-05:00 kali kernel: vmwgfx 0000:00:0f.0: [drm] Using command buffers with DMA pool.
+2025-02-25T18:09:59.889759-05:00 kali kernel: vmwgfx 0000:00:0f.0: [drm] Available shader model: Legacy.
+2025-02-25T18:09:59.889759-05:00 kali kernel: [drm] Initialized vmwgfx 2.20.0 20211206 for 0000:00:0f.0 on minor 0
+2025-02-25T18:09:59.889760-05:00 kali kernel: fbcon: vmwgfxdrmfb (fb0) is primary device
+2025-02-25T18:09:59.889760-05:00 kali kernel: Console: switching to colour frame buffer device 160x50
+2025-02-25T18:09:59.889765-05:00 kali kernel: vmwgfx 0000:00:0f.0: [drm] fb0: vmwgfxdrmfb frame buffer device
+2025-02-25T18:09:59.889765-05:00 kali kernel: sr 0:0:0:0: [sr0] scsi3-mmc drive: 1x/1x writer dvd-ram cd/rw xa/form2 cdda tray
+2025-02-25T18:09:59.889766-05:00 kali kernel: cdrom: Uniform CD-ROM driver Revision: 3.20
+2025-02-25T18:09:59.889766-05:00 kali kernel: sr 0:0:0:0: Attached scsi CD-ROM sr0
+2025-02-25T18:09:59.889767-05:00 kali kernel: scsi host2: ioc0: LSI53C1030 B0, FwRev=01032920h, Ports=1, MaxQ=128, IRQ=17
+2025-02-25T18:09:59.889767-05:00 kali kernel: e1000 0000:02:00.0 eth0: (PCI:66MHz:32-bit) 00:0c:29:59:0d:fd
+2025-02-25T18:09:59.889772-05:00 kali kernel: e1000 0000:02:00.0 eth0: Intel(R) PRO/1000 Network Connection
+2025-02-25T18:09:59.889772-05:00 kali kernel: scsi 2:0:0:0: Direct-Access     VMware   Virtual disk     2.0  PQ: 0 ANSI: 6
+2025-02-25T18:09:59.889773-05:00 kali kernel: scsi target2:0:0: Beginning Domain Validation
+2025-02-25T18:09:59.889773-05:00 kali kernel: scsi target2:0:0: Domain Validation skipping write tests
+2025-02-25T18:09:59.889774-05:00 kali kernel: scsi target2:0:0: Ending Domain Validation
+2025-02-25T18:09:59.889774-05:00 kali kernel: scsi target2:0:0: FAST-80 WIDE SCSI 160.0 MB/s DT (12.5 ns, offset 127)
+2025-02-25T18:09:59.889779-05:00 kali kernel: sd 2:0:0:0: [sda] 62914560 512-byte logical blocks: (32.2 GB/30.0 GiB)
+2025-02-25T18:09:59.889779-05:00 kali kernel: sd 2:0:0:0: [sda] Write Protect is off
+2025-02-25T18:09:59.889780-05:00 kali kernel: sd 2:0:0:0: [sda] Mode Sense: 3b 00 00 00
+2025-02-25T18:09:59.889780-05:00 kali kernel: sd 2:0:0:0: [sda] Write cache: disabled, read cache: disabled, doesn't support DPO or FUA
+2025-02-25T18:09:59.889781-05:00 kali kernel:  sda: sda1 sda2 < sda5 >
+2025-02-25T18:09:59.889781-05:00 kali kernel: sd 2:0:0:0: [sda] Attached SCSI disk
+2025-02-25T18:09:59.889782-05:00 kali kernel: PM: Image not found (code -22)
+2025-02-25T18:09:59.889787-05:00 kali kernel: EXT4-fs (sda1): mounted filesystem 87a1ca46-dabc-443c-b181-d9961a9b420f ro with ordered data mode. Quota mode: none.
+2025-02-25T18:09:59.889787-05:00 kali kernel: Not activating Mandatory Access Control as /sbin/tomoyo-init does not exist.
+2025-02-25T18:09:59.889788-05:00 kali kernel: vmw_vmci 0000:00:07.7: Using capabilities 0x1c
+2025-02-25T18:09:59.889789-05:00 kali kernel: Guest personality initialized and is active
+2025-02-25T18:09:59.889789-05:00 kali kernel: VMCI host device registered (name=vmci, major=10, minor=124)
+2025-02-25T18:09:59.889790-05:00 kali kernel: Initialized host personality
+2025-02-25T18:09:59.889795-05:00 kali kernel: NET: Registered PF_VSOCK protocol family
+2025-02-25T18:09:59.889845-05:00 kali kernel: EXT4-fs (sda1): re-mounted 87a1ca46-dabc-443c-b181-d9961a9b420f r/w. Quota mode: none.
+2025-02-25T18:09:59.889846-05:00 kali kernel: sr 0:0:0:0: Attached scsi generic sg0 type 5
+2025-02-25T18:09:59.889847-05:00 kali kernel: sd 2:0:0:0: Attached scsi generic sg1 type 0
+2025-02-25T18:09:59.889847-05:00 kali kernel: ACPI: AC: AC Adapter [ACAD] (on-line)
+2025-02-25T18:09:59.889848-05:00 kali kernel: Adding 998396k swap on /dev/sda5.  Priority:-2 extents:1 across:998396k SS
+2025-02-25T18:09:59.889858-05:00 kali kernel: input: PC Speaker as /devices/platform/pcspkr/input/input5
+2025-02-25T18:09:59.889859-05:00 kali kernel: RAPL PMU: API unit is 2^-32 Joules, 0 fixed counters, 10737418240 ms ovfl timer
+2025-02-25T18:09:59.889859-05:00 kali kernel: RPC: Registered named UNIX socket transport module.
+2025-02-25T18:09:59.889860-05:00 kali kernel: RPC: Registered udp transport module.
+2025-02-25T18:09:59.889860-05:00 kali kernel: RPC: Registered tcp transport module.
+2025-02-25T18:09:59.889860-05:00 kali kernel: RPC: Registered tcp-with-tls transport module.
+2025-02-25T18:09:59.889861-05:00 kali kernel: RPC: Registered tcp NFSv4.1 backchannel transport module.
+2025-02-25T18:10:00.078295-05:00 kali kernel: NET: Registered PF_QIPCRTR protocol family
+2025-02-25T18:10:00.098603-05:00 kali kernel: e1000: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+2025-02-25T18:11:00.750259-05:00 kali kernel: audit: type=1400 audit(1740525060.743:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="docker-default" pid=1989 comm="apparmor_parser"
+2025-02-25T18:11:00.810246-05:00 kali kernel: evm: overlay not supported
+2025-02-25T18:11:01.026256-05:00 kali kernel: bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+2025-02-25T18:11:01.030252-05:00 kali kernel: Bridge firewalling registered
+2025-02-25T18:11:01.166267-05:00 kali kernel: Initializing XFRM netlink socket
+2025-02-25T18:11:01.626251-05:00 kali kernel: br-222f180eb17b: port 1(vethb08d8ec) entered blocking state
+2025-02-25T18:11:01.626266-05:00 kali kernel: br-222f180eb17b: port 1(vethb08d8ec) entered disabled state
+2025-02-25T18:11:01.626267-05:00 kali kernel: vethb08d8ec: entered allmulticast mode
+2025-02-25T18:11:01.626267-05:00 kali kernel: vethb08d8ec: entered promiscuous mode
+2025-02-25T18:11:02.094250-05:00 kali kernel: eth0: renamed from vethc51ff80
+2025-02-25T18:11:02.114240-05:00 kali kernel: br-222f180eb17b: port 1(vethb08d8ec) entered blocking state
+2025-02-25T18:11:02.114248-05:00 kali kernel: br-222f180eb17b: port 1(vethb08d8ec) entered forwarding state
