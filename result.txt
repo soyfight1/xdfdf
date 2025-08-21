@@ -1,3 +1,0 @@
-[x] Opening connection to jupiter.challenges.picoctf.org on port 9521
-[x] Opening connection to jupiter.challenges.picoctf.org on port 9521: Trying 3.131.60.8
-[+] Opening connection to jupiter.challenges.picoctf.org on port 9521: Done
