@@ -50,8 +50,9 @@ def main() -> int:
     blob = read_text(path)
     c = extract_int(blob, 'c', 'n')
     n = extract_int(blob, 'n', 'e')
-    e = extract_int(blob, 'e', None)
-    m = pow(c, e, n)
+    _e_remote = extract_int(blob, 'e', None)
+    # Usar exponente público estándar
+    m = pow(c, 65537, n)
     # Try big-endian
     be = int_to_bytes(m, 'big')
     flag = find_flag(be)

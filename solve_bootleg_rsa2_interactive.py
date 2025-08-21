@@ -64,14 +64,15 @@ def main() -> int:
         # Read until we have e: present (all params)
         data = recv_until(s, lambda b: b.find(b'\ne:') != -1 or b.find(b'\ne:\n') != -1, timeout=3.0)
         text = data.decode('utf-8', errors='ignore')
-        c, n, e = parse_params(text)
-        m = pow(c, e, n)
+        c, n, _e_remote = parse_params(text)
+        # Use standard public exponent regardless of remote-provided value
+        m = pow(c, 65537, n)
 
         # Send m as decimal with newline
         s.sendall(str(m).encode('ascii') + b"\n")
 
-        # Read the rest, look for picoCTF
-        rest = recv_until(s, lambda b: b.find(b'picoCTF{') != -1, timeout=5.0)
+        # Read the rest, look for picoCTF; read longer and also allow full close
+        rest = recv_until(s, lambda b: b.find(b'picoCTF{') != -1, timeout=10.0)
         out = (data + rest).decode('utf-8', errors='ignore')
         if 'picoCTF{' in out:
             start = out.find('picoCTF{')

@@ -94,8 +94,8 @@ def main() -> int:
                 parsed = parse_triple(buf, start_idx=cursor)
             if parsed is None:
                 break
-            c, n, e, end_idx = parsed
-            m = pow(c, e, n)
+            c, n, _e_remote, end_idx = parsed
+            m = pow(c, 65537, n)
             sock.sendall(str(m).encode('ascii') + b"\n")
             cursor = end_idx
             # Read response for this round
