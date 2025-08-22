@@ -1,0 +1,47 @@
+{
+  "estado": "verificacion_completada",
+  "iteracion": 1,
+  "rama": "global",
+  "detalle": {
+    "hipotesis": [
+      "H1: La bandera está codificada en el campo CN del certificado CSR",
+      "H2: El CSR contiene información adicional oculta en otros campos"
+    ],
+    "hipotesis_confirmada": "H1",
+    "flag_encontrada": "picoCTF{read_mycert_57f58832}",
+    "metodos_verificacion": [
+      {
+        "worker": "A-primario",
+        "metodo": "openssl req -noout -text",
+        "resultado": "picoCTF{read_mycert_57f58832}",
+        "exitoso": true
+      },
+      {
+        "worker": "B-sombra", 
+        "metodo": "openssl req -noout -subject",
+        "resultado": "picoCTF{read_mycert_57f58832}",
+        "exitoso": true
+      },
+      {
+        "worker": "C-verificador",
+        "metodo": "Python regex en DER decodificado",
+        "resultado": "picoCTF{read_mycert_57f58832}",
+        "exitoso": true
+      },
+      {
+        "worker": "adicional",
+        "metodo": "openssl asn1parse",
+        "resultado": "picoCTF{read_mycert_57f58832}",
+        "exitoso": true
+      }
+    ],
+    "quorum": "4/4 (100%)",
+    "discrepancias": "ninguna",
+    "hash_archivo": "4410a15aaf82bb9f7879816298df33685bd94dbe9e3b6b5e8d99f46483b7abb8",
+    "artefactos": [
+      "/workspace/readmycert/readmycert.csr",
+      "/workspace/readmycert/findings.json",
+      "/workspace/readmycert/LOG.md"
+    ]
+  }
+}
