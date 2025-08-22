@@ -1,0 +1,5 @@
+Reto: Disk, disk, sleuth! II
+Entradas/Artefactos: /artifacts
+Restricciones conocidas: una acción externa por iteración
+Hipótesis iniciales (H1/H2/H3): pendiente de iteración actual
+Iteracion = 1
