@@ -1,0 +1,16 @@
+# Bloqueo de Arly.exe
+127.0.0.1 ocsp.digicert.com
+127.0.0.1 crl3.digicert.com
+127.0.0.1 crl4.digicert.com
+127.0.0.1 cacerts.digicert.com
+127.0.0.1 www.digicert.com
+127.0.0.1 ocsp.entrust.net
+127.0.0.1 crl.entrust.net
+127.0.0.1 aia.entrust.net
+127.0.0.1 www.entrust.net
+
+# Bloqueo genérico de servicios cloud
+127.0.0.1 oss.aliyuncs.com
+127.0.0.1 oss-cn-hangzhou.aliyuncs.com
+127.0.0.1 oss-cn-shanghai.aliyuncs.com
+127.0.0.1 oss-cn-beijing.aliyuncs.com
