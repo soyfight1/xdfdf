@@ -1,9 +1,0 @@
-
-set disassembly-flavor intel
-break *0x1410
-run
-echo Input: 
-call (void)printf("%s
-", $rdi)
-continue
-quit
