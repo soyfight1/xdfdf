@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Infrastructure Issue - Phoenix Proxy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/challenge/public/css/styles.css">
+    <script>
+    function checkExtension(input) {
+        const allowed = ['jpg','jpeg','png','gif','bmp','webp'];
+        const file = input.files[0];
+        if (file) {
+            const ext = file.name.split('.').pop().toLowerCase();
+            if (!allowed.includes(ext)) {
+                alert('Only image files are allowed!');
+                input.value = '';
+            }
+        }
+    }
+    </script>
+</head>
+<body class="bg-slate-900 text-white font-mono overflow-x-hidden">
+    <div id="particles-container" class="fixed inset-0 z-0"></div>
+    
+    <!-- Header -->
+<header class="relative z-10 bg-slate-800/90 backdrop-blur-sm border-b border-orange-500/20">
+    <div class="container mx-auto px-6 py-4">
+        <div class="flex items-center justify-between">
+            <div class="flex items-center space-x-4">
+                <div class="w-10 h-10 bg-gradient-to-br from-orange-500 to-red-600 rounded-lg flex items-center justify-center">
+                    <i data-lucide="zap" class="w-6 h-6 text-white"></i>
+                </div>
+                <div>
+                    <a href="/challenge/">
+                        <h1 class="text-xl font-bold phoenix-font text-orange-400">
+                                                            OPERATOR DASHBOARD                                                    </h1>
+                        <p class="text-xs text-slate-400">Phoenix Pipeline Management</p>
+                    </a>
+                </div>
+            </div>
+            <div class="flex items-center space-x-4">
+                                    <!-- Authenticated User Menu -->
+                    <div class="flex items-center space-x-4">
+                                                    <!-- Operator Navigation -->
+                            <a href="/challenge/operator" class="px-4 py-2 bg-slate-700 hover:bg-slate-600 rounded-lg text-white text-sm transition-all">
+                                <i data-lucide="layout-dashboard" class="w-4 h-4 inline mr-2"></i>
+                                Dashboard
+                            </a>
+                            <a href="/challenge/report" class="px-4 py-2 bg-orange-600 hover:bg-orange-700 rounded-lg text-white text-sm transition-all">
+                                <i data-lucide="alert-octagon" class="w-4 h-4 inline mr-2"></i>
+                                Report Issue
+                            </a>
+                            <a href="/challenge/reports" class="px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded-lg text-white text-sm transition-all">
+                                <i data-lucide="file-text" class="w-4 h-4 inline mr-2"></i>
+                                My Reports
+                            </a>
+                            <div class="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">
+                                <i data-lucide="user" class="w-4 h-4 inline mr-2"></i>
+                                <span>user13657</span>
+                            </div>
+                                                <a href="/challenge/logout" class="px-4 py-2 bg-red-600 hover:bg-red-700 rounded-lg text-white text-sm transition-all">
+                            <i data-lucide="log-out" class="w-4 h-4 inline mr-2"></i>
+                            Logout
+                        </a>
+                    </div>
+                            </div>
+        </div>
+    </div>
+</header>     
+    <main class="relative z-10 container mx-auto px-6 py-8">
+        <div class="max-w-xl mx-auto bg-slate-800/50 backdrop-blur-sm p-8 rounded-lg border border-slate-700">
+            <h1 class="text-2xl font-bold phoenix-font text-orange-400 mb-6">
+                <i data-lucide="alert-octagon" class="w-6 h-6 inline mr-2"></i>
+                Report Infrastructure Issue
+            </h1>
+            
+                        
+            <form method="post" action="/challenge/report" enctype="multipart/form-data">
+                <div class="mb-4">
+                    <label class="block text-sm font-medium text-slate-300 mb-2">Infrastructure</label>
+                    <select name="infra_id" required class="w-full px-4 py-2 bg-slate-700 border border-slate-600 rounded-lg focus:ring-2 focus:ring-orange-500 text-white">
+                        <option value="">Select Infrastructure</option>
+                                            </select>
+                </div>
+                <div class="mb-4">
+                    <label class="block text-sm font-medium text-slate-300 mb-2">Description</label>
+                    <textarea name="description" required class="w-full px-4 py-2 bg-slate-700 border border-slate-600 rounded-lg focus:ring-2 focus:ring-orange-500 text-white" placeholder="Describe the infrastructure issue in detail..."></textarea>
+                </div>
+                <div class="mb-6">
+                    <label class="block text-sm font-medium text-slate-300 mb-2">Documentation (photo)</label>
+                    <input type="file" name="photo" accept="image/*" onchange="checkExtension(this)" required class="w-full px-4 py-2 bg-slate-700 border border-slate-600 rounded-lg text-white">
+                    <p class="text-xs text-slate-400 mt-1">Supported formats: JPG, PNG, GIF, BMP, WEBP</p>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="/challenge/operator" class="flex-1 px-4 py-2 bg-slate-600 hover:bg-slate-700 rounded-lg text-white transition-all text-center">Back</a>
+                    <button type="submit" class="flex-1 px-4 py-2 bg-orange-600 hover:bg-orange-700 rounded-lg text-white font-bold transition-all">Submit Report</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <script src="/challenge/public/js/particles.js"></script>
+</body>
+</html> 

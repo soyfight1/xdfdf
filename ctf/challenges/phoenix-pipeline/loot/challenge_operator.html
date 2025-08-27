@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phoenix Pipeline - Operator Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/challenge/public/css/styles.css">
+</head>
+<body class="bg-slate-900 text-white font-mono overflow-x-hidden">
+    <!-- Particle Background -->
+    <div id="particles-container" class="fixed inset-0 z-0"></div>
+    
+    <!-- Header -->
+<header class="relative z-10 bg-slate-800/90 backdrop-blur-sm border-b border-orange-500/20">
+    <div class="container mx-auto px-6 py-4">
+        <div class="flex items-center justify-between">
+            <div class="flex items-center space-x-4">
+                <div class="w-10 h-10 bg-gradient-to-br from-orange-500 to-red-600 rounded-lg flex items-center justify-center">
+                    <i data-lucide="zap" class="w-6 h-6 text-white"></i>
+                </div>
+                <div>
+                    <a href="/challenge/">
+                        <h1 class="text-xl font-bold phoenix-font text-orange-400">
+                                                            OPERATOR DASHBOARD                                                    </h1>
+                        <p class="text-xs text-slate-400">Phoenix Pipeline Management</p>
+                    </a>
+                </div>
+            </div>
+            <div class="flex items-center space-x-4">
+                                    <!-- Authenticated User Menu -->
+                    <div class="flex items-center space-x-4">
+                                                    <!-- Operator Navigation -->
+                            <a href="/challenge/operator" class="px-4 py-2 bg-slate-700 hover:bg-slate-600 rounded-lg text-white text-sm transition-all">
+                                <i data-lucide="layout-dashboard" class="w-4 h-4 inline mr-2"></i>
+                                Dashboard
+                            </a>
+                            <a href="/challenge/report" class="px-4 py-2 bg-orange-600 hover:bg-orange-700 rounded-lg text-white text-sm transition-all">
+                                <i data-lucide="alert-octagon" class="w-4 h-4 inline mr-2"></i>
+                                Report Issue
+                            </a>
+                            <a href="/challenge/reports" class="px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded-lg text-white text-sm transition-all">
+                                <i data-lucide="file-text" class="w-4 h-4 inline mr-2"></i>
+                                My Reports
+                            </a>
+                            <div class="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">
+                                <i data-lucide="user" class="w-4 h-4 inline mr-2"></i>
+                                <span>user13657</span>
+                            </div>
+                                                <a href="/challenge/logout" class="px-4 py-2 bg-red-600 hover:bg-red-700 rounded-lg text-white text-sm transition-all">
+                            <i data-lucide="log-out" class="w-4 h-4 inline mr-2"></i>
+                            Logout
+                        </a>
+                    </div>
+                            </div>
+        </div>
+    </div>
+</header> 
+    <!-- Main Content -->
+    <main class="relative z-10 container mx-auto px-6 py-8">
+        <!-- Analytics Dashboard -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold phoenix-font text-orange-400 mb-6">
+                <i data-lucide="bar-chart-3" class="w-6 h-6 inline mr-2"></i>
+                SYSTEM ANALYTICS (eu-central)
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
+                <div class="bg-gradient-to-br from-slate-800/60 to-slate-900/60 backdrop-blur-sm p-6 rounded-xl border border-slate-700/50">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <div class="text-2xl font-bold text-green-400" id="operator-system-health">--</div>
+                            <div class="text-sm text-slate-400">System Health</div>
+                        </div>
+                        <div class="w-12 h-12 bg-green-500/20 rounded-xl flex items-center justify-center">
+                            <i data-lucide="heart-pulse" class="w-6 h-6 text-green-400"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gradient-to-br from-slate-800/60 to-slate-900/60 backdrop-blur-sm p-6 rounded-xl border border-slate-700/50">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <div class="text-2xl font-bold text-blue-400" id="operator-total-systems">--</div>
+                            <div class="text-sm text-slate-400">Total Systems</div>
+                        </div>
+                        <div class="w-12 h-12 bg-blue-500/20 rounded-xl flex items-center justify-center">
+                            <i data-lucide="server" class="w-6 h-6 text-blue-400"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gradient-to-br from-slate-800/60 to-slate-900/60 backdrop-blur-sm p-6 rounded-xl border border-slate-700/50">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <div class="text-2xl font-bold text-orange-400" id="operator-operational-systems">--</div>
+                            <div class="text-sm text-slate-400">Operational</div>
+                        </div>
+                        <div class="w-12 h-12 bg-orange-500/20 rounded-xl flex items-center justify-center">
+                            <i data-lucide="check-circle" class="w-6 h-6 text-orange-400"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gradient-to-br from-slate-800/60 to-slate-900/60 backdrop-blur-sm p-6 rounded-xl border border-slate-700/50">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <div class="text-2xl font-bold text-purple-400" id="operator-avg-uptime">--</div>
+                            <div class="text-sm text-slate-400">Avg Uptime</div>
+                        </div>
+                        <div class="w-12 h-12 bg-purple-500/20 rounded-xl flex items-center justify-center">
+                            <i data-lucide="trending-up" class="w-6 h-6 text-purple-400"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6 mb-8">
+                <div class="bg-slate-800/50 backdrop-blur-sm p-6 rounded-lg border border-slate-700">
+                    <h3 class="text-lg font-bold mb-4 text-orange-400">
+                        <i data-lucide="pie-chart" class="w-5 h-5 inline mr-2"></i>
+                        Status Distribution
+                    </h3>
+                    <div class="relative h-64">
+                        <canvas id="operatorStatusChart"></canvas>
+                    </div>
+                </div>
+                <div class="bg-slate-800/50 backdrop-blur-sm p-6 rounded-lg border border-slate-700">
+                    <h3 class="text-lg font-bold mb-4 text-orange-400">
+                        <i data-lucide="activity" class="w-5 h-5 inline mr-2"></i>
+                        Performance Trends
+                    </h3>
+                    <div class="relative h-64">
+                        <canvas id="operatorPerformanceChart"></canvas>
+                    </div>
+                </div>
+                <div class="bg-slate-800/50 backdrop-blur-sm p-6 rounded-lg border border-slate-700">
+                    <h3 class="text-lg font-bold mb-4 text-orange-400">
+                        <i data-lucide="bar-chart-4" class="w-5 h-5 inline mr-2"></i>
+                        Infrastructure Types
+                    </h3>
+                    <div class="relative h-64">
+                        <canvas id="operatorTypeChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold phoenix-font text-orange-400 mb-6">
+                <i data-lucide="server" class="w-6 h-6 inline mr-2"></i>
+                CRITICAL INFRASTRUCTURE IN YOUR AREA (eu-central)
+            </h2>
+            <div class="mb-6 flex justify-between items-center">
+                <a href="/challenge/report" class="px-6 py-3 bg-orange-600 hover:bg-orange-700 rounded-lg text-white font-bold transition-all">
+                    <i data-lucide="alert-octagon" class="w-4 h-4 inline mr-2"></i>
+                    Report Issue
+                </a>
+                <a href="/challenge/reports" class="px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg text-white font-bold transition-all">
+                    <i data-lucide="file-text" class="w-4 h-4 inline mr-2"></i>
+                    My Reports
+                </a>
+            </div>
+            <div id="operator-infrastructure-grid" class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
+                            </div>
+        </section>
+    </main>
+    <script src="/challenge/public/js/particles.js"></script>
+    <script src="/challenge/public/js/operator.js"></script>
+</body>
+</html> 
