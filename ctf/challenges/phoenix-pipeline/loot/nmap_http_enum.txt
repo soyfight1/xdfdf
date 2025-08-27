@@ -1,0 +1,10 @@
+# Nmap 7.95 scan initiated Wed Aug 27 19:01:10 2025 as: nmap -sV --script http-enum -p 42440 -oN /workspace/ctf/challenges/phoenix-pipeline/loot/nmap_http_enum.txt 94.237.60.55
+Nmap scan report for 94-237-60-55.uk-lon1.upcloud.host (94.237.60.55)
+Host is up (0.084s latency).
+
+PORT      STATE SERVICE VERSION
+42440/tcp open  http    nginx 1.28.0
+|_http-server-header: nginx/1.28.0
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Aug 27 19:01:23 2025 -- 1 IP address (1 host up) scanned in 12.63 seconds

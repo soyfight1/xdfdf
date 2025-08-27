@@ -1,0 +1,12 @@
+# Nmap 7.95 scan initiated Wed Aug 27 18:49:55 2025 as: nmap -sC -sV -Pn -p 42440,31431 -oN /workspace/ctf/challenges/phoenix-pipeline/loot/nmap_initial.txt 94.237.60.55
+Nmap scan report for 94-237-60-55.uk-lon1.upcloud.host (94.237.60.55)
+Host is up (0.083s latency).
+
+PORT      STATE  SERVICE VERSION
+31431/tcp closed unknown
+42440/tcp open   http    nginx 1.28.0
+|_http-title: HTB Editor
+|_http-server-header: nginx/1.28.0
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Aug 27 18:50:09 2025 -- 1 IP address (1 host up) scanned in 13.78 seconds

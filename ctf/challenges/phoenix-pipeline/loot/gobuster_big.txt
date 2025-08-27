@@ -1,0 +1,2 @@
+/challenge            (Status: 301) [Size: 169] [--> http://94.237.60.55:42440/challenge/]
+/console              (Status: 400) [Size: 167]
