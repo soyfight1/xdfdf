@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>User: arn:aws:sts::455864098378:assumed-role/dot-org-app-role/botocore-session-1756296531 is not authorized to perform: s3:GetObject on resource: "arn:aws:s3:::binstar-cio-packages-prod/5ef2fca5fe6b2a019b74a98b/68aed8590ba3288356107381" because no VPC endpoint policy allows the s3:GetObject action</Message><RequestId>9E81W3244RYZ51J5</RequestId><HostId>1JYplAeSxQRgGphhjH6a5UHtBhCGGHjbPXGAGLJzJ8Q3XPeGvvYTZqUTiaVBLVCBw5bDOu52rjFyeCA87EQ9xxxeSNdhqe3l</HostId></Error>
