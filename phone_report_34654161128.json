@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-28 17:01:04",
+  "number": "+34654161128",
+  "results": {
+    "phonenumbers": {
+      "valid": true,
+      "country": "España",
+      "location": "España",
+      "carrier": "Orange",
+      "type": "Móvil",
+      "timezones": [
+        "Atlantic/Canary",
+        "Europe/Madrid"
+      ]
+    },
+    "spanish": {
+      "type": "móvil",
+      "original_operator": "Movistar",
+      "prefix": "654",
+      "formatted": "654 161 128"
+    }
+  }
+}
