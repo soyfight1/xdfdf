@@ -1,0 +1,56 @@
+.class public Lio/flutter/plugin/common/BinaryMessenger$TaskQueueOptions;
+.super Ljava/lang/Object;
+.source "BinaryMessenger.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lio/flutter/plugin/common/BinaryMessenger;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "TaskQueueOptions"
+.end annotation
+
+
+# instance fields
+.field private isSerial:Z
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    .line 40
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 41
+    const/4 v0, 0x1
+
+    iput-boolean v0, p0, Lio/flutter/plugin/common/BinaryMessenger$TaskQueueOptions;->isSerial:Z
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public getIsSerial()Z
+    .locals 1
+
+    .line 44
+    iget-boolean v0, p0, Lio/flutter/plugin/common/BinaryMessenger$TaskQueueOptions;->isSerial:Z
+
+    return v0
+.end method
+
+.method public setIsSerial(Z)Lio/flutter/plugin/common/BinaryMessenger$TaskQueueOptions;
+    .locals 0
+    .param p1, "isSerial"    # Z
+
+    .line 54
+    iput-boolean p1, p0, Lio/flutter/plugin/common/BinaryMessenger$TaskQueueOptions;->isSerial:Z
+
+    .line 55
+    return-object p0
+.end method
