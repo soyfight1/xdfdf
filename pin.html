@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HydroAdmin - Security Access Required</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/challenge/css/main.css">
+</head>
+<body>
+    <!-- Water-themed animated background -->
+    <div class="water-particles" id="waterParticles"></div>
+    
+    <div class="container mx-auto px-4 py-6 relative z-10 min-h-screen flex items-center justify-center">
+        <!-- PIN Access Form -->
+        <div class="pin-access-card p-8 rounded-xl max-w-md w-full mx-4">
+            <div class="pin-access-header p-4 rounded-lg mb-6 text-center">
+                <div class="flex items-center justify-center mb-3">
+                    <i data-lucide="shield-check" class="w-12 h-12 mr-3 text-white"></i>
+                    <span class="text-lg text-white">SECURITY ACCESS</span>
+                </div>
+                <p class="text-xs text-white">
+                    🔒 Control Room Access Requires PIN Verification
+                </p>
+            </div>
+            
+            <div class="text-center mb-6">
+                <h2 class="text-xl mb-4 glow-blue">HYDROADMIN CONTROL</h2>
+                <p class="text-xs text-slate-400">Enter your security PIN to access the control room</p>
+            </div>
+            
+            <form id="pinForm" class="space-y-6">
+                <div>
+                    <label class="block text-xs mb-3 text-blue-400">🔐 Security PIN (4 digits):</label>
+                    <input 
+                        type="password" 
+                        id="securityPin" 
+                        maxlength="4" 
+                        class="pin-input w-full px-4 py-4 text-lg rounded-lg" 
+                        placeholder="****"
+                        required
+                    >
+                    <div class="text-xs text-slate-500 mt-2">
+                        Enter your 4-digit security PIN to proceed
+                    </div>
+                </div>
+                
+                <button type="submit" class="btn-primary w-full py-4 text-sm rounded-lg">
+                    <i data-lucide="unlock" class="w-5 h-5 mr-2 inline"></i>
+                    ACCESS CONTROL ROOM
+                </button>
+            </form>
+            
+            <div class="mt-6 text-center">
+                <button onclick="goBack()" class="btn-control px-6 py-2 rounded-lg text-xs">
+                    <i data-lucide="arrow-left" class="w-4 h-4 mr-2 inline"></i>
+                    BACK TO MAIN SYSTEM
+                </button>
+            </div>
+            
+            <!-- VULNERABILITY: PIN Information Disclosure -->
+            <!-- <div class="vulnerability-info">
+                <div class="vulnerability-title">🔍 SYSTEM DEBUG INFO</div>
+                <div class="vulnerability-content">
+                    <div>System Status: ACTIVE</div>
+                    <div>Security Level: STANDARD</div>
+                    <div>Access PIN: <span id="debugPin">Loading...</span></div>
+                    <div>Last Access: 2024-01-15 14:30:22</div>
+                    <div>Session Timeout: 30 minutes</div>
+                </div>
+            </div> -->
+            
+            <div id="errorMessage" class="hidden mt-4 p-3 bg-red-900 border border-red-500 rounded-lg text-center">
+                <div class="text-red-400 text-xs">❌ Invalid PIN. Access denied.</div>
+            </div>
+
+            <div id="displayPin" style="margin-top: 10px; font-size: 16px; color: #3b82f6;"></div>
+        </div>
+    </div>
+
+    <script src="/challenge/js/ui.js"></script>
+    <script src="/challenge/js/pin-access.js"></script>
+
+</body>
+</html>
