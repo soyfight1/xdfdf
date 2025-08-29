@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HydroAdmin - Municipal Water Management System</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/challenge/css/main.css">
+</head>
+<body>
+    <!-- Water-themed animated background -->
+    <div class="water-particles" id="waterParticles"></div>
+    
+    <div class="container mx-auto px-4 py-6 relative z-10">
+        <!-- Header -->
+        <div class="text-center mb-8">
+            <h1 class="text-4xl md:text-6xl mb-4 glow-blue">
+                <span class="text-blue-400">HYDRO</span><span class="text-slate-100">ADMIN</span>
+            </h1>
+            <div class="hydro-card p-6 rounded-xl mb-6 max-w-3xl mx-auto">
+                <div class="flex items-center justify-center mb-3">
+                    <i data-lucide="droplets" class="w-8 h-8 mr-3 text-blue-400 floating-icon"></i>
+                    <span class="text-sm md:text-base">Municipal Water Management System v4.1.2</span>
+                </div>
+                <div id="systemCrisisAlert" class="crisis-alert p-4 rounded-lg mt-4">
+                    <p class="text-xs text-white">
+                        🚨 WATER CRISIS EMERGENCY: All reservoirs sealed • Treatment plants offline • Cities without water supply • Immediate intervention required
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- System Overview -->
+        <div class="grid lg:grid-cols-4 gap-6 mb-8">
+            <div class="lg:col-span-3">
+                <div class="hydro-card p-6 rounded-xl">
+                    <div class="flex items-center justify-between mb-6">
+                        <div class="flex items-center">
+                            <i data-lucide="activity" class="w-6 h-6 mr-3 text-blue-400"></i>
+                            <span class="text-sm">WATER SYSTEM STATUS</span>
+                        </div>
+                        <div class="text-xs text-slate-400">Real-time Monitoring</div>
+                    </div>
+                    
+                    <div id="waterSystemsGrid" class="system-grid">
+                        <!-- Water systems will be loaded here -->
+                    </div>
+                </div>
+            </div>
+            
+            <!-- System Metrics -->
+            <div class="space-y-4">
+                <div class="hydro-card p-4 rounded-xl text-center">
+                    <i data-lucide="gauge" class="w-8 h-8 mx-auto mb-2 text-blue-400"></i>
+                    <div class="text-xs text-slate-400 mb-1">Total Capacity</div>
+                    <div id="totalCapacity" class="text-lg text-blue-400">0L</div>
+                </div>
+                <div class="hydro-card p-4 rounded-xl text-center">
+                    <i data-lucide="droplets" class="w-8 h-8 mx-auto mb-2 text-red-400"></i>
+                    <div class="text-xs text-slate-400 mb-1">Available Water</div>
+                    <div id="availableWater" class="text-lg status-critical">0L</div>
+                </div>
+                <div class="hydro-card p-4 rounded-xl text-center">
+                    <i data-lucide="alert-triangle" class="w-8 h-8 mx-auto mb-2 text-orange-400"></i>
+                    <div class="text-xs text-slate-400 mb-1">Systems Online</div>
+                    <div id="systemsOnline" class="text-lg status-critical">0/6</div>
+                </div>
+                <div class="hydro-card p-4 rounded-xl text-center">
+                    <i data-lucide="shield-alert" class="w-8 h-8 mx-auto mb-2 text-red-400"></i>
+                    <div class="text-xs text-slate-400 mb-1">Emergency Status</div>
+                    <div id="emergencyStatus" class="text-lg status-critical">CRITICAL</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Control Panel -->
+        <div class="grid lg:grid-cols-2 gap-6 mb-8">
+            <!-- Emergency Controls -->
+            <div class="hydro-card p-6 rounded-xl">
+                <div class="flex items-center justify-between mb-6">
+                    <div class="flex items-center">
+                        <i data-lucide="settings" class="w-6 h-6 mr-3 text-blue-400"></i>
+                        <span class="text-sm">SYSTEM CONTROLS</span>
+                    </div>
+                    <div class="text-xs text-blue-400">AUTHORIZED ACCESS</div>
+                </div>
+                
+                <div class="space-y-4">
+                    <div class="bg-slate-900 p-4 rounded-lg">
+                        <p class="text-xs text-slate-300 mb-4">
+                            🔧 Access the control room to manage water system configurations and restore normal operations.
+                        </p>
+                        <div class="space-y-3">
+                            <button onclick="showControlRoom()" class="btn-control w-full py-3 text-xs rounded-lg">
+                                <i data-lucide="settings" class="w-4 h-4 mr-2 inline"></i>
+                                ACCESS CONTROL ROOM
+                            </button>
+                            <button onclick="runSystemDiagnostics()" class="btn-control w-full py-3 text-xs rounded-lg">
+                                <i data-lucide="activity" class="w-4 h-4 mr-2 inline"></i>
+                                SYSTEM DIAGNOSTICS
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-slate-900 p-4 rounded-lg">
+                        <div class="text-xs text-blue-400 mb-2">📊 SYSTEM METRICS</div>
+                        <div class="space-y-2 text-xs">
+                            <div class="flex justify-between">
+                                <span class="text-slate-400">Cities Affected:</span>
+                                <span class="status-critical">12/12</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-slate-400">Population at Risk:</span>
+                                <span class="status-critical">2.4M</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-slate-400">Time to Crisis:</span>
+                                <span class="status-critical">6 hours</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- System Information -->
+            <div class="hydro-card p-6 rounded-xl">
+                <div class="flex items-center justify-between mb-6">
+                    <div class="flex items-center">
+                        <i data-lucide="info" class="w-6 h-6 mr-3 text-blue-400"></i>
+                        <span class="text-sm">SYSTEM INFORMATION</span>
+                    </div>
+                </div>
+                
+                <div class="space-y-4 text-xs">
+                    <div class="bg-slate-900 p-3 rounded-lg">
+                        <div class="text-blue-400 mb-2">🎯 MISSION BRIEFING</div>
+                        <p class="text-xs text-slate-300 leading-relaxed">
+                            Water reservoirs have been sealed by automated security systems. 
+                            Access the control room to manage system configurations and restore water flow. 
+                            Authorized personnel only.
+                        </p>
+                    </div>
+                    
+                    <div class="bg-slate-900 p-3 rounded-lg">
+                        <div class="text-blue-400 mb-2">🔧 SYSTEM ACCESS</div>
+                        <div class="space-y-2 text-xs">
+                            <div class="flex justify-between">
+                                <span class="text-slate-400">Access Level:</span>
+                                <span class="text-green-400">AUTHORIZED</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-slate-400">Clearance:</span>
+                                <span class="text-green-400">MUNICIPAL</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-slate-400">Control Status:</span>
+                                <span class="text-yellow-400">AVAILABLE</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-slate-900 p-3 rounded-lg">
+                        <div class="text-blue-400 mb-2">⚠️ SECURITY NOTICE</div>
+                        <p class="text-xs text-slate-300 leading-relaxed">
+                            Control room access requires security PIN verification. 
+                            Unauthorized access attempts will be logged and monitored.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Activity Terminal -->
+        <div class="hydro-card p-6 rounded-xl">
+            <div class="flex items-center justify-between mb-4">
+                <div class="flex items-center">
+                    <i data-lucide="terminal" class="w-6 h-6 mr-3 text-blue-400"></i>
+                    <span class="text-sm">SYSTEM TERMINAL</span>
+                </div>
+                <div class="flex space-x-2">
+                    <button onclick="clearLog()" class="btn-emergency px-3 py-1 rounded-lg text-xs">
+                        <i data-lucide="trash-2" class="w-3 h-3 mr-1 inline"></i>
+                        CLEAR
+                    </button>
+                    <div class="flex items-center space-x-2 text-xs">
+                        <div class="w-2 h-2 bg-blue-400 rounded-full animate-pulse"></div>
+                        <span class="text-slate-400">LIVE</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="activityLog" class="terminal text-xs p-4 rounded-lg min-h-[250px] max-h-[350px] overflow-auto">
+                <div class="text-blue-400 mb-2">[SYSTEM] HydroAdmin Municipal Water Management v4.1.2 initialized</div>
+                <div class="text-red-400 mb-2">[CRITICAL] All water systems reporting emergency shutdown</div>
+                <div class="text-red-400 mb-2">[ALERT] Reservoir access denied - Security locks engaged</div>
+                <div class="text-yellow-400 mb-2">[WARNING] Cities entering water shortage crisis</div>
+                <div class="text-blue-400 mb-2">[INFO] Authorized access granted - Control room available</div>
+                <div class="text-slate-500">$ _</div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="/challenge/js/ui.js"></script>
+    <script src="/challenge/js/main.js"></script>
+</body>
+</html>
