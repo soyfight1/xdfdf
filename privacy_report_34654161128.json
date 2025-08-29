@@ -1,0 +1,72 @@
+{
+  "timestamp": "2025-08-29 02:06:27",
+  "number": "+34654161128",
+  "checks_performed": {
+    "truecaller": {
+      "platform": "Truecaller",
+      "url": "https://www.truecaller.com/search/es/34654161128"
+    },
+    "whocalld": {
+      "platform": "WhoCalld",
+      "url": "https://whocalld.com/es/numero/654161128"
+    },
+    "telefono_spam": {
+      "platform": "Telefono-Spam",
+      "url": "https://telefono-spam.com/34654161128"
+    },
+    "listaspam": {
+      "platform": "ListaSpam",
+      "url": "https://www.listaspam.com/buscar?q=654161128"
+    },
+    "responderono": {
+      "platform": "ResponderóNo",
+      "url": "https://www.responderono.es/numero-de-telefono/34654161128"
+    },
+    "syncme": {
+      "platform": "Sync.ME"
+    },
+    "breaches": {
+      "breaches": "Check manual required"
+    },
+    "google": {
+      "search_formats": [
+        "+34654161128",
+        "0034654161128",
+        "654161128",
+        "654161128",
+        "\"+34654161128\""
+      ]
+    },
+    "social_media": {
+      "Facebook": {
+        "search": "site:facebook.com +34654161128",
+        "privacy": "Configuración > Privacidad > Quién puede buscarte por número",
+        "risk": "ALTO si es público"
+      },
+      "Instagram": {
+        "search": "No permite búsqueda directa por número",
+        "privacy": "Configuración > Privacidad > Otros pueden encontrarte",
+        "risk": "MEDIO si está vinculado"
+      },
+      "Twitter/X": {
+        "search": "site:twitter.com +34654161128",
+        "privacy": "Configuración > Privacidad > Descubrimiento",
+        "risk": "BAJO normalmente"
+      },
+      "LinkedIn": {
+        "search": "site:linkedin.com +34654161128",
+        "privacy": "Configuración > Visibilidad del perfil",
+        "risk": "MEDIO si está en el perfil"
+      },
+      "TikTok": {
+        "search": "Búsqueda por número si está vinculado",
+        "privacy": "Configuración > Privacidad > Sugerir tu cuenta",
+        "risk": "MEDIO"
+      }
+    },
+    "directories": {
+      "directories": "Manual check required"
+    }
+  },
+  "recommendations": "See console output"
+}

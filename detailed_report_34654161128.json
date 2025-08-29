@@ -1,0 +1,129 @@
+{
+  "timestamp": "2025-08-28 17:06:35",
+  "number": "+34654161128",
+  "executive_summary": {
+    "valid": true,
+    "country": "Spain",
+    "type": "Mobile",
+    "original_operator": "Movistar",
+    "current_operator": "Orange (detected)",
+    "portability_likely": true
+  },
+  "all_analysis": {
+    "phonenumbers": {
+      "number": "+34654161128",
+      "valid": true,
+      "possible": true,
+      "country_code": 34,
+      "national_number": 654161128,
+      "extension": null,
+      "italian_leading_zero": null,
+      "number_of_leading_zeros": null,
+      "country": "España",
+      "location": "España",
+      "carrier": "Orange",
+      "timezones": [
+        "Atlantic/Canary",
+        "Europe/Madrid"
+      ],
+      "type": 1,
+      "formats": {
+        "e164": "+34654161128",
+        "international": "+34 654 16 11 28",
+        "national": "654 16 11 28",
+        "rfc3966": "tel:+34-654-16-11-28"
+      }
+    },
+    "spanish_operator": {
+      "prefix": "654",
+      "original_operator": {
+        "operator": "Movistar",
+        "type": "Móvil",
+        "launch": "1997"
+      },
+      "detected_current": "Orange (según análisis)",
+      "portability_likely": true
+    },
+    "hashes": {
+      "+34654161128": {
+        "md5": "3ecc86e0a0845682670152f043f99faa",
+        "sha1": "2643684da3d843cb0a109c6cd929037a301ff0cb",
+        "sha256": "2f02d621075c748909a5936e71adc923cdd44703adaf1df7e3c3efe7d5922259",
+        "base64": "KzM0NjU0MTYxMTI4"
+      },
+      "34654161128": {
+        "md5": "22e6f7a7422a15f593c136e8c495d223",
+        "sha1": "53c8c8cb5112c5397733d61077085fba8aabe4bb",
+        "sha256": "a0ec7a8cd8fc6ab2ac585c6d20c2e64d8f94e17824f8d99ce5e8e3855b767d1a",
+        "base64": "MzQ2NTQxNjExMjg="
+      },
+      "0034654161128": {
+        "md5": "0d7a824e094ed94c7c05a8fbb4cd533f",
+        "sha1": "38e27693a68191a6e340e14fe81c9ab0d6be47bc",
+        "sha256": "7f41fab2f9683f24e581432f28393be938da82200684232529b4bbe6a3a7c6cb",
+        "base64": "MDAzNDY1NDE2MTEyOA=="
+      },
+      "654161128": {
+        "md5": "cd83e3b38404608e3995ad0c17d5ace5",
+        "sha1": "d993e5df8646b4d30e71c7c307f79be23b69c132",
+        "sha256": "2b298c577eb64747e42881120abc34059f5337ef7ff05a7dcddf98daa0801dbb",
+        "base64": "NjU0MTYxMTI4"
+      }
+    },
+    "social_media": {
+      "WhatsApp": {
+        "format": "wa.me/34654161128",
+        "url": "https://wa.me/34654161128",
+        "api": "https://api.whatsapp.com/send?phone=34654161128",
+        "note": "✅ Formato válido para WhatsApp"
+      },
+      "Telegram": {
+        "format": "t.me/+34654161128",
+        "url": "https://t.me/+34654161128",
+        "note": "⚠️ Requiere que el usuario tenga username público o esté en contactos"
+      },
+      "Signal": {
+        "format": "+34654161128",
+        "note": "✅ Usa el formato internacional estándar"
+      },
+      "Viber": {
+        "format": "34654161128",
+        "note": "✅ Formato válido"
+      },
+      "Facebook": {
+        "search": "site:facebook.com +34654161128",
+        "note": "🔍 Búsqueda si el número está público"
+      },
+      "LinkedIn": {
+        "search": "site:linkedin.com +34654161128",
+        "note": "🔍 Raramente público"
+      },
+      "Instagram": {
+        "note": "❌ No permite búsqueda por número"
+      },
+      "TikTok": {
+        "note": "⚠️ Posible si está vinculado a la cuenta"
+      }
+    },
+    "patterns": {
+      "repeating": false,
+      "sequential": true,
+      "palindrome": false,
+      "memorable": true
+    },
+    "technical": {
+      "mcc": "214",
+      "country": "Spain",
+      "technologies": [
+        "2G",
+        "3G",
+        "4G",
+        "5G"
+      ]
+    },
+    "privacy": {
+      "risk_level": "MEDIUM",
+      "recommendations": 5
+    }
+  }
+}
