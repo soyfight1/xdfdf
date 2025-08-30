@@ -1,0 +1,5 @@
+23706 execve("./khp_server", ["./khp_server", "-p", "5615"], 0x7ffe710f6b78 /* 43 vars */) = 0
+23869 --- SIGPIPE {si_signo=SIGPIPE, si_code=SI_USER, si_pid=23706, si_uid=1000} ---
+23869 +++ exited with 0 +++
+23706 --- SIGTERM {si_signo=SIGTERM, si_code=SI_USER, si_pid=27958, si_uid=1000} ---
+23706 +++ killed by SIGTERM +++

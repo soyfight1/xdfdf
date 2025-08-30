@@ -1,0 +1,8 @@
+Registered: ID->7
+Saved 
+DB reloaded successfuly.
+Authenticated with id -> 1 
+User: auto:pass
+ 
+Profile: auto:pass
+ (null); 
