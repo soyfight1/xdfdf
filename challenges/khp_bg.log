@@ -1,0 +1,5 @@
+[ Sat Aug 30 14:20:21 2025 ] : Starting keys holder protocol server....
+[ Sat Aug 30 14:20:21 2025 ] : Listening on port -> 5555
+[ Sat Aug 30 14:20:21 2025 ] : New client connected.
+[ Sat Aug 30 14:20:21 2025 ] : New user registered -> loc
+[ Sat Aug 30 14:20:21 2025 ] : New key registered with the id -> 1
