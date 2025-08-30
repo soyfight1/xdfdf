@@ -1,0 +1,31 @@
+RLDB
+AUTH -1
+GTPR
+EXEC
+id
+whoami
+exit
+AUTH 0
+GTPR
+EXEC
+id
+whoami
+exit
+AUTH 11
+GTPR
+EXEC
+id
+whoami
+exit
+AUTH 2147483647
+GTPR
+EXEC
+id
+whoami
+exit
+AUTH 4294967295
+GTPR
+EXEC
+id
+whoami
+exit
