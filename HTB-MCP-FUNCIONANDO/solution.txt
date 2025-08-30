@@ -1,0 +1,35 @@
+PHOENIX PIPELINE - SECURITY VULNERABILITY REPORT
+================================================
+
+VULNERABILITY 1: Incorrect use of move_uploaded_file()
+------------------------------------------------------
+
+FILE: app/Controllers/OperatorController.php
+LINE: 102
+
+DESCRIPTION:
+The code attempts to use move_uploaded_file() twice on the same file:
+- Line 76: move_uploaded_file($tmp_name, $tempfile) - Moves the uploaded file to a temporary location
+- Line 102: move_uploaded_file($tempfile, $final) - Attempts to move the file again, but this FAILS
+
+PROBLEM:
+move_uploaded_file() only works with files that were uploaded via HTTP POST.
+Once a file has been moved with move_uploaded_file(), it becomes a regular file.
+The second call to move_uploaded_file() on line 102 will always fail because $tempfile
+is no longer an uploaded file but a regular file on the filesystem.
+
+SOLUTION:
+Change line 102 from:
+    if (!move_uploaded_file($tempfile, $final)) {
+To:
+    if (!rename($tempfile, $final)) {
+
+IMPACT:
+Without this fix, file uploads will always fail at the second move operation,
+preventing users from successfully uploading documentation photos for infrastructure reports.
+
+PATCHED CODE:
+The corrected line 102 should be:
+if (!rename($tempfile, $final)) {
+
+This uses PHP's rename() function which works with regular files on the filesystem.
