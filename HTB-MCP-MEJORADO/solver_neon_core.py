@@ -151,15 +151,20 @@ def parse_block_hex_to_mat(hex_str: str) -> Tuple[List[List[int]], int]:
 
 
 def parse_all_blocks(hex_str: str) -> List[List[List[int]]]:
+    # limpiar: permitir solo hex y posibles '100'
+    s = ''.join(ch for ch in hex_str.strip().lower() if ch in '0123456789abcdef')
     blocks = []
     p = 0
-    s = hex_str.strip()
     while p < len(s):
-        M, used = parse_block_hex_to_mat(s[p:])
+        try:
+            M, used = parse_block_hex_to_mat(s[p:])
+        except ValueError:
+            if blocks:
+                break
+            raise
         blocks.append(M)
         p += used
-        # si el restante es corto o vacio, terminamos
-        if used == 0 or p >= len(s):
+        if used == 0:
             break
     return blocks
 
@@ -173,56 +178,66 @@ def recv_all(sock: socket.socket, timeout: float = 2.0) -> str:
             if not chunk:
                 break
             out += chunk
-            if b"Ciphertext (hex):" in out or b"Encrypted configuration (ciphertext, hex):" in out or out.endswith(b"> "):
-                # suficiente para continuar
+            # romper solo cuando regrese al prompt
+            if out.rstrip().endswith(b">") or out.endswith(b"> "):
                 break
     except Exception:
         pass
     return out.decode(errors='ignore')
 
 
-def query_encrypt(ip: str, port: int, msg: str) -> str:
-    s = socket.socket()
-    s.settimeout(5)
-    s.connect((ip, port))
-    _ = recv_all(s)
-    s.sendall(b"1\n")
-    _ = recv_all(s)
-    s.sendall(msg.encode() + b"\n")
-    data = recv_all(s, timeout=2.0)
-    s.close()
-    # extraer la linea
-    marker = "Ciphertext (hex):"
-    idx = data.find(marker)
-    if idx == -1:
-        raise RuntimeError(f"No se encontró ciphertext en respuesta: {data!r}")
-    rest = data[idx + len(marker):].strip()
-    # tomar sólo la primera línea
-    line = rest.splitlines()[0].strip()
-    return line
+class NeonClient:
+    def __init__(self, ip: str, port: int, timeout: float = 5.0):
+        self.ip = ip
+        self.port = port
+        self.timeout = timeout
+        self.s: socket.socket = None  # type: ignore
+
+    def connect(self) -> None:
+        self.s = socket.socket()
+        self.s.settimeout(self.timeout)
+        self.s.connect((self.ip, self.port))
+        _ = recv_all(self.s)
+
+    def close(self) -> None:
+        try:
+            if self.s:
+                self.s.close()
+        except Exception:
+            pass
+        self.s = None  # type: ignore
+
+    def encrypt_message(self, msg: str) -> str:
+        # opción 1
+        self.s.sendall(b"1\n")
+        _ = recv_all(self.s)
+        self.s.sendall(msg.encode() + b"\n")
+        data = recv_all(self.s, timeout=2.0)
+        marker = "Ciphertext (hex):"
+        idx = data.find(marker)
+        if idx == -1:
+            raise RuntimeError(f"No se encontró ciphertext en respuesta: {data!r}")
+        rest = data[idx + len(marker):]
+        line = rest.splitlines()[0].strip()
+        return line
 
 
-def query_blueprint(ip: str, port: int) -> str:
-    s = socket.socket()
-    s.settimeout(5)
-    s.connect((ip, port))
-    _ = recv_all(s)
-    s.sendall(b"2\n")
-    data = recv_all(s, timeout=2.0)
-    s.close()
-    marker = "Encrypted configuration (ciphertext, hex):"
-    idx = data.find(marker)
-    if idx == -1:
-        raise RuntimeError(f"No se encontró blueprint en respuesta: {data!r}")
-    rest = data[idx + len(marker):].strip()
-    line = rest.splitlines()[0].strip()
-    return line
+    def get_blueprint(self) -> str:
+        self.s.sendall(b"2\n")
+        data = recv_all(self.s, timeout=2.0)
+        marker = "Encrypted configuration (ciphertext, hex):"
+        idx = data.find(marker)
+        if idx == -1:
+            raise RuntimeError(f"No se encontró blueprint en respuesta: {data!r}")
+        rest = data[idx + len(marker):]
+        line = rest.splitlines()[0].strip()
+        return line
 
 
-def build_A_matrices(ip: str, port: int, base_ch: str = 'A', var_ch: str = 'B') -> Tuple[List[List[List[int]]], List[List[int]], int, int]:
+def build_A_matrices(client: NeonClient, base_ch: str = 'A', var_ch: str = 'B') -> Tuple[List[List[List[int]]], List[List[int]], int, int]:
     # baseline constant block
     base_msg = base_ch * 16
-    ct_base_hex = query_encrypt(ip, port, base_msg)
+    ct_base_hex = client.encrypt_message(base_msg)
     Cb, _ = parse_block_hex_to_mat(ct_base_hex)
     sb = s_map(ord(base_ch))
     sv = s_map(ord(var_ch))
@@ -235,7 +250,7 @@ def build_A_matrices(ip: str, port: int, base_ch: str = 'A', var_ch: str = 'B') 
         i, j = divmod(pos, 4)
         msg_list = [base_ch] * 16
         msg_list[pos] = var_ch
-        ct_hex = query_encrypt(ip, port, ''.join(msg_list))
+        ct_hex = client.encrypt_message(''.join(msg_list))
         Ci, _ = parse_block_hex_to_mat(ct_hex)
         # Delta = Ci - Cb
         Delta = mat_sub(Ci, Cb)
@@ -346,17 +361,40 @@ def main():
     ip = sys.argv[1]
     port = int(sys.argv[2])
 
+    client = NeonClient(ip, port, timeout=5.0)
+    client.connect()
     # 1) Obtener blueprint
-    blueprint_hex = query_blueprint(ip, port)
+    blueprint_hex = client.get_blueprint()
     print(f"[*] Blueprint CT: {blueprint_hex}")
 
     # 2) Construir A_ij con consultas de texto
     print("[*] Construyendo matrices A_ij con baseline 'A' y variante 'B'...")
-    A, Cb, sb, sv = build_A_matrices(ip, port, 'A', 'B')
+    A, Cb, sb, sv = build_A_matrices(client, 'A', 'B')
 
     # 3) Factorizar K' y L'
     print("[*] Factorizando K' y L'...")
     Kp, Lp = factor_KL_from_A(A)
+
+    # Ajustar escala global para que Kp E_00 Lp == A_00 exactamente
+    # Construir E_00
+    E00 = [[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0]]
+    E00[0][0] = 1
+    R = mat_mul(mat_mul(Kp, E00), Lp)
+    A00 = A[0][0]
+    # encontrar una entrada no nula para estimar el factor
+    f = None
+    for r in range(4):
+        for c in range(4):
+            if A00[r][c] % P != 0:
+                f = gf_div(R[r][c], A00[r][c])
+                break
+        if f is not None:
+            break
+    if f is None:
+        raise RuntimeError("A_00 es nula por completo, inesperado")
+    invf = gf_inv(f)
+    # reescala Lp para que coincida exactamente
+    Lp = mat_scalar_mul(invf, Lp)
 
     # 4) Calcular U y T
     U = mat_mul(mat_mul(Kp, ones_4x4()), Lp)
@@ -371,6 +409,7 @@ def main():
     except Exception:
         pt_text = repr(pt)
     print(f"[+] Plaintext blueprint/FLAG: {pt_text}")
+    client.close()
 
 
 if __name__ == "__main__":
